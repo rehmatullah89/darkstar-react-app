@@ -1,0 +1,1954 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&family=Playfair+Display&display=swap'); */
+
+body {
+  -webkit-font-smoothing: inherit;
+  -moz-osx-font-smoothing: inherit;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  letter-spacing: 0;
+}
+
+.homePageWrapper {
+  background-image: url('/assets/smilebrilliant-home-banner-new.webp');
+  background-position: top left;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  min-height: 882px;
+}
+.homePageWrapper .heroSectionDetail {
+  padding-top: 245px;
+}
+.homePageWrapper .heroSectionDetail h1 {
+  font-size: 55px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 55px;
+  margin-bottom: 30px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.registration-form .homePageWrapper .heroSectionDetail p {
+  font-size: 22px;
+  line-height: 30px;
+  color: #565759;
+  font-weight: 300;
+  margin-bottom: 42px;
+  font-family: 'Montserrat', sans-serif;
+}
+.homePageWrapper .heroSectionDetail .buttons-group button {
+  display: block;
+  min-width: 360px;
+  margin: 0 auto;
+  color: #fff;
+  margin-bottom: 20px;
+  padding: 10px 40px;
+  border-radius: 0px;
+  font-family: 'Montserrat';
+  font-size: 14px;
+}
+.heroSectionDetail .buttons-group button#dropdown-one {
+  background: #4296c8;
+  font-size: 13px;
+
+  border: 2px solid #4296c8;
+}
+.heroSectionDetail .buttons-group button#dropdown-two {
+  background: #b8b8dc;
+  font-size: 13px;
+  border: 2px solid #b8b8dc;
+}
+.heroSectionDetail .buttons-group button#dropdown-three {
+  background: #00b3b8;
+  border: 2px solid #00b3b8;
+  font-size: 13px;
+}
+.dropdown-toggle.btn.btn-primary sup {
+  font-size: 9px;
+}
+.heroSectionDetail .buttons-group .dropdown-menu.show {
+  border-radius: 0;
+  margin-top: -3px;
+  background: #4296c8;
+  border: 2px solid #4296c8;
+  color: #fff;
+  width: 100%;
+}
+.heroSectionDetail .dropdown-two .dropdown-menu.show {
+  background: #b8b8dc;
+  border: 2px solid #b8b8dc;
+}
+.heroSectionDetail .dropdown-three .dropdown-menu.show {
+  background: #00b3b8;
+  border: 2px solid #00b3b8;
+}
+.heroSectionDetail .buttons-group .dropdown-item {
+  width: 100%;
+  margin: 0;
+  background: none;
+  text-align: left;
+  color: #fff;
+  border: 0;
+  border-bottom: 1px solid #fff;
+  padding: 4px 0px 3px 0;
+  line-height: 32px;
+  text-transform: uppercase;
+  position: relative;
+  font-size: 13px;
+  font-family: 'Montserrat';
+}
+.heroSectionDetail .buttons-group .dropdown-item:last-child {
+  border-bottom: 0px solid #fff;
+}
+.homePageWrapper .heroSectionDetail .btn {
+  font-weight: 400;
+}
+.homePageWrapper .heroSectionDetail .btn-primary-orange {
+  background-color: #f8a18a;
+  border: 2px solid #dd8f7a;
+  color: #fff;
+  border-width: 1px;
+}
+.homePageWrapper .heroSectionDetail .btn-primary-teal {
+  background-color: #68c8c7;
+  color: #fff;
+  border: 2px solid #54a2a1;
+  border-width: 1px;
+}
+
+/*logo section */
+
+.logo-section-wrapper h2 {
+  margin-top: 14px;
+  font-weight: 700;
+  color: #fff;
+  font-size: 34px;
+  margin-bottom: 60px;
+  font-family: 'Montserrat';
+}
+
+.logo-section-wrapper {
+  background-color: #3c98cc;
+  padding-top: 35px;
+  padding-bottom: 40px;
+}
+
+.cards-with-images-wrapper {
+  margin-top: 30px;
+}
+.card-background {
+  background-color: #ffa488;
+}
+.card-image {
+  background-image: url('/assets/home-block-whitening.webp');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100%;
+}
+.product-box-small-title {
+  font-weight: 300;
+  font-size: 17px;
+  font-family: 'Open Sans';
+  line-height: 17px;
+  color: #fff;
+  text-align: center;
+  padding-top: 5px;
+  font-size: 17px;
+  line-height: 17px;
+  padding-top: 5px;
+}
+.product-box-large-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 30px;
+  text-align: center;
+  color: #fff;
+  padding-top: 5px;
+  font-size: 30px;
+  line-height: 30px;
+  padding-top: 5px;
+  font-family: 'Montserrat';
+  font-weight: bold;
+}
+.product-box-separator {
+  height: 6px;
+  font-size: 0;
+  background-color: #fff;
+  width: 130px;
+  margin: 22px auto;
+  height: 6px;
+  width: 130px;
+  margin: 22px auto;
+}
+.product-box-content-primary {
+  font-size: 15px;
+  line-height: 20px;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-top: 30px;
+  color: #fff;
+  text-align: center;
+  font-family: 'Open Sans';
+}
+.product-box-content-button-wrap {
+  margin-top: 50px;
+  text-align: center;
+}
+.product-box-content-button-wrap .btn-primary-white-orange {
+  background-color: #fff;
+  border-color: #fff;
+  color: #ffa488;
+  font-weight: normal;
+  display: inline-block;
+  margin-bottom: 0;
+  font-size: 14px;
+  line-height: 1.42857143;
+  text-align: center;
+  padding: 10px 40px;
+  border-radius: 0;
+  font-family: 'Montserrat';
+  letter-spacing: 0.2em;
+}
+.product-box-content-button-wrap .btn-primary-white-orange.blue {
+  color: #4597cb;
+}
+.product-box-content-button-wrap .btn-primary-white-orange.green {
+  color: #68c8c7;
+}
+
+.product-box-content-button-wrap .btn-primary-white-orange:hover {
+  color: #fff;
+  background-color: #595858;
+  border-color: #595858;
+  box-shadow: none;
+}
+.product-block-white-box {
+  position: relative;
+  width: 75%;
+  height: 75%;
+  margin: 10% auto;
+  border: solid #fff 1px;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+  -webkit-transition: all 0.2s ease-in-out 0;
+  transition: all 0.2s ease-in-out 0;
+  cursor: pointer;
+  padding-bottom: 43px;
+  transition: all 0.2s;
+}
+.product-box-stars {
+  color: #fbf046;
+  text-align: center;
+  letter-spacing: 3px;
+  font-size: 16px;
+  padding-bottom: 22px;
+  margin-top: 60px;
+}
+.product-box-stars svg {
+  width: 16px;
+}
+.product-block-white-box:hover {
+  transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  box-shadow: 0 3px 15px rgb(0 0 0 / 20%);
+}
+
+.card-background-lightGreen {
+  background-color: #68c8c7;
+}
+
+.card-image-night-guard {
+  background-image: url('/assets/home-block-night-guard.webp');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100%;
+}
+.card-image-electric-toothbrush {
+  background-image: url('/assets/home-block-brushing.webp');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100%;
+}
+.card-background-blue {
+  background-color: #4597cb;
+}
+.cards-with-images-wrapper .card-image-night-guard {
+  padding: 150px;
+}
+.product-box-stars img {
+  width: 120px;
+}
+.cards-with-images-wrapper .row > * {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.product-box-content-link-wrap {
+  margin-top: 25px;
+  text-align: center;
+}
+.product-box-content-link-wrap a {
+  color: #fff !important;
+  font-size: 14px;
+  text-decoration: none;
+  font-family: 'Open Sans';
+}
+.process-section-wrapper {
+  padding-top: 90px;
+}
+.plaque_highlighter-adults .process-section-wrapper {
+  max-width: 1020px;
+  margin: 128px auto 0px auto;
+}
+.plaque_highlighter-adults .process-section-wrapper h2 {
+  color: #945aa5;
+  font-size: 39px;
+  font-weight: 400;
+}
+.process-section-wrapper p {
+  text-align: center;
+  font-size: 18px;
+  color: #565759;
+  font-weight: 300;
+  font-family: 'Open Sans';
+}
+
+.process-section-wrapper .heading-content-mbt {
+  margin-bottom: 50px;
+}
+.plaque_highlighter-adults .process-section-wrapper .heading-content-mbt {
+  margin-bottom: 10px;
+}
+.plaque_highlighter-adults
+  .process-container
+  .text-block-mbt
+  .the-process-content-text {
+  font-size: 16px;
+  font-weight: 400;
+  padding-left: 0px;
+}
+.plaque_highlighter-adults .process-container .the-process-title {
+  font-family: 'Montserrat';
+  font-size: 26px;
+  color: #565759;
+  font-weight: 400;
+  min-height: 36px;
+  margin-bottom: 7px;
+}
+.process-section-wrapper h2 {
+  text-align: center;
+  margin-bottom: 0;
+  color: #4597cb;
+  font-family:
+    'Montserrat',
+    'BlinkMacSystemFont',
+    -apple-system,
+    'Roboto',
+    'Lucida Sans';
+  font-weight: 300;
+}
+.process-container-single-img {
+  max-height: 262px;
+  min-height: 262px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 12px;
+}
+#the-process-image-1 img {
+  width: 300px;
+  height: 231px;
+}
+.plaque_highlighter-adults #the-process-image-1 img {
+  max-width: 100% !important;
+  width: auto;
+  height: auto;
+}
+.plaque_highlighter-adults #the-process-image-2 img {
+  max-width: 100% !important;
+  width: auto;
+  height: auto;
+}
+.enamelArmourMainWrapper #the-process-image-1 img {
+  width: 200px;
+  height: auto;
+  margin-left: -26px;
+}
+
+.dentalFlossPicksMainWrapper #the-process-image-1 img {
+  width: 200px;
+  height: auto;
+  margin-left: -26px;
+}
+
+#the-process-image-2 img {
+  width: 185px;
+  height: 222px;
+  margin-top: 0px;
+}
+
+.dentalFlossPicksMainWrapper #the-process-image-2 img {
+  max-width: 240px;
+  width: 240px;
+  height: 159px;
+  margin-top: 0px;
+}
+
+.enamelArmourMainWrapper #the-process-image-2 img {
+  max-width: 240px;
+  width: 240px;
+  height: 159px;
+  margin-top: 0px;
+}
+
+.dentalFlossPicksMainWrapper #the-process-image-3 img {
+  max-width: 258px;
+  width: 256px;
+  height: 197px;
+}
+
+.enamelArmourMainWrapper #the-process-image-3 img {
+  max-width: 258px;
+  width: 256px;
+  height: 197px;
+}
+#the-process-image-3 img {
+  width: 250px;
+  height: 118px;
+}
+.process-container .heading-text {
+  margin-bottom: 10px;
+}
+.enamelArmourMainWrapper .process-container .heading-text {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+.dentalFlossPicksMainWrapper .process-container .heading-text {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+.process-container .the-process-circle {
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  background: transparent;
+  border: 2px solid #565759;
+  text-align: center;
+  color: #565759;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 0;
+  padding-top: 15px;
+  margin: 0 auto;
+}
+.process-container .the-process-title {
+  color: #565759;
+  font-size: 22px;
+  margin-top: 13px;
+  text-align: center;
+  font-weight: 500;
+  min-height: 60px;
+  font-family: 'Open Sans';
+}
+.process-container .text-block-mbt {
+  padding-left: 15px;
+  min-height: 115px;
+  padding-right: 14px;
+}
+.process-container .text-block-mbt .the-process-content-text {
+  color: #565759;
+  font-size: 14px;
+  text-align: center;
+  padding-left: 35px;
+  font-family:
+    'Open Sans',
+    'BlinkMacSystemFont',
+    -apple-system,
+    'Roboto',
+    'Lucida Sans';
+}
+.widget-content {
+  color: #979797;
+  margin-bottom: 35px;
+  font-size: 14px;
+}
+.process-container .widget-content td.ht-txt {
+  min-width: 110px;
+  padding: 0.5rem 0.625rem 0.625rem;
+  vertical-align: top;
+  border: 0 !important;
+  border-right: 1px solid #c5c6c9 !important;
+}
+.logo-section-wrapper .logo-images {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.plaque_highlighter-adults .money-back-gurantee .money-back-gurantee-detail p {
+  font-size: 20px;
+  font-family: 'Montserrat';
+  font-weight: 300;
+  color: #565759;
+  max-width: 88%;
+}
+.plaque_highlighter-adults .our-promise .btn-primary {
+  background-color: #945aa5;
+  border-color: #945aa5;
+  color: white;
+}
+.process-container .hours-text {
+  color: #565759;
+  font-family: 'Montserrat';
+  font-weight: 300;
+  font-size: 42px;
+  line-height: 42px;
+  text-align: center;
+}
+.process-container .minuts-text {
+  font-size: 0.9em;
+  text-align: center;
+  color: #343434;
+  padding: 0.5rem 0.625rem 0.625rem;
+}
+.process-container .table-cnt {
+  border-spacing: 0;
+  border-collapse: collapse;
+  background-color: transparent;
+  width: 100%;
+  border-top: solid #c5c6c9 1px;
+}
+.process-container .table-cnt td.bdy-txt {
+  text-align: left;
+  color: #979a9e;
+  vertical-align: top;
+  padding: 0.5rem 0.625rem 0.625rem;
+}
+.process-container .table-contentcnt,
+.process-container .text-block-mbt {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.plaque_highlighter-adults .process-container .text-block-mbt {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.plaque_highlighter-adults
+  .process-section-wrapper
+  .order-button
+  .btn-primary-blue {
+  background-color: #945aa5;
+  border-color: #945aa5;
+  color: #fff;
+}
+.enamelArmourMainWrapper .process-container .table-contentcnt,
+.enamelArmourMainWrapper .process-container .text-block-mbt {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.dentalFlossPicksMainWrapper .process-container .table-contentcnt,
+.dentalFlossPicksMainWrapper .process-container .text-block-mbt {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.dentalFlossPicksMainWrapper
+  .process-container
+  .text-block-mbt
+  .the-process-content-text {
+  padding-left: 10px;
+}
+
+.enamelArmourMainWrapper
+  .process-container
+  .text-block-mbt
+  .the-process-content-text {
+  padding-left: 10px;
+}
+.process-section-wrapper .order-button {
+  margin-top: 40px;
+  margin-bottom: 35px;
+}
+.plaque_highlighter-adults .process-section-wrapper .order-button {
+  margin-top: -2px;
+}
+.plaque_highlighter-adults a#learn-more-shipping-button {
+  color: #fff;
+  border-color: #fff;
+  text-transform: none;
+  font-size: 18px;
+}
+.process-section-wrapper .order-button .btn-primary-blue,
+.customer-seek-wrapper .order-button .btn-primary-blue {
+  font-size: 18px;
+  background-color: #3c98cc;
+  border-color: #3c98cc;
+  color: #fff;
+  display: inline-block;
+  font-size: 18px;
+  line-height: 1.42857143;
+  padding: 10px 40px;
+  font-family: 'Montserrat';
+  letter-spacing: 0.2em;
+  border: none;
+  border-radius: 0px;
+}
+.process-section-wrapper .order-button .btn-primary-blue:hover,
+.customer-seek-wrapper .order-button .btn-primary-blue:hover {
+  color: #fff;
+  background-color: #595858;
+  border-color: #595858;
+  box-shadow: none;
+}
+
+.customer-seek-wrapper {
+  background-color: #f1f2f2;
+  border-top: solid #dcdcdc 1px;
+  border-bottom: solid #dcdcdc 1px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.customer-seek-wrapper h2 {
+  text-align: center;
+  font-size: 34px;
+  margin-bottom: 0;
+  color: #4597cb;
+  font-family:
+    'Montserrat',
+    'BlinkMacSystemFont',
+    -apple-system,
+    'Roboto',
+    'Lucida Sans';
+  font-weight: 300;
+}
+.customer-seek-wrapper .txt-detl-mbt {
+  text-align: center;
+  margin-top: 38px;
+  color: #565759;
+  font-size: 22px;
+  font-family: 'Montserrat';
+  font-weight: 300;
+}
+.customer-seek-wrapper .txt-detl-mbt strong {
+  font-weight: 700;
+}
+.customer-seek-wrapper .customer-seek-detail {
+  margin-bottom: 35px;
+}
+.social-icons-wrapper .social-icons {
+  margin-top: 32px;
+  margin-bottom: 35px;
+  text-align: center;
+}
+.social-icons-wrapper .social-icons svg {
+  font-size: 36px;
+  display: inline-block;
+  padding-left: 8px;
+  width: 44px;
+  padding-right: 6px;
+  color: #828383;
+}
+.social-icons-wrapper .social-icons svg.fa-facebook-f {
+  width: 36px;
+}
+
+.logo-section-wrapper .logo-images .logo1 img {
+  width: 100px;
+  height: 72px;
+}
+.logo-section-wrapper .logo-images .logo2 img {
+  width: 160px;
+  height: 53px;
+}
+.logo-section-wrapper .logo-images .logo3 img {
+  width: 160px;
+  height: 53px;
+}
+.logo-section-wrapper .logo-images .logo4 img {
+  width: 160px;
+  height: 42px;
+}
+.logo-section-wrapper .logo-images .logo5 img {
+  width: 110px;
+  height: 50px;
+}
+.logo-section-wrapper .logo-images .logo6 img {
+  width: 170px;
+  height: 40px;
+}
+.enamelArmourMainWrapper .money-back-gurantee-detail p {
+  padding: 0px 80px 20px 80px;
+  max-width: 90%;
+  font-size: 20px;
+  font-family: 'Montserrat';
+  font-weight: 300;
+  color: #565759;
+}
+
+.dentalFlossPicksMainWrapper .money-back-gurantee-detail p {
+  padding: 0px 80px 20px 80px;
+  max-width: 90%;
+  font-size: 18px;
+  font-family: 'Montserrat';
+  font-weight: 300;
+  color: #565759;
+  line-height: 32px;
+}
+
+.dentalFlossPicksMainWrapper .hundred-percent-img img {
+  width: 139px;
+  height: 138px;
+}
+
+.enamelArmourMainWrapper .hundred-percent-img img {
+  width: 139px;
+  height: 138px;
+}
+
+.dentalFlossPicksMainWrapper .google-trust-img img {
+  width: 300px;
+  height: 66px;
+}
+
+.enamelArmourMainWrapper .google-trust-img img {
+  width: 300px;
+  height: 66px;
+}
+
+.dentalFlossPicksMainWrapper
+  .money-back-gurantee
+  .our-promise
+  .btn-primary-blue {
+  background-color: #0db4ba;
+  border-color: #0db4ba;
+  min-width: 200px;
+}
+.enamelArmourMainWrapper .money-back-gurantee .our-promise .btn-primary-blue {
+  background-color: #0db4ba;
+  border-color: #0db4ba;
+  min-width: 200px;
+}
+
+.homePageWrapper .heroSectionDetail .buttons-group {
+  max-width: 360px;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+.homePageWrapper .item-parent {
+  border-bottom: 1px solid #eeeeee;
+}
+
+.homePageWrapper .dropdown-menu {
+  padding: 0 15px;
+}
+
+.homePageWrapper .dropdown-two .dropdown-toggle::after {
+  color: #9f75ad;
+}
+
+@media (min-width: 1700px) {
+  .homePageWrapper {
+    background-size: cover;
+    background-position: top left;
+    min-height: 882px;
+  }
+}
+
+@media screen and (min-width: 1300px) and (max-width: 1699px) {
+  .homePageWrapper {
+    min-height: 767px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: cover;
+  }
+  .homePageWrapper .heroSectionDetail {
+    padding-top: 160px;
+    padding-left: 0px;
+  }
+}
+
+@media screen and (min-width: 1100px) and (max-width: 1299px) {
+  .homePageWrapper {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: -200px 0px;
+    min-height: 766px;
+  }
+}
+@media (min-width: 992px) {
+  .sbr-header-mbt .navbar-expand-lg {
+    /* max-width: 970px; */
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .dentalFlossPicksMainWrapper .money-back-gurantee-detail p {
+    padding: 0px 0px 20px 0px;
+    line-height: 32px;
+  }
+  .enamelArmourMainWrapper .process-section-wrapper .container {
+    max-width: 820px;
+  }
+
+  .dentalFlossPicksMainWrapper .process-section-wrapper .container {
+    max-width: 820px;
+  }
+
+  .homePageWrapper {
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 649px;
+  }
+  .homePageWrapper .heroSectionDetail {
+    padding-top: 100px;
+    padding-left: 0px;
+  }
+  .plaque_highlighter-adults #the-process-image-1 img,
+  .plaque_highlighter-adults #the-process-image-2 img {
+    width: 100%;
+  }
+  .plaque_highlighter-adults .process-container .text-block-mbt {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .plaque_highlighter-adults
+    .money-back-gurantee
+    .money-back-gurantee-detail
+    p {
+    max-width: 90%;
+    padding: 0px 20px 20px 20px;
+  }
+  .plaque_highlighter-adults
+    .money-back-gurantee
+    .money-back-gurantee-detail
+    b {
+    padding: 0px 110px;
+  }
+  .plaque_highlighter-adults
+    .money-back-gurantee
+    .money-back-gurantee-detail
+    b
+    p {
+    font-size: 31px !important;
+  }
+  .plaque_highlighter-adults .money-back-gurantee .hundred-percent-img img,
+  .plaque_highlighter-adults
+    .plaque-highlighter-kids
+    .money-back-gurantee
+    .hundred-percent-img
+    img {
+    max-width: 69px;
+    height: auto;
+  }
+  .plaque_highlighter-adults
+    .money-back-gurantee
+    .hundred-percent-img
+    img
+    .plaque_highlighter-adults
+    .money-back-gurantee
+    .google-trust-img
+    img {
+    max-width: 30%;
+    height: auto;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .teethWhiteningGelProduct .container {
+    max-width: 820px !important;
+  }
+}
+@media (min-width: 768px) {
+  .mobile-show {
+    display: none;
+  }
+}
+@media screen and (max-width: 992px) {
+  .enamelArmourMainWrapper #the-process-image-3 img {
+    margin-left: 15%;
+    max-width: 100%;
+  }
+
+  .dentalFlossPicksMainWrapper #the-process-image-3 img {
+    margin-left: 15%;
+    max-width: 100%;
+  }
+
+  .enamelArmourMainWrapper #the-process-image-2 img {
+    max-width: 100%;
+  }
+
+  .dentalFlossPicksMainWrapper #the-process-image-2 img {
+    max-width: 100%;
+  }
+
+  .enamelArmourMainWrapper
+    .process-container
+    .text-block-mbt
+    .the-process-content-text {
+    min-height: 150px;
+    padding-top: 10px;
+  }
+
+  .dentalFlossPicksMainWrapper
+    .process-container
+    .text-block-mbt
+    .the-process-content-text {
+    min-height: 150px;
+    padding-top: 10px;
+  }
+
+  .enamelArmourMainWrapper .process-container .widget-content td.ht-txt {
+    min-width: 50px;
+  }
+
+  .dentalFlossPicksMainWrapper .process-container .widget-content td.ht-txt {
+    min-width: 50px;
+  }
+}
+
+@media (max-width: 767px) {
+  .homePageWrapper {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: -150px 0px;
+    background-color: #ffffffc2;
+    background-blend-mode: color;
+    min-height: 670px;
+  }
+  .plaque_highlighter-adults
+    .plaque-highlighter-kids
+    .money-back-gurantee
+    .hundred-percent-img
+    img {
+    max-width: 69px;
+    height: auto;
+  }
+  .plaque_highlighter-adults
+    .plaque-highlighter-kids
+    .money-back-gurantee
+    .google-trust-img
+    img {
+    max-width: 120px;
+    height: auto;
+  }
+  .enamelArmourMainWrapper .money-back-gurantee-detail p {
+    padding: 0px;
+  }
+  .dentalFlossPicksMainWrapper .money-back-gurantee-detail p {
+    padding: 0px;
+  }
+
+  .dentalFlossPicksMainWrapper .money-back-gurantee-detail b p {
+    font-size: 24px;
+  }
+
+  .enamelArmourMainWrapper .money-back-gurantee-detail b p {
+    font-size: 24px;
+  }
+
+  .dentalFlossPicksMainWrapper .hundred-percent-img img {
+    max-width: 69px;
+    height: auto;
+  }
+  .enamelArmourMainWrapper .hundred-percent-img img {
+    max-width: 69px;
+    height: auto;
+  }
+
+  .dentalFlossPicksMainWrapper .google-trust-img img {
+    max-width: 100%;
+  }
+  .enamelArmourMainWrapper .google-trust-img img {
+    max-width: 100%;
+  }
+
+  .dentalFlossPicksMainWrapper #the-process-image-3 img {
+    margin-left: 0px;
+  }
+
+  .enamelArmourMainWrapper #the-process-image-3 img {
+    margin-left: 0px;
+  }
+  .homePageWrapper .heroSectionDetail h1 {
+    color: #56585a;
+  }
+  .homePageWrapper .heroSectionDetail p {
+    font-size: 20px;
+  }
+
+  .homePageWrapper .heroSectionDetail {
+    padding-top: 100px;
+    padding-left: 0px;
+  }
+  .homePageWrapper .heroSectionDetail .buttons-group button {
+    padding: 8px 20px;
+    width: 100%;
+  }
+  .heroSectionDetail .buttons-group .dropdown-menu.show {
+    margin-left: 1px;
+  }
+
+  .logo-section-wrapper h2 {
+    margin-bottom: 30px;
+  }
+  .customer-seek-wrapper h2 {
+    font-size: 28px;
+  }
+  .customer-seek-wrapper .txt-detl-mbt {
+    margin-top: 10px;
+  }
+  .customer-seek-wrapper .txt-detl-mbt {
+    font-size: 18px;
+  }
+  .customer-seek-wrapper {
+    padding-top: 30px;
+  }
+  .product-block-white-box {
+    width: 100%;
+    border: none;
+  }
+  .cards-with-images-wrapper .card-image {
+    padding: 150px;
+  }
+  .cards-with-images-wrapper .card-image-electric-toothbrush {
+    padding: 150px;
+  }
+  .column-reverse {
+    flex-direction: column-reverse;
+  }
+  .customer-seek-wrapper img {
+    width: 60px;
+    height: 60px;
+  }
+  .customer-seek-wrapper .txt-detl-mbt br {
+    display: none;
+  }
+
+  .logo-section-wrapper h2 {
+    font-size: 24px;
+  }
+}
+
+.teethWhiteningGelProduct .heading-content-mbt h2 {
+  text-align: center;
+  margin-bottom: 0;
+  color: #f8a18a;
+  font-family:
+    'Montserrat',
+    'BlinkMacSystemFont',
+    -apple-system,
+    'Roboto',
+    'Lucida Sans';
+  font-weight: 300;
+  font-size: 34px;
+}
+.sensitiveteethGel .heading-content-mbt h2 {
+  text-align: center;
+  margin-bottom: 0;
+  color: #b8b8dc !important;
+  font-family:
+    'Montserrat',
+    'BlinkMacSystemFont',
+    -apple-system,
+    'Roboto',
+    'Lucida Sans';
+  font-weight: 300;
+  font-size: 34px;
+}
+.sensitiveteethGel .process-section-wrapper p {
+  font-family: 'Montserrat';
+}
+.teethWhiteningGelProduct
+  .process-container
+  .text-block-mbt
+  .the-process-content-text {
+  padding-left: 0px;
+}
+.teethWhiteningGelProduct .process-container .the-process-title {
+  font-size: 22px;
+  margin-top: 13px;
+  text-align: center;
+  font-weight: 300;
+  min-height: 30px;
+  margin-bottom: 10px;
+  font-family:
+    'Open Sans',
+    'BlinkMacSystemFont',
+    -apple-system,
+    'Roboto',
+    'Lucida Sans';
+}
+.dental-probiotics-kids .money-back-gurantee-detail p {
+  font-size: 20px;
+  font-family: 'Montserrat';
+  font-weight: 300;
+  color: #565759;
+  padding: 0px 100px 7px 75px;
+}
+.dental-probiotics-kids .money-back-gurantee .our-promise .btn-primary-blue {
+  background-color: #0db4ba !important;
+  border-color: #0db4ba !important;
+}
+.enamelArmourMainWrapper .process-container .the-process-title {
+  min-height: 43px;
+  font-family:
+    'Open Sans',
+    'BlinkMacSystemFont',
+    -apple-system,
+    'Roboto',
+    'Lucida Sans';
+}
+
+.dentalFlossPicksMainWrapper .process-container .the-process-title {
+  min-height: 43px;
+  font-family:
+    'Open Sans',
+    'BlinkMacSystemFont',
+    -apple-system,
+    'Roboto',
+    'Lucida Sans';
+}
+.dental-probiotics-kids .money-back-gurantee .hundred-percent-img img {
+  width: 139px;
+  height: 138px;
+}
+
+.teethWhiteningGelProduct .process-container.row {
+  padding: 0px 33px;
+}
+.teethWhiteningGelProduct .process-container .text-block-mbt {
+  padding: 0px 15px;
+  min-height: 86px;
+  margin-bottom: 15px;
+}
+.teethWhiteningGelProduct #the-process-image-1 img,
+.sensitiveteethGel #the-process-image-2 img {
+  max-width: 43px;
+}
+.teethWhiteningGelProduct #the-process-image-2 img,
+.sensitiveteethGel #the-process-image-2 img {
+  max-width: 221px;
+}
+.teethWhiteningGelProduct .process-section-wrapper .order-button {
+  margin-top: 3px;
+  margin-bottom: 35px;
+}
+.teethWhiteningGelProduct
+  .process-section-wrapper
+  .order-button
+  .btn-primary-blue {
+  min-width: 235px;
+  background-color: #f8a18a;
+  border-color: #f8a18a;
+  color: #fff;
+  margin-bottom: 100px;
+}
+.sensitiveteethGel .process-section-wrapper .order-button .btn-primary-blue {
+  min-width: 235px;
+  background-color: #b8b8dc;
+  border-color: #b8b8dc;
+  color: #fff;
+  margin-bottom: 100px;
+}
+.sensitiveteethGel
+  .process-section-wrapper
+  .order-button
+  .btn-primary-blue:hover {
+  background-color: #595858;
+  border-color: #595858;
+}
+.sensitiveteethGel .process-section-wrapper .heading-content-mbt {
+  margin-bottom: 36px;
+}
+.teethWhiteningGelProduct #the-process-image-3 img,
+.sensitiveteethGel #the-process-image-3 img {
+  max-width: 180px;
+}
+.sensitiveteethGel .teethWhiteningMainWrapper .productColumns span {
+  color: #b8b8dc !important;
+}
+
+.retainCleanerProduct .retainCleanerRow .row {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.retainerMainWrapper .heading-content-mbt h2 {
+  color: #00b5bb;
+  font-weight: 500;
+  font-size: 38px;
+  font-family:
+    'Montserrat',
+    'BlinkMacSystemFont',
+    -apple-system,
+    'Roboto',
+    'Lucida Sans';
+}
+.retainerMainWrapper .heading-content-mbt p {
+  font-size: 28px;
+  text-align: center;
+  color: #565759;
+  font-weight: 300;
+  font-family: 'Montserrat';
+}
+.retainerMainWrapper .process-section-wrapper {
+  padding-top: 68px;
+}
+
+.retainerMainWrapper #the-process-image-2 img {
+  margin-left: 30px;
+}
+.retainerMainWrapper #the-process-image-3 img {
+  margin-left: 20px;
+}
+.retainerMainWrapper .the-process-content-text {
+  font-size: 16px !important;
+  line-height: 24px;
+}
+.retainerMainWrapper .first-process.col-md-4 .heading-text-detail {
+  padding-left: 40px;
+}
+.retainerMainWrapper .order-button .btn-primary-blue.btn-lg {
+  background-color: #0fb7bc;
+  border-color: #0fb7bc;
+  color: white;
+  letter-spacing: 0em;
+}
+.retainerMainWrapper .heading-text-detail {
+  padding-top: 15px;
+}
+.retainerMainWrapper .hundred-percent-img img {
+  width: 139px;
+  height: auto;
+}
+.retainerMainWrapper .money-back-gurantee .money-back-gurantee-detail p {
+  font-size: 20px;
+  font-weight: 300;
+  max-width: 90%;
+}
+.retainerMainWrapper .our-promise .btn {
+  background-color: #0fb7bc;
+  border-color: #0fb7bc;
+  color: #fff;
+  letter-spacing: 0em;
+  min-width: 175px;
+}
+.retainerMainWrapper .google-trust-img img {
+  width: 300px;
+  height: 66px;
+}
+.retainerMainWrapper
+  .process-container
+  .text-block-mbt
+  .the-process-content-text {
+  padding-left: 10px;
+}
+.retainerMainWrapper .process-container .the-process-title {
+  min-height: 45px;
+}
+.retainerMainWrapper .process-section-wrapper .order-button {
+  margin-top: 17px;
+}
+
+/*ToothBrush Heads Popup */
+
+.toothbrush_heads_modal_wrapper .toothbrush_heads_modal .modal-header {
+  justify-content: center !important;
+  padding-top: 25px !important;
+  padding-bottom: 29px !important;
+}
+.toothbrush_heads_modal_wrapper .toothbrush_heads_modal .modal-header .h4 {
+  font-size: 1em;
+  color: #333333;
+  font-weight: 600;
+  font-family:
+    'Open Sans',
+    'BlinkMacSystemFont',
+    -apple-system,
+    'Roboto',
+    'Lucida Sans';
+}
+
+.toothbrush_heads_modal_wrapper .modal-content {
+  max-width: 590px !important;
+  margin: 0px auto;
+  border-style: solid;
+  border-width: 6px;
+  border-radius: 0px;
+  border-color: #3d97cc;
+}
+.toothbrush_heads_modal_wrapper .modal-body {
+  text-align: center;
+  padding: 15px 20px;
+}
+.toothbrush_heads_modal_wrapper .modal-body p {
+  color: #565759;
+  font-size: 13px;
+}
+.toothbrush_heads_modal_wrapper .modal-body button.btn.btn_primary_modal {
+  background-color: #4696cc;
+  color: #fff;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Montserrat';
+  letter-spacing: 0.2em;
+  border: 1px solid #fff;
+  font-weight: 300;
+  margin-top: 25px;
+  height: auto;
+  padding: 10px 40px;
+  margin-bottom: 0;
+  font-size: 14px;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+}
+.plaque-highlighter-kids .process-section-wrapper {
+  margin: 0px auto;
+  padding-top: 15px;
+}
+.plaque_highlighter-adults
+  .plaque-highlighter-kids
+  .process-section-wrapper
+  h2 {
+  letter-spacing: 0.1rem;
+  font-family: 'DK_Butterfly_Ball';
+  margin-top: 1px;
+  color: #68c8c7;
+  margin-bottom: 28px;
+  font-size: 39px;
+  text-align: center;
+  font-weight: 400;
+}
+.plaque_highlighter-adults
+  .plaque-highlighter-kids
+  .process-container
+  .the-process-title {
+  font-family: 'DK_Butterfly_Ball';
+  font-weight: 400;
+  font-size: 26px;
+}
+.plaque_highlighter-adults
+  .plaque-highlighter-kids
+  .process-container
+  .text-block-mbt
+  .the-process-content-text {
+  line-height: 20px;
+}
+.plaque-highlighter-kids .heading-text-detail {
+  margin-top: 60px;
+}
+.plaque_highlighter-adults
+  .plaque-highlighter-kids
+  .process-section-wrapper
+  .order-button
+  .btn-primary-blue {
+  background-color: #68c8c7;
+  border: 1px solid #54a2a1;
+  color: #fff;
+  letter-spacing: 0px;
+  margin-top: -6px;
+}
+.plaque_highlighter-adults .plaque-highlighter-kids .hundred-percent-img img {
+  width: 139px;
+  height: 138px;
+}
+.plaque_highlighter-adults .plaque-highlighter-kids .google-trust-img img {
+  width: 300px;
+  height: 66px;
+}
+.plaque_highlighter-adults
+  .plaque-highlighter-kids
+  .money-back-gurantee
+  .money-back-gurantee-detail
+  p {
+  line-height: 1.6;
+}
+.plaque_highlighter-adults
+  .plaque-highlighter-kids
+  a#learn-more-shipping-button {
+  text-transform: none;
+}
+.plaque_highlighter-adults .plaque-highlighter-kids .our-promise .btn-primary {
+  background-color: transparent;
+  border: 1px solid #595858;
+  color: #595858;
+}
+.plaque_highlighter-adults
+  .plaque-highlighter-kids
+  .our-promise
+  .btn-primary:hover {
+  background-color: #595858;
+  border-color: #595858;
+  color: #fff;
+}
+.dental_probiotic_adult_header {
+  background-color: transparent !important;
+}
+.dental-probiotics-adults-page .money-back-gurantee .hundred-percent-img img {
+  width: 139px;
+  height: 138px;
+}
+.dental-probiotics-adults-page
+  .money-back-gurantee
+  .money-back-gurantee-detail
+  p {
+  font-size: 21px;
+  font-family: 'Montserrat';
+  font-weight: 300;
+  color: #565759;
+  padding: 0px 40px 20px 40px;
+  max-width: 85%;
+  margin: 0px auto;
+}
+.dental-probiotics-adults-page
+  .money-back-gurantee
+  .our-promise
+  .btn-primary-blue {
+  background-color: #945aa5;
+  border-color: #945aa5;
+  color: white;
+  min-width: 199px;
+  margin-bottom: 52px;
+}
+.dental-probiotics-adults-page .money-back-gurantee {
+  padding-top: 59px;
+}
+.dental-probiotics-adults-page
+  .money-back-gurantee
+  .our-promise
+  .btn-primary-blue {
+  margin-top: 12px;
+}
+@media screen and (max-width: 767px) {
+  .dental-probiotics-kids .money-back-gurantee .hundred-percent-img img {
+    max-width: 69px;
+    height: auto;
+  }
+  .dental-probiotics-adults-page .money-back-gurantee .hundred-percent-img img {
+    max-width: 69px;
+    height: auto;
+  }
+  .dental-probiotics-adults-page .money-back-gurantee .google-trust-img img {
+    max-width: 100%;
+  }
+  .dental-probiotics-adults-page
+    .money-back-gurantee
+    .money-back-gurantee-detail
+    p {
+    font-size: 14px;
+    padding: 0px;
+    max-width: 90%;
+  }
+  .dental-probiotics-kids .money-back-gurantee-detail p {
+    font-size: 14px;
+    padding: 0px 15px;
+  }
+  .dental-probiotics-kids .money-back-gurantee .money-back-gurantee-detail b {
+    font-size: 24px;
+  }
+  .plaque_highlighter-adults a#learn-more-shipping-button {
+    padding: 8px 10px;
+  }
+  .plaque_highlighter-adults
+    .money-back-gurantee
+    .money-back-gurantee-detail
+    p {
+    font-size: 14px;
+    max-width: 100%;
+  }
+  .plaque_highlighter-adults
+    .plaque-highlighter-kids
+    .process-section-wrapper
+    h2 {
+    font-size: 28px;
+  }
+  .plaque-highlighter-kids .heading-text-detail {
+    margin-top: 0px;
+  }
+  .plaque_highlighter-adults .plaque-highlighter-kids .process-section-wrapper {
+    padding-top: 0px;
+  }
+  .plaque_highlighter-adults
+    .money-back-gurantee
+    .money-back-gurantee-detail
+    b
+    p {
+    font-size: 24px !important;
+  }
+  .plaque_highlighter-adults .process-section-wrapper {
+    margin: 0px;
+    padding-top: 40px;
+  }
+  .plaque_highlighter-adults .process-container-single-img {
+    min-height: 200px;
+  }
+  .plaque_highlighter-adults #the-process-image-1 img,
+  .plaque_highlighter-adults #the-process-image-2 img {
+    width: 100%;
+  }
+  .plaque_highlighter-adults .plaque-highlighter-kids #the-process-image-1 img,
+  .plaque_highlighter-adults .plaque-highlighter-kids #the-process-image-2 img {
+    max-width: 200px !important;
+  }
+  .process-section-wrapper .heading-content-mbt {
+    margin-bottom: 0px;
+  }
+  .retainerMainWrapper .heading-content-mbt p {
+    font-size: 20px;
+  }
+  .teethWhiteningGelProduct .process-container .text-block-mbt {
+    min-height: 1px;
+  }
+  .teethWhiteningGelProduct #the-process-image-2 img,
+  .sensitiveteethGel #the-process-image-2 img {
+    max-width: 221px;
+    height: auto;
+  }
+  .sensitiveteethGel #abc img {
+    margin-left: 20px;
+    max-width: 260px;
+  }
+  .sensitiveteethGel #causes-text-wrap {
+    display: none;
+  }
+  .teethWhiteningGelProduct #abc img {
+    margin-left: 20px;
+    max-width: 260px;
+  }
+  .teethWhiteningGelProduct div#the-process-image-2,
+  .sensitiveteethGel #the-process-image-2 {
+    min-height: 200px;
+  }
+  .teethWhiteningGelProduct div#the-process-image-3,
+  .sensitiveteethGel #the-process-image-3 {
+    min-height: 200px;
+  }
+  .teethWhiteningGelProduct #the-process-image-3 img,
+  .sensitiveteethGel #the-process-image-3 img {
+    max-width: 180px;
+    height: auto;
+  }
+  .retainerMainWrapper .hundred-percent-img img {
+    max-width: 69px;
+  }
+  .retainerMainWrapper .google-trust-img img {
+    max-width: 130px;
+    height: auto;
+  }
+  .retainerMainWrapper .money-back-gurantee .money-back-gurantee-detail p {
+    font-size: 14px;
+    margin-bottom: 1.55rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .retainerMainWrapper .first-process.col-md-4 .heading-text-detail {
+    padding-left: 0px;
+  }
+  .retainerMainWrapper .process-container .table-contentcnt,
+  .process-container .text-block-mbt {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .retainerMainWrapper .process-container .the-process-title {
+    min-height: 61px;
+  }
+  .retainerMainWrapper .money-back-gurantee .money-back-gurantee-detail p {
+    padding: 0px;
+  }
+  .retainerMainWrapper .money-back-gurantee .money-back-gurantee-detail b {
+    padding: 0px;
+  }
+  .sensitiveteethGel .productSelectionPriceWrap .btnprimaryblue {
+    padding: 6px 12px;
+    border-color: #a4a4c3;
+  }
+}
+@media only screen and (min-width: 640px) {
+  .teethWhiteningGelProduct .process-section-wrapper .container {
+    padding: 0 35px;
+  }
+}
+
+@media (min-width: 768px) {
+  .sensitiveteethGel #causes-tooth-sensitivity-wrap .graphic-text-main {
+    font-size: 14px;
+    font-family: 'Open Sans';
+  }
+  .teethWhiteningGelProduct #the-process-image-1 img,
+  .sensitiveteethGel #the-process-image-1 img {
+    width: 34px;
+    height: 200px;
+    margin-top: 10px;
+  }
+  #causes-tooth-sensitivity-wrap {
+    padding-right: 0px;
+    text-align: right;
+    height: 460px;
+  }
+  .sensitiveteethGel #the-process-image-1 img {
+    margin-top: 0px;
+  }
+  .teethWhiteningGelProduct #the-process-image-2 img,
+  .sensitiveteethGel #the-process-image-2 img {
+    width: 179px;
+    height: 130px;
+    margin-top: 70px;
+  }
+  .sensitiveteethGel #the-process-image-2 img {
+    margin-top: 0px;
+  }
+  .teethWhiteningGelProduct #the-process-image-3 img,
+  .sensitiveteethGel #the-process-image-3 img {
+    width: 140px;
+    height: 140px;
+    margin-top: 60px;
+  }
+  .sensitiveteethGel #the-process-image-3 img {
+    margin-top: 0px;
+  }
+  .teethWhiteningGelProduct .process-section-wrapper .container {
+    max-width: 90rem;
+  }
+  #causes-tooth-sensitivity-wrap img {
+    max-width: 630px;
+  }
+  #graphic-causes-teeth-sensitivity-desktop {
+    display: inline;
+  }
+  #causes-text-wrap {
+    display: block;
+  }
+  #micro-fractures-text {
+    width: 300px;
+    height: 150px;
+    margin-top: -500px;
+    margin-left: 24px;
+    text-align: left;
+  }
+  .graphic-text-header {
+    text-align: left;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 1em;
+    color: #b8b8dc;
+  }
+  .graphic-text-main {
+    font-size: 1em;
+    text-align: left;
+    padding-top: 5px;
+  }
+  #thin-enamel-text {
+    width: 300px;
+    height: 150px;
+    margin-top: 46px;
+    margin-left: 60px;
+    text-align: left;
+  }
+  #tooth-dehydration-text {
+    width: 300px;
+    height: 150px;
+    margin-top: 18px;
+    margin-left: 90px;
+    text-align: left;
+  }
+  .retainerMainWrapper .process-section-wrapper .container {
+    max-width: 720px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .dental-probiotics-adults-page
+    .money-back-gurantee
+    .money-back-gurantee-detail
+    p {
+    max-width: 100%;
+    padding: 0px;
+  }
+}
+
+@media (min-width: 992px) {
+  .teethWhiteningGelProduct #the-process-image-1 img,
+  .sensitiveteethGel #the-process-image-1 img {
+    width: 43px;
+    height: 250px;
+    margin-top: 10px;
+  }
+  #micro-fractures-text {
+    width: 300px;
+    height: 150px;
+    margin-top: -495px;
+    margin-left: 80px;
+    text-align: left;
+  }
+  #causes-tooth-sensitivity-wrap {
+    text-align: center;
+    margin-left: 45px;
+    height: 460px;
+  }
+  .sensitiveteethGel #the-process-image-1 img {
+    margin-top: 0px;
+  }
+  .teethWhiteningGelProduct #the-process-image-2 img,
+  .sensitiveteethGel #the-process-image-2 img {
+    width: 221px;
+    height: 160px;
+    margin-top: 70px;
+  }
+  .sensitiveteethGel #the-process-image-2 img {
+    margin-top: 0px;
+  }
+  .teethWhiteningGelProduct #the-process-image-3 img,
+  .sensitiveteethGel #the-process-image-3 img {
+    width: 180px;
+    height: 180px;
+    margin-top: 60px;
+  }
+  .sensitiveteethGel #the-process-image-3 img {
+    margin-top: 0px;
+  }
+  .teethWhiteningGelProduct #the-process-image-3 img,
+  .sensitiveteethGel #the-process-image-3 img {
+    margin-left: 13%;
+  }
+  #causes-tooth-sensitivity-wrap img {
+    max-width: 720px;
+  }
+  #graphic-causes-teeth-sensitivity-desktop {
+    display: inline;
+  }
+  #causes-text-wrap {
+    display: block;
+  }
+  .graphic-text-header {
+    text-align: left;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 1em;
+    color: #b8b8dc;
+  }
+  .graphic-text-main {
+    font-size: 1em;
+    text-align: left;
+    padding-top: 5px;
+  }
+  #thin-enamel-text {
+    width: 300px;
+    height: 150px;
+    margin-top: 42px;
+    margin-left: 100px;
+    text-align: left;
+  }
+  #tooth-dehydration-text {
+    width: 300px;
+    height: 150px;
+    margin-top: 28px;
+    margin-left: 148px;
+    text-align: left;
+  }
+  .retainerMainWrapper .process-section-wrapper .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .teethWhiteningGelProduct #the-process-image-1 img,
+  .sensitiveteethGel #the-process-image-1 img {
+    width: 43px;
+    height: 250px;
+    margin-top: 10px;
+  }
+  .plaque-highlighter-kids .process-section-wrapper {
+    max-width: 1170px;
+  }
+  .plaque-highlighter-kids .process-section-wrapper .container {
+    max-width: 1170px;
+    padding: 0px;
+  }
+  #micro-fractures-text {
+    width: 300px;
+    height: 150px;
+    margin-top: -500px;
+    margin-left: 135px;
+    text-align: left;
+  }
+  #thin-enamel-text {
+    width: 300px;
+    height: 150px;
+    margin-top: 50px;
+    margin-left: 165px;
+    text-align: left;
+  }
+  .graphic-text-main {
+    font-size: 1em;
+    text-align: left;
+    padding-top: 5px;
+  }
+  .graphic-text-header {
+    text-align: left;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 1em;
+    color: #b8b8dc;
+  }
+  #graphic-causes-teeth-sensitivity-desktop {
+    display: inline;
+  }
+  #causes-tooth-sensitivity-wrap img {
+    max-width: 820px;
+  }
+  div#causes-tooth-sensitivity-wrap {
+    margin-left: 45px;
+    height: 500px;
+    text-align: center;
+  }
+  .sensitiveteethGel #the-process-image-1 img {
+    margin-top: 0px;
+  }
+  .teethWhiteningGelProduct #the-process-image-2 img,
+  .sensitiveteethGel #the-process-image-2 img {
+    width: 221px;
+    height: 160px;
+    margin-top: 70px;
+  }
+  .sensitiveteethGel #the-process-image-2 img {
+    margin-top: 0px !important;
+  }
+  .teethWhiteningGelProduct #the-process-image-3 img,
+  .sensitiveteethGel #the-process-image-3 img {
+    width: 180px;
+    height: 180px;
+    margin-top: 60px;
+  }
+  .sensitiveteethGel #the-process-image-3 img {
+    margin-top: 0px;
+  }
+  .sensitiveteethGel #causes-text-wrap {
+    display: block;
+  }
+  .teethWhiteningGelProduct .process-section-wrapper .container {
+    max-width: 1170px !important;
+  }
+  #tooth-dehydration-text {
+    width: 300px;
+    height: 150px;
+    margin-top: 20px;
+    margin-left: 195px;
+    text-align: left;
+  }
+  .retainerMainWrapper .process-section-wrapper .container {
+    max-width: 1140px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .retainerMainWrapper .process-section-wrapper .container {
+    max-width: 1440px;
+  }
+}
+
+@media (min-width: 1500px) {
+  .enamelArmourMainWrapper .process-section-wrapper .container {
+    max-width: 1420px;
+  }
+
+  .dentalFlossPicksMainWrapper .process-section-wrapper .container {
+    max-width: 1420px;
+  }
+
+  .retainerMainWrapper #the-process-image-1 img {
+    width: 210px;
+    height: 201px;
+  }
+  .retainerMainWrapper #the-process-image-2 img {
+    width: 205px;
+    height: 245px;
+    margin-top: 10px;
+  }
+  .retainerMainWrapper #the-process-image-3 img {
+    width: 270px;
+    height: 127px;
+  }
+  .teethWhiteningGelProduct #the-process-image-1 img {
+    width: 43px;
+    height: 250px;
+    margin-top: 10px;
+  }
+  #tooth-dehydration-text {
+    width: 300px;
+    height: 150px;
+    margin-top: 10px;
+    margin-left: 285px;
+    text-align: left;
+  }
+  #micro-fractures-text {
+    width: 300px;
+    height: 150px;
+    margin-top: -500px;
+    margin-left: 185px;
+    text-align: left;
+  }
+  #thin-enamel-text {
+    width: 300px;
+    height: 150px;
+    margin-top: 50px;
+    margin-left: 235px;
+    text-align: left;
+  }
+  .plaque-highlighter-kids .process-section-wrapper {
+    max-width: 1420px;
+  }
+  .plaque-highlighter-kids .process-section-wrapper .container {
+    max-width: 1420px;
+    padding: 0px;
+  }
+  .sensitiveteethGel #the-process-image-1 img {
+    margin-top: 0px;
+  }
+  .teethWhiteningGelProduct .the-process-content-text br {
+    display: none;
+  }
+  .teethWhiteningGelProduct .process-section-wrapper .container {
+    max-width: 1420px !important;
+  }
+  .teethWhiteningGelProduct .process-section-wrapper .container {
+    padding: 0px;
+  }
+}
+.retainerMainWrapper #the-process-image-1 img,
+.retainerMainWrapper #the-process-image-2 img,
+.retainerMainWrapper #the-process-image-3 img {
+  width: auto;
+  height: auto;
+  max-width: initial;
+  max-height: initial;
+  margin-top: 0;
+}
+.retainerMainWrapper #the-process-image-1 img {
+  margin-left: 40px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .dental-probiotics-kids .money-back-gurantee-detail p {
+    padding: 0px 30px 7px 5px;
+  }
+  .dental-probiotics-kids .money-back-gurantee .hundred-percent-img img {
+    max-width: 69px;
+    height: auto;
+  }
+  .dental-probiotics-kids .money-back-gurantee .money-back-gurantee-detail b {
+    padding: 0px 40px;
+  }
+}

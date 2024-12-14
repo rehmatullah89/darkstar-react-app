@@ -1,0 +1,196 @@
+.footer-newsletter #footer-newsletter-title {
+  margin: 0;
+  padding-top: 1px;
+  color: #fff;
+  font-size: 25px;
+  font-weight: 700;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.footer-newsletter {
+  background-color: #4597cb;
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+.footer-menu-wrapper > h6 {
+  font-size: 14px;
+  color: #666768;
+  font-weight: 500;
+  font-family: 'Montserrat';
+  margin-bottom: 10px;
+}
+
+.footer-menu-wrapper .container {
+  padding: 60px 35px 60px 94px;
+}
+
+.footer-menu-wrapper ul {
+  list-style-type: none;
+  padding-left: 0px;
+}
+.footer-menu-wrapper ul li {
+  margin-bottom: 5px;
+}
+.footer-menu-wrapper ul li a {
+  font-family: 'Montserrat';
+  font-size: 14px;
+  color: #747577;
+  text-decoration: none;
+  font-weight: 300;
+}
+.footer-menu-wrapper .hide-h6 {
+  opacity: 0;
+}
+.footer-logo {
+  text-align: right;
+}
+.footer-logo img {
+  max-width: 140px !important;
+  height: auto;
+}
+.footer-menu-wrapper ul li a:hover {
+  text-decoration: underline;
+  color: #f8a18a;
+}
+.news-letter-field {
+  max-width: 340px;
+  margin-left: auto;
+}
+.news-letter-field.input-group .form-control {
+  font-weight: 400 !important;
+  background: #fafafa !important;
+  max-width: 100% !important;
+  outline: 0 !important;
+  font-family: inherit !important;
+  border-radius: 3px !important;
+  -moz-box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  -moz-appearance: none !important;
+  -webkit-appearance: none !important;
+  margin-bottom: 0 !important;
+  padding: 10px !important;
+  border: 1px solid #f8a18a !important;
+  border-right: 0 !important;
+  font-size: 13px !important;
+}
+.input-group-text {
+  display: inline-block !important;
+  font-size: 14px !important;
+  line-height: 1.42857143 !important;
+  text-align: center !important;
+  white-space: nowrap !important;
+  border: 1px solid transparent !important;
+  font-family: 'Montserrat' !important;
+  letter-spacing: 0.2em !important;
+  text-shadow: none !important;
+  background-color: #f8a18a !important;
+  border-color: #dd8f7a !important;
+  color: #fff !important;
+  border-radius: 0 !important;
+  margin-left: -6px !important;
+  max-width: 100px !important;
+  text-align: center !important;
+  padding: 10px 26px !important;
+  text-transform: uppercase !important;
+}
+.bottom-footer img.text-logo-img {
+  max-width: 190px;
+  height: 16px;
+}
+.bottom-footer {
+  background-color: #ebecec;
+  padding: 27px 4rem 18px;
+}
+div.footer-base-logo-section-links a {
+  color: #868787;
+  font-size: 11px;
+  font-family: 'Montserrat';
+  margin: 0px 10px;
+  text-decoration: none;
+}
+.bottom-footer .social-icons-wrapper .social-icons {
+  text-align: right;
+}
+.bottom-footer .social-icons-wrapper .social-icons {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.bottom-footer .social-icons-wrapper .social-icons svg {
+  font-size: 20px;
+  display: inline-block;
+  width: 30px;
+  text-align: right;
+  padding-right: 6px;
+  color: #828383;
+}
+.bottom-footer
+  .social-icons-wrapper
+  .social-icons
+  .svg-inline--fa.fa-facebook-f {
+  width: 25px !important;
+}
+.footer-menu-wrapper h6 {
+  font-size: 14px;
+  color: #666768;
+  font-weight: 500;
+  font-family: 'Montserrat';
+  margin-bottom: 10px;
+}
+.footer-base-logo-section-links {
+  color: #868787;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .footer-logo {
+    text-align: right;
+    bottom: 0px;
+    position: relative;
+    bottom: -110px;
+    top: 580px;
+  }
+  .siteNavigation {
+    margin-left: 120px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .siteNavigation {
+    margin-left: 0px;
+  }
+  .footer-logo {
+    display: none;
+  }
+  .footer-menu-wrapper,
+  .footer-newsletter {
+    text-align: center;
+  }
+  .footer-newsletter {
+    padding-top: 20px;
+  }
+  .footer-menu-wrapper .container {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .footer-newsletter #footer-newsletter-title {
+    height: auto;
+    margin-bottom: 20px;
+  }
+  .money-back-gurantee .hundred-percent-img img {
+    max-width: 130px;
+    height: auto;
+  }
+  .money-back-gurantee {
+    padding-top: 25px;
+  }
+  .google-trust-img img {
+    max-width: 130px;
+    height: auto;
+  }
+  .money-back-gurantee .money-back-gurantee-detail h3 {
+    font-size: 28px;
+  }
+}

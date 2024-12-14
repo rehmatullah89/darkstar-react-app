@@ -1,0 +1,48 @@
+const PROD =
+  process.env.NEXT_PUBLIC_ENVIRONEMENT == 'production' ? true : false;
+const BASE_URL = PROD
+  ? process.env.NEXT_PUBLIC_BASE_URL
+  : process.env.NEXT_PUBLIC_BASE_URL_Local;
+const WP_BASE_URL = PROD
+  ? process.env.NEXT_PUBLIC_WP_BASE_URL
+  : process.env.NEXT_PUBLIC_WP_BASE_URL_Local;
+
+const IMAGES_BASE_URL = PROD
+  ? process.env.NEXT_PUBLIC_IMAGES_BASE_URL
+  : process.env.NEXT_PUBLIC_IMAGES_BASE_URL_Local;
+
+const TAG_MANAGER_ID = PROD
+  ? process.env.NEXT_PUBLIC_TAG_MANAGER_ID
+  : process.env.NEXT_PUBLIC_TAG_MANAGER_ID_Local;
+
+const KLAVIYO_COMPANY_ID = PROD
+  ? process.env.NEXT_PUBLIC_KLAVIYO_COMPANY_ID
+  : process.env.NEXT_PUBLIC_KLAVIYO_COMPANY_ID_Local;
+const ZENDESK_KEY = PROD
+  ? process.env.NEXT_PUBLIC_ZENDESK_KEY
+  : process.env.NEXT_PUBLIC_ZENDESK_KEY_Local;
+
+const SHIPPING_PROTECTION_ID = PROD
+  ? process.env.NEXT_PUBLIC_SHIPPING_PROTECTION_ID
+  : process.env.NEXT_PUBLIC_SHIPPING_PROTECTION_ID_Local;
+  
+const GOOGLE_MAPS_API_KEY = PROD
+  ? process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY
+  : process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY_Local;
+
+const MONGODB_URI = PROD
+  ? process.env.NEXT_PUBLIC_MONGODB_URI
+  : process.env.NEXT_PUBLIC_MONGODB_URI_Local;
+
+  
+export {
+  BASE_URL,
+  WP_BASE_URL,
+  TAG_MANAGER_ID,
+  IMAGES_BASE_URL,
+  KLAVIYO_COMPANY_ID,
+  ZENDESK_KEY,
+  SHIPPING_PROTECTION_ID,
+  GOOGLE_MAPS_API_KEY,
+  MONGODB_URI
+};

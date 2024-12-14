@@ -1,0 +1,101 @@
+.get-refill-wrapper {
+  background: #555759;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 20px;
+}
+
+.get-refill-wrapper h2 {
+  margin: 0;
+  font-size: 23px;
+  line-height: 40px;
+  color: #fff;
+  font-weight: 300;
+  font-family:
+    'Montserrat',
+    'BlinkMacSystemFont',
+    -apple-system,
+    'Roboto',
+    'Lucida Sans';
+}
+
+.get-refill-wrapper Button {
+  font-weight: normal;
+  display: inline-block;
+  margin-bottom: 0;
+  font-size: 12px;
+  line-height: 1.42857143;
+  text-align: center;
+  padding: 10px;
+  border-radius: 0;
+  font-family: 'Montserrat';
+  letter-spacing: 0.2em;
+  margin-right: 5px;
+}
+
+.get-refill-wrapper .btn-primary-orange {
+  background-color: #f8a18a;
+  border-color: #dd8f7a;
+  color: #fff;
+}
+
+.get-refill-wrapper .btn-primary-purple {
+  background-color: #b8b8dc;
+  border-color: #a4a4c3;
+  color: #fff;
+}
+
+.get-refill-wrapper .btn-primary-orange:hover {
+  color: #fff;
+  background-color: #595858;
+  border-color: #595858;
+  box-shadow: none;
+}
+
+.get-refill-wrapper .btn-primary-purple:hover {
+  color: #fff;
+  background-color: #595858;
+  border-color: #595858;
+  box-shadow: none;
+}
+.get-refill-wrapper button.btn.btn-primary-orange.btn.btn-primary {
+  min-width: 110px;
+}
+.get-refill-wrapper button.btn.btn-primary-purple.btn.btn-primary {
+  min-width: 110px;
+}
+.get-refil-buttons-wrapper {
+  max-width: 43.5%;
+  display: flex;
+  justify-content: space-evenly;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.get-refil-container {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .get-refil-buttons-wrapper {
+    flex-direction: column;
+  }
+
+  .get-refill-wrapper .btn-primary-orange,
+  .get-refill-wrapper .btn-primary-purple {
+    max-width: 80%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .get-refil-buttons-wrapper {
+    display: block;
+  }
+
+  .get-refill-wrapper .btn-primary-orange,
+  .get-refill-wrapper .btn-primary-purple {
+    width: 80%;
+    margin-bottom: 5px;
+  }
+}

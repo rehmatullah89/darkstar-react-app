@@ -1,0 +1,66 @@
+.money-back-gurantee {
+  padding-top: 75px;
+}
+
+.money-back-gurantee .hundred-percent-img {
+  margin-bottom: 35px;
+}
+.money-back-gurantee .money-back-gurantee-detail h3 {
+  font-size: 36px;
+  color: #4597cb;
+  font-weight: 700;
+  padding-top: 0px;
+  margin-bottom: 30px;
+}
+.money-back-gurantee .money-back-gurantee-detail p {
+  font-size: 22px;
+  font-family: 'Montserrat';
+  font-weight: 300;
+  color: #565759;
+  padding: 0px 100px 20px 100px;
+  max-width: 85%;
+  margin: 0px auto;
+}
+
+.money-back-gurantee .money-back-gurantee-detail b {
+  margin-top: 1.55rem;
+  margin-bottom: 1rem;
+  padding: 0px 185px;
+  display: block;
+  font-size: 20px;
+  font-family: 'Montserrat';
+  color: #565759;
+  display: block;
+}
+.money-back-gurantee .our-promise .btn-primary-blue {
+  font-size: 18px;
+  background-color: #4597cb;
+  border-color: #4597cb;
+  color: #fff;
+  display: inline-block;
+  font-size: 18px;
+  line-height: 1.42857143;
+  padding: 10px 40px;
+  font-family: 'Montserrat';
+  letter-spacing: 0.2em;
+  border: none;
+  border-radius: 0px;
+}
+.money-back-gurantee .our-promise .btn-primary-blue:hover {
+  color: #fff;
+  background-color: #595858;
+  border-color: #595858;
+  box-shadow: none;
+}
+
+@media screen and (max-width: 767px) {
+  .money-back-gurantee .money-back-gurantee-detail p {
+    padding: 0px 10px;
+    max-width: 100%;
+    font-size: 14px;
+  }
+  .money-back-gurantee .money-back-gurantee-detail b {
+    padding: 0px 5px;
+    font-size: 14px;
+  }
+}

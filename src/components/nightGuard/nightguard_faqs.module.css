@@ -1,0 +1,65 @@
+.faqAccordian {
+  margin-bottom: 35px;
+}
+
+.faq_Card {
+  background: #edebf6 !important;
+  border: none;
+  cursor: pointer;
+}
+.faq_card_header {
+  border-bottom: none;
+  background-color: transparent;
+  border-top: 1px solid #d7d6d6;
+  border-radius: 0px;
+}
+.faq_card_header:hover {
+  color: #68c8c7;
+}
+
+.FAQ_Icon {
+  font-size: 30px;
+  color: #331f97;
+}
+
+.FAQitemsHeader {
+  cursor: pointer;
+  font-size: 24px;
+  font-family: 'Open Sans';
+}
+
+.faqBody > p {
+  margin: 0;
+  padding: 0px 25px;
+  padding-left: 35px;
+  font-family: 'Open Sans';
+  font-size: 18px;
+}
+
+@media screen and (max-width: 992px) {
+  .FAQ_Icon {
+    padding: 0px 10px;
+  }
+  .FAQitemsHeader {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .FAQ_Icon {
+    padding-left: 20px;
+    padding-right: 10px;
+  }
+  .FAQitemsHeader {
+    font-size: 14px;
+    text-align: left;
+    padding-right: 20px;
+  }
+  .faqBody > p {
+    margin: 0;
+    padding: 0px 25px;
+    padding-left: 65px;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    text-align: center;
+  }
+}

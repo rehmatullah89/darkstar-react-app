@@ -1,0 +1,521 @@
+.ElectricToothbrushPage {
+    width: 100%;
+  }
+  .toothbrushHeadsWrapper {
+    padding-top: 168px;
+    text-align: center;
+  }
+  .toothbrushHeadsWrapper .ToothbrushHeadsTitle h1 {
+    color: #565759;
+    font-size: 40px;
+    font-family:
+      'Montserrat',
+      'BlinkMacSystemFont',
+      -apple-system,
+      'Roboto',
+      'Lucida Sans';
+    font-weight: 700;
+    padding-top: 2px;
+  }
+  .toothbrushHeadsWrapper .ToothbrushHeadsTitle h4 {
+    font-size: 28px;
+    font-weight: 300 !important;
+    color: #565759;
+    padding-top: 2px;
+    line-height: 1.3;
+    margin-bottom: 20px;
+    font-family: 'Montserrat' !important;
+  }
+  .toothbrushHeadsWrapper .toothbrushimg {
+    text-align: center;
+    padding-top: 15px;
+  }
+  .learn_more_text {
+    margin-top: 3px;
+    margin-bottom: 3px;
+  }
+  .toothbrushHeadsWrapper .primaryButton {
+    margin-top: 65px;
+    font-size: 18px;
+    background-color: #3c98cc;
+    border-color: #3382af;
+    min-width: 237px;
+    color: #fff;
+    display: inline-block;
+    margin-bottom: 0;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    height: auto;
+    padding: 10px 40px;
+    border-radius: 40px;
+    border: 2px solid #3382af;
+    font-weight: 300;
+    border-width: 1px;
+    border-radius: 0;
+    font-family: 'Montserrat';
+    letter-spacing: 0.2em;
+    text-shadow: none;
+  }
+  .toothbrushHeadsWrapper .primaryButton:hover {
+    background: #595858 !important;
+    border-color: #595858 !important;
+    transition: all 200ms ease-in;
+  }
+  .maintainingHealthSection {
+    margin-top: 80px;
+    background-color: #3c98cc;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    margin-bottom: 35px;
+  }
+  
+  .maintainingHealthSection h2 {
+    margin-bottom: 0;
+    font-size: 28px;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 0;
+    font-family:
+      'Montserrat',
+      'BlinkMacSystemFont',
+      -apple-system,
+      'Roboto',
+      'Lucida Sans';
+    line-height: 1.3;
+  }
+  
+  .choose_your_replacement_package h3 {
+    text-align: center;
+    font-weight: 300 !important;
+    font-size: 34px;
+    font-family: 'Montserrat';
+    color: #4597cb !important;
+    letter-spacing: 0;
+    line-height: 1.3;
+    margin-bottom: 20px;
+    margin-top: 0;
+  }
+  .replacement_package_column {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .choose_your_replacement_package .content_detail {
+    border: solid #c5c6c9 1px;
+    padding: 30px;
+    margin-top: 50px;
+    text-align: center;
+  }
+  .ship_world_Wide_wrapper {
+    margin-top: 4px;
+    padding-top: 16px;
+    text-align: center;
+    padding-bottom: 9px;
+  }
+  .graphicFlosserImage {
+    max-width: 93%;
+    height: auto;
+  }
+  .two_column_right_image {
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+  img.right_img_bottom {
+  margin-top: 18px !important;
+}
+.how_it_work {
+  margin-top: 91px;
+}
+.how_it_work h2 {
+  font-size: 34px !important;
+}
+  .graphicFlosserImage {
+    padding-top: 12px;
+  }
+  .warantee_img img {
+    margin-top: 37px !important;
+    margin-bottom: 23px;
+  }
+  .ship_world_Wide_wrapper h2 {
+    color: #fff;
+    font-size: 35px;
+    margin-bottom: 21px;
+    font-weight: 700;
+    letter-spacing: 0;
+    font-family:
+      'Montserrat',
+      'BlinkMacSystemFont',
+      -apple-system,
+      'Roboto',
+      'Lucida Sans';
+  }
+  .ship_world_Wide_wrapper button.popupBtn {
+    text-transform: capitalize !important;
+    color: #fff;
+    font-size: 20px !important;
+    min-width: 171px !important;
+    border-color: #fff !important;
+    letter-spacing: 0.2em !important;
+  }
+  .ship_world_Wide_wrapper button.popupBtn:hover {
+    background: #fff;
+    color: #68c8c7;
+  }
+  .ship_world_Wide_wrapper .ship_world_title h2 svg.firstSvg {
+    width: 30px;
+    position: relative;
+    left: -15px;
+    top: -3px;
+    fill: #fff;
+  }
+  .ship_world_Wide_wrapper .ship_world_title h2 svg.secondSvg {
+    width: 30px;
+    position: relative;
+    left: 15px;
+    top: -3px;
+    fill: #fff;
+  }
+  .ship_world_Wide_wrapper .popupBtn {
+    
+  }
+  .feel_difference_detail {
+    text-align: center;
+  }
+  .feel_difference_detail h3 {
+    margin-bottom: 30px;
+    font-weight: 300 !important;
+    font-size: 34px;
+    font-family: 'Montserrat';
+    color: #4597cb !important;
+  }
+  .feel_difference_detail img {
+    margin-top: 1px;
+  }
+  .feel_difference_wrapper {
+    text-align: center;
+    margin-bottom: 134px;
+  }
+  .feel_difference_wrapper h4 {
+    font-weight: 300;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 22px;
+    line-height: 32px;
+    color: #353535;
+    margin-bottom: 30px;
+  }
+  .feel_difference_wrapper .btn_primary {
+    margin-top: 4px;
+    font-size: 18px;
+    background-color: #3c98cc;
+    min-width: 237px;
+    border-color: #3382af;
+    color: #fff;
+    display: inline-block;
+    margin-bottom: 0;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    border: 1px solid transparent;
+    height: auto;
+    padding: 11px 40px;
+    border: 2px solid #3382af;
+    font-weight: 300;
+    border-width: 1px;
+    border-radius: 0;
+    font-family: 'Montserrat';
+    letter-spacing: 0.2em;
+    text-shadow: none;
+  }
+  .image_text_wrapper {
+    background-repeat: no-repeat;
+    height: 500px;
+    background-size: cover;
+    background-position: 0px top;
+  }
+  .three_col_text {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+  }
+  .maintaining_Health_Section_Text {
+    margin-bottom: 55px;
+  }
+ .maintainingHealthSection .logo {
+  margin-left: 1.5vw;
+    margin-right: 1.5vw;
+ }
+  .three_col_heading {
+    line-height: 31px;
+    font-weight: 300 !important;
+  }
+  .product_section_wrapper {
+    text-align: center;
+  }
+  .product_section_wrapper h2 {
+    font-size: 34px;
+    font-weight: 300;
+    line-height: 44px;
+    color: #4597cb;
+    font-family: 'Montserrat';
+    padding-top: 23px;
+  }
+  .product_section_wrapper p {
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 31px;
+    color: #565759;
+    font-family: 'Montserrat';
+    padding-top: 22px;
+  }
+  .table_cnt {
+    max-width: 333px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .margin_bottom_20 {
+    margin-bottom: 20px;
+  }
+  .font_36 {
+    font-size: 36px !important;
+    line-height: 42px !important;
+  }
+  .font_32 {
+    font-size: 32px !important;
+    line-height: 42px !important;
+
+  }
+  .last_section {
+    padding-top: 40px;
+    margin-top: 11px;
+  }
+  .font_point_nine {
+    font-size: 13px !important;
+  }
+  .order_now_btn_bottom {
+    padding: 9px 40px !important;
+    display: inline-block !important;
+    font-family: 'Montserrat';
+    letter-spacing: .2em;
+    font-size: 18px;
+    background-color: #3c98cc !important;
+    border-color: #3382af !important;
+  }
+  .order_now_button_bottom {
+    padding-top: 10px;
+  }
+  @media screen and (min-width: 640px) {
+    .choose_your_replacement_package {  
+      padding: 0 35px;
+    }
+  }
+  @media screen and (min-width: 64em) {
+    .replacement_package_wrapper {
+      padding-left: 1.25rem;
+      padding-right: 1.25rem;
+    }
+  }
+  
+  @media screen and (min-width: 992px) {
+    .feel_difference_wrapper .text_wrapper {
+      max-width: 75%;
+      margin-top: 35px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  @media screen and (min-width: 1200px) {
+    .choose_your_replacement_package,.ul_container,.how_it_work_container {
+      max-width: 1170px !important;
+      margin: 0px auto;
+    }
+    .ul_container{
+      padding: 0px 35px;
+    }
+    .ul_row, .ul_col{
+      padding: 0px 1.25rem;
+    }
+    .product-selection-title {
+      font-size: 18px;
+    }
+    .choose_your_replacement_package .replacement_package_product {
+      max-width: 1160px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .three_col_text {
+      min-height: 86px;
+      margin-bottom: 15px;
+    }
+  }
+  @media screen and (min-width: 1500px) {
+    .choose_your_replacement_package,.ul_container,.how_it_work_container {
+      max-width: 1420px !important;
+      margin: 0px auto;
+    }
+  }
+  @media screen and (max-width: 767px) {
+    .toothbrushHeadsWrapper .ToothbrushHeadsTitle h1 {
+      font-size: 2em;
+    }
+    .logo_img_1 img{
+      max-width: 120px;
+      height: auto;
+    }
+    .logo_img_2 img{
+      max-width: 112px;
+      height: auto;
+    }
+    .maintainingHealthSection h2 {
+      font-size: 24px;
+    }
+    .maintainingHealthSection {
+      margin-bottom: 15px;
+    }
+    .product_section_wrapper p {
+      font-size: 1.3em;
+      padding: 0px 15px;
+      line-height: 26px;
+    }
+    .feel_difference_detail h3 {
+      font-size: 2.0em !important;
+    }
+    .product_section_wrapper p br{
+    display: none;
+    }
+    .product_section_wrapper h2 {
+      font-size: 24px;
+    line-height: 30px;
+    padding-right: .9375rem;
+    padding-left: .9375rem;
+    }
+    .maintaining_Health_Section_Text{
+      margin-bottom: 0px;
+    }
+    .mobile_logo {
+      flex-wrap: wrap;
+      align-items: center !important;
+    }
+    .maintainingHealthSection .logo {
+      flex: 0 0 38%;
+    max-width: 38%;
+    text-align: center;
+        margin-top: 20px;
+    }
+    .toothbrushHeadsWrapper {
+      padding-top: 75px;
+    } 
+    .toothbrushHeadsWrapper .ToothbrushHeadsTitle h4 {
+      font-size: 16px;
+    }
+    .choose_your_replacement_package h3 {
+      font-size: 28px;
+    }
+    .ship_world_Wide_wrapper .ship_world_title h2 {
+      font-size: 1.2em;
+    }
+    .ship_world_Wide_wrapper .ship_world_title h2 svg.firstSvg {
+      width: 20px;
+      left: -10px;
+    }
+    .ship_world_Wide_wrapper .ship_world_title h2 svg.secondSvg {
+      width: 20px;
+      left: 10px;
+    }
+    .ship_world_Wide_wrapper {
+      padding-top: 2em;
+      padding-bottom: 2em;
+    }
+    .feel_difference_detail h3 {
+      font-size: 24px;
+    }
+  .feel_difference_detail {
+    padding-left: 0.925rem;
+    padding-right: 0.925rem;
+  }
+.graphicFlosserImage {
+  max-width: 100%;
+}
+.how_it_work {
+  margin-top: 35px;
+}
+.how_it_work h2 {
+  font-size: 2.0em !important;
+}
+.three_col_heading {
+  min-height: 61px;
+}
+.table_cnt .bottom_p {
+  text-align: center;
+  padding: 0px 22px;
+  font-size: 14px;
+}
+.last_headind {
+  font-size: 24px !important;
+  line-height: 31px !important;
+}
+.last_headind br {
+  display: none;
+}
+.margin_bottom_20 h3 {
+  font-size: 30px;
+  line-height: 30px !important;
+}
+.order_now_button_bottom {
+  margin-top: 10px !important;
+}
+.end_br {
+  display: none;
+}
+  }
+
+  @media screen and (min-width:768px) and (max-width:1024px){
+    .toothbrushimg img {
+      max-width: 100%;
+      height: auto;
+    }
+    .mobile_logo {
+      flex-wrap: wrap;
+    }
+    .toothbrushHeadsWrapper {
+      padding-top: 68px;
+    }
+  }
+  @media screen and (max-width: 992px) {
+    .product_selection_title {
+      padding: 30px 0px;
+      margin-top: -76px;
+    }
+    .feel_difference_detail img {
+      margin-bottom: 35px;
+    }
+    .toothbrushimg img {
+      max-width: 100%;
+      height: auto;
+      vertical-align: top;
+    }
+    .maintainingHealthSection h2 br {
+      display: none;
+    }
+  }
+  
+  .ElectricToothbrushPage .tbSection2Imges img {
+    height: auto;
+  }
+  
+  .waterFlosserPage .content_detail img {
+    width: 580px;
+  }
+  

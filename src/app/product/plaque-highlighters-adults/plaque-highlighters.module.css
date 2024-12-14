@@ -1,0 +1,531 @@
+.plaque_highlighter_adult_wrapper {
+  padding-top: 160px;
+}
+
+.seven_column {
+  text-align: center;
+}
+
+.seven_column img {
+  margin-left: -10px;
+}
+
+.plaque_details_wrapper .plaque_detail h2 {
+  margin-top: 6rem;
+  font-size: 2.5em;
+  font-weight: 300;
+  line-height: 30px;
+  margin-bottom: 7px;
+  letter-spacing: 0;
+  color: #565759;
+  font-family:
+    'Montserrat',
+    'BlinkMacSystemFont',
+    -apple-system,
+    'Roboto',
+    'Lucida Sans';
+}
+
+.plaque_details_wrapper .plaque_detail h1 {
+  font-size: 46.5px;
+  color: #945aa5;
+  margin-top: 5px;
+  margin-bottom: 21px;
+  font-weight: 500;
+  font-family: 'Montserrat';
+  letter-spacing: 0;
+}
+
+.plaque_details_wrapper .plaque_detail p {
+  color: #3a3a3a;
+  line-height: 20px;
+  font-size: 14px;
+  font-family: 'Open sans', sans-serif !important;
+  margin-bottom: 1.55rem;
+  word-spacing: 0.001em;
+}
+
+.tm_symbal {
+  font-size: 30px;
+  position: relative;
+  top: -12px;
+}
+
+.five_column {
+  text-align: center;
+  width: 33.33%;
+}
+
+.plaque_details_wrapper {
+  max-width: 420px;
+  padding-left: 4px;
+  margin: 0px auto;
+}
+
+.btn_primary_dark_pink {
+  text-decoration: none;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  min-width: 288px;
+  background-color: #945aa5;
+  border-color: #945aa5;
+  color: #fff;
+  display: inline-block;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  height: auto;
+  padding: 11.5px 40px;
+  border: 2px solid;
+  font-weight: 300;
+  font-size: 18px;
+  border-width: 1px;
+  border-radius: 0;
+  font-family: 'Montserrat';
+  text-shadow: none;
+}
+
+.btn_primary_dark_pink:hover {
+  background-color: #595858;
+  border-color: #595858;
+}
+
+.how_it_work {
+  margin-top: -1px;
+  text-decoration: none;
+  margin-bottom: 20px;
+  min-width: 284px;
+  background-color: transparent;
+  border-color: #595858;
+  color: #595858;
+  display: inline-block;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  height: auto;
+  padding: 10px 40px;
+  border: 2px solid;
+  font-weight: 300;
+  font-size: 18px;
+  border-width: 1px;
+  border-radius: 0;
+  font-family: 'Montserrat';
+  text-shadow: none;
+}
+
+.how_it_work:hover {
+  color: #fff;
+  background-color: #595858;
+  border-color: #595858;
+  box-shadow: none;
+}
+
+.logos_wrapper {
+  text-align: center;
+  background-color: #945aa5;
+  padding-top: 32px;
+  padding-bottom: 40px;
+}
+
+.logos_wrapper .logos_detail h2 {
+  margin-bottom: 34px;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  color: white;
+}
+
+.logos_strip {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.glucan_logo {
+  display: inline-block;
+  margin-top: 2px;
+  width: auto;
+  min-width: 190px;
+  text-align: center;
+}
+
+.light_color_with_text_image {
+  padding-top: 42px;
+  padding-bottom: 42px;
+  background-color: #b8b8dc !important;
+}
+
+.light_text_with_image_container {
+  margin-bottom: 0px !important;
+  padding-bottom: 0px !important;
+}
+
+ul.background_graphic li:first-child {
+  padding-top: 0;
+}
+ul.background_graphic li {
+  margin-bottom: 10px;
+}
+.four_column {
+  text-align: right;
+}
+.four_column img {
+  max-width: 100%;
+  height: auto;
+  margin-right: -10px;
+  vertical-align: top;
+}
+ul.background_graphic li {
+  background-image: url('../../../../public/assets/circle-tick-purple.webp');
+  background-repeat: no-repeat;
+  background-position: left;
+  font-size: 30px;
+  list-style: none;
+  padding-left: 70px;
+  line-height: 56px;
+  margin-top: 18px;
+  color: #565759;
+  font-family: 'Montserrat';
+}
+
+.plaque_page_result_section {
+  margin-top: 35px;
+  position: relative;
+  z-index: 99;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #b8b8dc;
+  border-top: solid #b8b8dc 1px;
+  border-bottom: solid #b8b8dc 1px;
+  height: 500px;
+}
+.plaque_page_result_content {
+  margin-bottom: 35px;
+}
+.plaque_page_result_content .text_detail {
+  color: #fff;
+  margin-left: 12%;
+  margin-right: 12%;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  margin-bottom: 45px;
+  line-height: 1.4;
+  text-align: center;
+  margin-top: 38px;
+  font-size: 22px;
+}
+.plaque_page_result_section .plaque_page_result_content h2 {
+  letter-spacing: 0.04em;
+  color: #945aa5;
+  padding-top: 2px;
+  font-weight: 400;
+  text-align: center;
+  font-family:
+    'Montserrat',
+    'BlinkMacSystemFont',
+    -apple-system,
+    'Roboto',
+    'Lucida Sans';
+  font-size: 34px;
+}
+.image_content {
+  display: flex;
+  justify-content: center;
+}
+.image_content img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: top;
+}
+.want_PlaqueHighlighterKids_section {
+  background-color: #68c8c7;
+  border-top: solid #eef5f5 1px;
+  border-bottom: solid #eef5f5 1px;
+  padding-bottom: 3.5em;
+  padding-top: 3.5em;
+  text-align: center;
+}
+.want_PlaqueHighlighterKids_section
+.want_highlither_kids_detail h2 {
+  color: #fff;
+  font-weight: 400;
+  font-size: 35px;
+  margin-bottom: 20px;
+  letter-spacing: 0;
+  line-height: 1.3;
+  font-family:
+    'Montserrat',
+    'BlinkMacSystemFont',
+    -apple-system,
+    'Roboto',
+    'Lucida Sans';
+}
+@media screen and (min-width: 640px) {
+  .plaque_adult_container {
+    padding: 0px 35px;
+  }
+  .image_container {
+    padding: 0px 35px;
+  }
+}
+
+@media screen and (min-width: 64em) {
+  .image_detail {
+    padding-right: 1.25rem;
+    padding-left: 1.25rem;
+  }
+  .want_highlither_kids_detail {
+    padding-right: 1.25rem;
+    padding-left: 1.25rem;
+  }
+  .plaque_highlighter_adult_wrapper {
+    padding-right: 1.25rem;
+    padding-left: 1.25rem;
+  }
+  .plaque_page_result_detail {
+    padding-right: 1.25rem;
+    padding-left: 1.25rem;
+  }
+  .logos_wrapper .logos_detail {
+    padding-right: 1.25rem;
+    padding-left: 1.25rem;
+  }
+
+  .seven_column {
+    padding-right: 1.25rem;
+    padding-left: 1.25rem;
+  }
+
+  .five_column {
+    padding-right: 1.25rem;
+    padding-left: 1.25rem;
+  }
+
+  .eight_column {
+    padding-right: 1.25rem;
+    padding-left: 1.25rem;
+  }
+
+  .four_column {
+    padding-right: 1.25rem;
+    padding-left: 1.25rem;
+  }
+
+  .light_color_with_text_image_detail {
+    padding-right: 1.25rem;
+    padding-left: 1.25rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  ul.background_graphic {
+    padding-left: 20px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .seven_column,
+  .five_column {
+    width: 50%;
+  }
+  .seven_column img {
+    max-width: 100%;
+    height: auto;
+    margin-left: 0px;
+  }
+  .plaque_details_wrapper .plaque_detail h2 {
+    margin-top: 0rem;
+    font-size: 2em;
+  }
+  .plaque_details_wrapper .plaque_detail h1 {
+    font-size: 36.5px;
+  }
+  .plaque_highlighter_adult_wrapper {
+    padding-top: 130px;
+  }
+
+  ul.background_graphic li {
+    line-height: 40px;
+    font-size: 22px;
+    background-size: 40px;
+    padding-left: 60px;
+    background-position: top left;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  ul.background_graphic {
+    padding-left: 30px;
+  }
+  ul.background_graphic li {
+    background-size: 50px;
+    padding-left: 70px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .plaque_adult_container {
+    max-width: 1220px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .logos_wrapper .logos_detail h2 {
+    font-size: 37px;
+    font-style: italic;
+  }
+
+  .logos_container {
+    max-width: 1170px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .light_text_with_image_container {
+    max-width: 1235px;
+    margin: 0px auto;
+  }
+
+  ul.background_graphic {
+    padding-left: 50px;
+    padding-top: 10px;
+  }
+  ul.background_graphic li {
+    font-size: 22px;
+  }
+  .image_container {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .plaque_adult_container {
+    max-width: 1420px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .image_container {
+    padding: 0px 0px;
+  }
+  .logos_container {
+    max-width: 1420px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .image_container {
+    max-width: 1420px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .light_text_with_image_container {
+    max-width: 1420px;
+    margin: 0px auto;
+  }
+
+  ul.background_graphic {
+    padding-left: 70px;
+    padding-top: 10px;
+  }
+  ul.background_graphic li {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .plaque_highlighter_detail .seven_column img {
+    max-width: 100%;
+    height: auto;
+  }
+  .plaque_highlighter_detail .five_column {
+    width: 100%;
+  }
+  .hero_row {
+    flex-direction: column-reverse;
+  }
+  .plaque_highlighter_adult_wrapper {
+    padding-top: 0px;
+  }
+  .plaque_details_wrapper .plaque_detail h2 {
+    margin-top: 4.5rem;
+    font-size: 2em;
+  }
+  .plaque_detail p br {
+    display: none;
+  }
+  .plaque_details_wrapper .plaque_detail h1 {
+    font-size: 38.5px;
+  }
+  .logos_wrapper {
+    padding-bottom: 30px;
+  }
+  .glucan_logo {
+    min-width: 120px;
+  }
+  .light_text_row {
+    flex-direction: column-reverse;
+  }
+  .want_PlaqueHighlighterKids_section {
+    padding-top: 2em;
+    padding-bottom: 2em;
+  }
+  .four_column {
+    text-align: center;
+  }
+  .logos_detail h2 {
+    font-size: 1.4em;
+  }
+  .four_column img {
+    max-width: 177px;
+    margin-right: 0px;
+  }
+  ul.background_graphic {
+    padding-left: 0px;
+  }
+  .order-btn .btn_primary_dark_pink {
+margin-bottom: 40px;
+  }
+  ul.background_graphic li {
+    background-position: top left;
+    font-size: 16px;
+    padding-left: 32px;
+    line-height: 27px;
+    margin-top: 8px;
+    color: #555759;
+    background-size: 24px;
+    text-align: left;
+    max-width: 338px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .seven_column img {
+    margin-top: 15px; 
+  }
+ 
+  .plaque_page_result_section {
+    padding-bottom: 0px;
+    height: auto;
+  }
+  .plaque_page_result_content .text_detail {
+    color: #fff;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-bottom: 45px;
+    line-height: 1.4;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 38px;
+    font-size: 15px;
+  }
+  .want_PlaqueHighlighterKids_section .want_highlither_kids_detail h2 {
+    font-size: 1.2em !important;
+  }
+  .plaque_highlighter-adults a#learn-more-shipping-button {
+    padding: 8px 10px;
+  }
+}

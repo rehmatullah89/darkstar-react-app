@@ -1,0 +1,181 @@
+.teethWhiteningMainWrapper {
+  border-bottom: 1px solid #ebebeb;
+}
+.productSelectionBox {
+  border: solid #c5c6c9 1px;
+  padding: 30px;
+  text-align: center;
+}
+.teethWhiteningProductContainer .container .row .col-md-4 {
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+}
+.teethWhiteningProductWrapper .productSelectionImageWrap img {
+  max-width: 68px;
+  vertical-align: baseline;
+  margin-right: -20px;
+}
+
+.teethWhiteningProductWrapper .productSelectionImageWrap span {
+  font-size: 84px;
+  font-family: 'Montserrat';
+  color: #f8a18a;
+  vertical-align: baseline;
+  font-weight: 300;
+}
+.teethWhiteningProductWrapper .productSelectionImageWrap .firstProduct {
+  margin-left: 20px;
+}
+.teethWhiteningProductWrapper b {
+  font-weight: 400;
+}
+.teethWhiteningProductWrapper .productSelectionDescription div {
+  padding-top: 5px;
+  color: #747476;
+  font-size: 0.8em;
+}
+.teethWhiteningProductWrapper .productSelectionDescription b {
+  color: #565759;
+  font-size: 1em;
+  font-weight: 400;
+}
+.productSelectionPriceWrap {
+  background-color: #ffede7;
+  padding-top: 20px;
+  margin-top: 20px;
+}
+.productSelectionPriceText {
+  font-size: 46px;
+  font-weight: 400;
+  font-family: 'Montserrat';
+  color: #535353;
+}
+.productSelectionPriceDollarSymbol svg {
+  width: 15px;
+  display: inline-block;
+  margin-top: 30px;
+  color: #535353;
+  margin-right: 0px;
+  vertical-align: top;
+}
+.productSelectionDentistPriceNote {
+  font-size: 13px;
+  color: #535353;
+}
+.productSelectionPriceWrap button {
+  margin-top: 30px;
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+  text-align: center;
+}
+.productSelectionPriceWrap .btnprimaryblue {
+  background-color: #f8a18a;
+  border-color: #dd8f7b;
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  height: auto;
+  border-color: #dd8f7b;
+  padding: 10px 40px;
+  font-weight: 300;
+  border-radius: 0;
+  color: #fff;
+  font-family: 'Montserrat';
+  letter-spacing: 0.2em;
+  text-shadow: none;
+}
+
+.teethwhiteningRow .productColumns {
+  padding-right: 15px !important;
+  padding-left: 15px !important;
+}
+
+@media screen and (max-width: 767px) {
+  .productSelectionBox {
+    padding: 10px;
+    margin-bottom: 15px;
+  }
+  .teethWhiteningProductWrapper .productSelectionImageWrap img {
+    max-width: 34px;
+    vertical-align: baseline;
+    margin-right: -6px;
+    height: auto;
+  }
+  .teethWhiteningProductWrapper .productSelectionImageWrap span {
+    font-size: 4em;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .productSelectionBox {
+    padding: 10px;
+  }
+  .productSelectionPriceWrap .btnprimaryblue {
+    padding: 6px 12px;
+  }
+}
+
+@media (min-width: 640px) {
+  .teethWhiteningProductWrapper {
+    padding: 0 40px;
+  }
+}
+@media (min-width: 1200px) {
+  .teethWhiteningProductWrapper {
+    width: 1170px;
+  }
+}
+
+@media (min-width: 1500px) {
+  .teethWhiteningProductWrapper {
+    width: 1420px;
+  }
+  .productSelectionDescription b {
+    font-size: 1em;
+    color: #535353;
+  }
+}
+
+@media (min-width: 992px) {
+  .teethwhiteningRow {
+    max-width: 77.5rem;
+    margin: 0px auto 80px auto;
+  }
+
+  .teethWhiteningProductWrapper .productSelectionImageWrap {
+    min-height: 160px;
+  }
+  .teethWhiteningProductContainer .productSelectionImageWrap img {
+    width: 68px;
+    height: 120px;
+    vertical-align: baseline;
+    margin-right: -20px;
+  }
+  .teethWhiteningProductWrapper .productSelectionImageWrap span {
+    font-size: 84px;
+    line-height: 84px;
+  }
+}
+
+@media (min-width: 768px) {
+  .teethWhiteningProductContainer .productSelectionImageWrap img {
+    width: 68px;
+    height: 120px;
+    vertical-align: baseline;
+    margin-right: -20px;
+  }
+  .teethWhiteningProductWrapper .productSelectionImageWrap {
+    min-height: 147px;
+  }
+}

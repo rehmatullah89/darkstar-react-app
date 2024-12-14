@@ -1,0 +1,138 @@
+.curlyBrackets {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .deal_top_bar {
+    background: #25d4cd;
+    height: 57px;
+    text-align: center;
+    position: relative;
+    top: -1px;
+    padding-top: 10px;
+  }
+  .flex_div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .deal_left_text {
+    font-weight: bold;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    margin-right: 15px;
+  }
+  .days_left {
+    background-color: #fff;
+  }
+  .days_left{
+    background: #fff;
+    padding: 4px 7px;
+    color: #25d4cd;
+    width: 100%;
+    margin-bottom: 1px;
+    min-height: 26px;
+    min-width: 30px;
+    border-radius: 3px;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  }
+  .parent_span {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Open Sans;
+    font-weight: 400;
+    color: #fff;
+    font-size: 20px;
+    line-height: 1;
+    padding-bottom: 10px;
+    top: 4px;
+  }
+  .days_name {
+    font-size: 9px;
+    text-transform: uppercase;
+    font-weight: 600;
+    display: block;
+    margin-top: 2px;
+    position: absolute;
+    bottom: 0;
+  }
+  .dot_seprator {
+    display: inline-block;
+    padding-right: 4px;
+    color: #fff;
+    position: relative;
+    top: 4px;
+    font-size: 18px;
+    font-family: 'Open Sans';
+  }
+  .d_flex {
+    display: flex;
+  }
+  span.hidden_mobile {
+    font-size: 18px;
+    display: inline-flex;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .shop_deals {
+    background-color: #fb319f;
+    border-color: #fb319f;
+    height: 34px;
+    border-radius: 3px;
+    padding: 4px 18px;
+    letter-spacing: 0;
+    margin-right: 26px;
+    margin-top: 0px;
+    color: #fff;
+    margin-right: 20px;
+    line-height: 0.8;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 16px;
+    margin-top: 0;
+    min-width: auto;
+    font-family: 'Montserrat';
+    text-decoration: none;
+  }
+
+  @media screen and (max-width:767px){
+    .deal_top_bar{
+      height: 54px;
+      top: -15px;
+      padding-top:3px;
+    }
+    .deal_left_text {
+      font-size: 12px;
+      position: relative;
+      top: 2px;
+      margin-right: 10px;
+    }
+    .days_left {
+      font-size: 14px;
+    }
+    .shop_deals{
+      margin-right: 0px;
+      font-size: 12px;
+      padding: 3px 10px;
+      height: 36px;
+      position: relative;
+      top: 5px;
+    }
+    .hidden_mobile {
+      display: none !important;
+    }
+    .days_name {
+      bottom: 0px;
+      font-size: 8px;
+    }
+  }

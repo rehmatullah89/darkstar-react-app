@@ -1,0 +1,105 @@
+.product_selection_title {
+  background: #fff;
+  padding: 30px 12px;
+  margin-top: -71px;
+  font-size: 1.4em;
+  font-size: 20px;
+  font-family:
+    'Open Sans',
+    'BlinkMacSystemFont',
+    -apple-system,
+    'Roboto',
+    'Lucida Sans';
+  color: #565759;
+}
+.productSelectionImageWrap {
+  min-height: 295px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+}
+.productSelectionImageWrap img {
+  max-width: 100%;
+  height: auto;
+}
+.productSelectionDescription p b {
+  font-weight: 600;
+  font-size: 1.3em;
+  color: #565759;
+}
+.productSelectionDescription p {
+  font-size: 14px;
+  font-family:
+    'Open Sans',
+    'BlinkMacSystemFont',
+    -apple-system,
+    'Roboto',
+    'Lucida Sans';
+  color: #565759;
+}
+.productSelectionPriceWrap {
+  background-color: transparent;
+  padding-top: 36px;
+  margin-top: 20px;
+}
+.productSelectionPriceText {
+  font-size: 46px;
+  color: #565759;
+  font-weight: 400;
+  font-family: 'Montserrat';
+}
+.productSelectionPriceWrap svg {
+  width: 15px;
+  margin-top: -10px;
+  color: #565759;
+}
+.productSelectionDentistPriceNote {
+  font-size: 13px;
+  color: #565759;
+}
+.productSelectionPriceWrap button {
+  margin-top: 28px;
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+  text-align: center;
+}
+.btnprimaryblue {
+  background-color: #3c98cc;
+  border-color: #3382af;
+  color: #fff;
+  display: inline-block;
+  margin-bottom: 0;
+  font-size: 14px;
+  line-height: 1.42857143;
+  white-space: nowrap;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  height: auto;
+  padding: 10px 40px;
+  border: 2px solid;
+  font-weight: 300;
+  border-width: 1px;
+  border-radius: 0;
+  font-family: 'Montserrat';
+  letter-spacing: 0.2em;
+  text-shadow: none;
+}
+@media screen and (min-width: 1200px) {
+  .product_selection_title {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .product_selection_title {
+    padding: 30px 0px;
+    font-size: 18px;
+    margin-top: -76px;
+  }
+}

@@ -1,0 +1,344 @@
+@font-face {
+    font-family: "montserrat";
+    src: url("../../../public/assets/fonts/montserrat/Montserrat-Bold.woff2") format("woff2");
+    src: url("../../../public/assets/fonts/montserrat/Montserrat-Bold.woff") format("woff");
+    src: url("../../../public/assets/fonts/montserrat/Montserrat-ExtraBold.woff")format("woff");
+    src: url("../../../public/assets/fonts/montserrat/Montserrat-ExtraBold.woff2")format("woff2");
+    src: url("../../../public/assets/fonts/montserrat/Montserrat-Medium.woff")format("woff");
+    src: url("../../../public/assets/fonts/montserrat/Montserrat-Medium.woff2")format("woff2");
+    src: url("../../../public/assets/fonts/montserrat/Montserrat-Light.woff")format("woff");
+    src: url("../../../public/assets/fonts/montserrat/Montserrat-Light.woff2")format("woff2");
+    src: url("../../../public/assets/fonts/montserrat/Montserrat-Regular.woff")format("woff");
+    src: url("../../../public/assets/fonts/montserrat/Montserrat-Regular.woff2")format("woff2");
+  } 
+   @font-face {
+    font-family:"Open Sans";
+    src: url("../../../public/assets/fonts/Open_Sans/OpenSans_Condensed-ExtraBold.woff") format("woff2");
+    src: url("../../../public/assets/fonts/Open_Sans/OpenSans-Bold.woff2") format("woff2");
+    src: url("../../../public/assets/fonts/Open_Sans/OpenSans-Bold.woff") format("woff");
+    src: url("../../../public/assets/fonts/Open_Sans/OpenSans-Light.woff")format("woff");
+    src: url("../../../public/assets/fonts/Open_Sans/OpenSans-Medium.woff")format("woff");
+    src: url("../../../public/assets/fonts/Open_Sans/OpenSans-Regular.woff")format("woff");
+    /* src: url("../../../public/assets/fonts/Open_Sans/OpenSans_Condensed-ExtraBold.woff")format("woff"); */
+  } 
+
+.font_mont {
+    font-family: "Montserrat";
+} 
+.weight_normal {
+    font-weight: normal;
+}
+.weight_900 {
+    font-weight: 900;
+}
+.mb_0 {
+    margin-bottom: 0 !important; 
+}
+.weight_600{
+    font-weight: 600;
+}
+.btn_primary {
+    background: #f6f4ee;
+    padding-top: 138px;
+    position: relative;
+    overflow: hidden;
+    touch-action: manipulation;
+    cursor: pointer;
+    user-select: none;
+    height: auto;
+    padding: 10px 40px;
+    border: 2px solid;
+    font-weight: 300;
+    border-width: 1px;
+    font-family: 'Montserrat';
+    text-shadow: none;
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+}
+.btn_primary:hover{
+    color: #fff;
+    background-color: #595858 !important;
+    border-color: #595858 !important;
+    box-shadow: none;
+}
+
+.section_real_science {
+    position: relative;
+    padding-top: 90px;
+}
+.section_real_science {
+    background-image: url('../../../public/assets/furmulate-parralax-img.webp');
+    /* background-attachment: fixed;  */
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 400px;
+}
+.section_title {
+    margin-bottom: 38px;
+    color: #2d2e2f;
+    font-size: 24px;
+    font-family: "Montserrat";
+}
+.section_heading_h2 {
+    line-height: 1.1;
+    font-size: 78px;
+    color: #2d2e2f;
+    font-weight: 800;
+    margin-bottom: 20px;
+    font-family: 'Montserrat', 'BlinkMacSystemFont', -apple-system, 'Roboto', 'Lucida Sans';
+}
+.yellow_text {
+    color: #f0c23a;
+}
+.dont_belive_it {
+    color: #2d2e2f;
+    font-size: 24px;
+    padding-left: 80px;
+    margin-bottom: 90px;
+    font-family: 'Open Sans',
+    'BlinkMacSystemFont',
+    -apple-system,
+    'Roboto',
+    'Lucida Sans';
+}
+.accordian_row {
+    padding: 0 35px ;
+    align-items: end;
+}
+.men_apply_cream {
+    position: relative;
+    left: -27%;
+}
+.men_apply_cream img {
+    max-width: 130%;
+    height: auto;
+}
+
+.subtitle {
+    font-size: 20px;
+    font-family: "Montserrat";
+}
+.mont_bold_italic {
+    font-style: italic;
+    font-weight: 600;
+    font-family: "Montserrat";
+    font-size: 20px;
+    color: #565759;
+}
+
+.action_btn_skincare{
+    position: relative;
+    margin-top: 90px;
+    text-align: center;
+}
+.action_btn_skincare a {
+    text-decoration: none !important;
+}
+.action_btn_skincare{
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.text_white {
+    color: #fff;
+}
+.Custom_row {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1420px;
+}
+
+
+.no_padding{
+    padding: 0px 0px !important;
+}
+@media screen and (min-width:640px){
+    .Custom_row{
+        padding: 0px 35px;
+    }
+}
+@media (min-width: 768px) {
+    .container_wrap {
+        max-width: 750px;
+    }
+     br.hidden_desktop{
+        display: none;
+    }
+}
+@media (min-width: 992px) {
+    .container_wrap {
+        max-width: 970px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+   
+}
+@media (min-width: 1200px) {
+    .container_wrap {
+        max-width: 1170px;
+    }
+}
+@media (min-width: 1500px) {
+    .container_wrap {
+        max-width: 1420px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+}
+
+
+
+@media (max-width: 1400px) {
+   .section_top_banner h1 {
+        font-size: 36px;
+    }
+    .section_top_banner p {
+        font-size: 15px;
+    }
+    .section_header.dark_blue h1 {
+        font-size: 36px;
+    }
+
+}
+@media screen and (max-width: 1499px) {
+    .section_real_science .section_heading_h2 {
+        font-size: 64px;
+    }
+   
+  
+}
+@media screen and (max-width: 1199px) {
+    .section_real_science .section_heading_h2 {
+        font-size: 52px;
+    }
+    .text__k {
+        font-size: 22px;
+    }
+    .small_text {
+        margin-top: 22px;
+        font-size: 16px;
+    }
+    span.number {
+        font-size: 42px;
+        min-width: 75px;
+    }
+    h5.section_heading_partner {
+        font-size: 28px;
+    }
+   
+}
+
+@media screen and (max-width:990px){
+  
+    .section_top_banner {
+        /* background-size: 526px; */
+        background-repeat: no-repeat;
+        background-position: 220%;
+    }
+    .section_header.dark_blue h1{
+        font-size: 28px;
+    }
+    .section_real_science .section_title{
+        margin-bottom: 19px;
+    font-size: 22px;
+    }
+    .section_real_science .section_heading_h2 {
+        font-size: 40px;
+    }
+}
+  
+
+@media screen and (max-width:767px){
+    .hidden_mobile {
+        display: none;
+    }
+    .mobile_hidden_text br.hidden_desktop{
+        display: block;
+    }
+    .section_real_science .section_title{
+        padding-left: 25px;
+        padding-right: 25px;
+        font-size: 14px;
+    }
+    .dont_belive_it {
+        color: #2d2e2f;
+        font-size: 14px;
+        padding-left: 64px;
+        margin-bottom: 50px;
+    }
+    .section_real_science {
+        background-size: 100%;
+    }
+   
+    .section_header.dark_blue h1{
+        font-size: 18px;
+    }
+    .mobile_weight_light {
+        font-weight: 300;
+    }
+    .section_real_science .container_wrap{
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .action_btn {
+        margin-top: 10px;
+        background: #f5e2aa;
+        margin-left: -25px;
+        padding: 1.5rem 1rem;
+        margin-bottom: 30px;
+        border-radius: 0 30px 30px 0px;
+        max-width: 350px;
+    }
+    .section_real_science .section_heading_h2 {
+        font-size: 30px;
+        padding-left: 25px;
+        padding-right: 25px;
+
+    }
+ 
+    .align_center_smilebrilliant {
+        font-size: 22px;
+    }
+    .custom_col_four{
+        order: 2;
+    }
+    .custom_col_eight{
+        order: 1;
+    }
+    .accordian_row {
+        padding: 0px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .men_apply_cream {
+        position: relative;
+    left: 0%;
+    max-height: 238px;
+    overflow: hidden;
+    max-height: 216px;
+    }
+    .men_apply_cream  img {
+        max-width: 100%;
+    }
+
+}
+
+@media screen and (max-width:400px){
+        .section_header.dark_blue h1 {
+            font-size: 19px;
+        }
+        .men_apply_cream {
+        max-height: 216px;
+        }
+        .section_real_science .section_heading_h2 {
+            font-size: 28px;
+    
+        }
+}

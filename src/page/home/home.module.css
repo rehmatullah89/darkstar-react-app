@@ -1,0 +1,2244 @@
+ @font-face {
+  font-family: "montserrat";
+  src: url("../../../public/assets/fonts/montserrat/Montserrat-Bold.woff2") format("woff2");
+  src: url("../../../public/assets/fonts/montserrat/Montserrat-Bold.woff") format("woff");
+  src: url("../../../public/assets/fonts/montserrat/Montserrat-ExtraBold.woff")format("woff");
+  src: url("../../../public/assets/fonts/montserrat/Montserrat-ExtraBold.woff2")format("woff2");
+  src: url("../../../public/assets/fonts/montserrat/Montserrat-Medium.woff")format("woff");
+  src: url("../../../public/assets/fonts/montserrat/Montserrat-Medium.woff2")format("woff2");
+  src: url("../../../public/assets/fonts/montserrat/Montserrat-Light.woff")format("woff");
+  src: url("../../../public/assets/fonts/montserrat/Montserrat-Light.woff2")format("woff2");
+  src: url("../../../public/assets/fonts/montserrat/Montserrat-Regular.woff")format("woff");
+  src: url("../../../public/assets/fonts/montserrat/Montserrat-Regular.woff2")format("woff2");
+} 
+ @font-face {
+  font-family:"Open Sans";
+  src: url("../../../public/assets/fonts/Open_Sans/OpenSans-Bold.woff2") format("woff2");
+  src: url("../../../public/assets/fonts/Open_Sans/OpenSans-Bold.woff") format("woff");
+  src: url("../../../public/assets/fonts/Open_Sans/OpenSans-Light.woff")format("woff");
+  src: url("../../../public/assets/fonts/Open_Sans/OpenSans-Medium.woff")format("woff");
+  src: url("../../../public/assets/fonts/Open_Sans/OpenSans-Regular.woff")format("woff");
+} 
+.home_page_hero_section {
+  background-image: url(../../../public//assets/woman.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right 100%;
+  padding: 220px 0px 140px 0px;
+  position: relative;
+}
+
+.homepage_wrapper {
+  padding-top: 86px;
+}
+.blue_text h2 {
+  display: inline-block;
+  padding: 20px 20px 20px 0px;
+  background: #3c97cb;
+  border-radius: 24px;
+  color: #fff;
+  font-size: 56px;
+  font-weight: 700;
+  font-family: "Montserrat";
+  position: relative;
+  margin-left: -90px;
+}
+.green_text p {
+  background: #4acac9;
+  display: inline-block;
+  padding: 20px 50px 30px 0px;
+  font-size: 24px;
+  border-radius: 20px;
+  color: #fff;
+  line-height: 28px;
+  font-family: "Montserrat";
+  font-weight: 300;
+  position: relative;
+  margin-left: -86px;
+}
+.green_text {
+  position: relative;
+  top: 10px;
+}
+.circle_image {
+  position: absolute;
+  top: -61px;
+  left: -13%;
+}
+.hero_text_box {
+  position: relative;
+  top: -65px;
+}
+.blue_text:before {
+  content: "";
+  position: absolute;
+  width: 1200px;
+  height: 174px;
+  left: -1192px;
+  top: 0px;
+  background: #3c97cb;
+}
+.green_text:before {
+  content: "";
+  position: absolute;
+  width: 1250px;
+  height: 134px;
+  left: -1192px;
+  top: 0px;
+  background: #4acac9;
+}
+.content_section_one {
+  background-color: #2d2e2f;
+  padding: 20px 0px;
+}
+.optimal_health {
+  text-align: center;
+}
+.optimal_health p {
+  font-size: 40px;
+  color: #fff;
+  font-family: "Montserrat";
+  font-weight: 400;
+  margin-bottom: 0px;
+}
+.optimal_health p b {
+  font-weight: 600;
+  color:#42bab8;
+}
+.content_section_two_stars_logo {
+  background-color: #3d3f40;
+  padding: 30px 0px 5px 0px;
+  text-align: center;
+}
+.content_section_two_stars_logo .heading p {
+  font-size: 35px;
+  color: #fff;
+  font-family: "Montserrat";
+  font-weight: 300;
+  margin-bottom: 0px;
+}
+.content_section_two_stars_logo .heading p b {
+  font-weight: 600 !important;
+}
+.logos_wrapper {
+  max-width: 1440px;
+  margin: 0px auto;
+  padding: 20px 0px;
+}
+
+/* .logo_box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+} */
+.logo_box .logo {
+  padding: 0px 10px;
+}
+.heading_wrapper {
+  padding: 40px 0px 80px 0px;
+  text-align: center;
+  position: relative;
+}
+.heading_wrapper p.america_heading {
+  font-family: "Montserrat";
+  font-size: 48px;
+  text-align: center;
+  font-weight: 500;
+  color: #2d2e2f;
+  margin-bottom: 0px;
+}
+.america_one_wrapper {
+  position: relative;
+  background: #f3f7fa;
+  padding-bottom: 115px;
+  overflow: hidden;
+}
+p.america_heading span {
+  font-weight: 700;
+}
+p.america_paragraph {
+  font-family: "Montserrat";
+  font-size: 24px;
+  text-align: center;
+  font-weight: 400;
+  color: #2d2e2f;
+}
+.font_weight_500 {
+  font-weight: 500;
+}
+.font_weight_700 {
+  font-weight: 700;
+}
+p.america_paragraph span {
+  font-weight: 600;
+}
+.impression_heading h2 {
+  font-weight: 800;
+  font-family: "montserrat";
+  font-size: 36px;
+  margin-bottom: 0px;
+  color: #2d2e2f;
+}
+.impression_heading {
+    position: relative;
+}
+.impression_heading p {
+  font-size: 35px;
+  font-family: "montserrat";
+  font-weight: 600;
+  margin-bottom: 0px;
+  line-height: 1;
+  color: #2d2e2f;
+
+}
+.impression_heading h3 {
+  font-size: 34px;
+  font-family: "montserrat";
+  font-weight: 900;
+  color: #2d2e2f;
+
+}
+.make_impression_wrapper {
+  padding: 40px 0px 20px 96px;
+}
+.buttons{
+  position: relative;
+}
+.buttons a {
+  padding: 10.5px 0px;
+  border-radius: 8px;
+  min-width: 284px;
+  margin-bottom: 15px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "montserrat";
+  display: inline-block;
+  text-align: center;
+  font-weight: 300;
+}
+.dropdown_content .buttons a {
+  width: 100%;
+}
+.whitening_trays_wrapper .buttons a {
+  min-width: 255px;
+  margin-bottom: 0px;
+}
+.whitening_trays_wrapper .buttons {
+  text-align: right;
+  padding-top: 0px;
+}
+a.night_guard {
+  background-color: #331f97;
+}
+a.teeth_white {
+  background-color: #fa319e;
+}
+a.sports_Guard {
+  background-color: #002244;
+}
+.mold_img {
+  max-width: 360.5px;
+  top: -105px;
+  position: relative;
+  left: -70px;
+  z-index: 999;
+}
+.mold_img img,
+.women_img img,
+.nightguard_img img {
+  max-width: 100%;
+  height: auto;
+}
+.women_img {
+  max-width: 533px;
+  position: absolute;
+  top: 87px;
+  left: -15px;
+  z-index: 0;
+}
+.nightguard_img {
+  max-width: 210px;
+  position: absolute;
+  bottom: -115px;
+  left: -193px;
+}
+.buttons {
+  padding-top: 60px;
+}
+.pink_circle {
+  max-width: 300px;
+  height: 300px;
+  position: absolute;
+  right: 0;
+  top: -120px;
+}
+.pink_circle img {
+  max-width: 100%;
+  height: auto;
+}
+.purple_circle {
+  max-width: 300px;
+  height: 450px;
+  position: absolute;
+  bottom: 0;
+}
+.whitening_trays_wrapper {
+  background-color: #3d3f40;
+  padding: 30px 0px;
+}
+.whiening_text p {
+  font-size: 30px;
+  color: #fff;
+  font-family: "montserrat";
+  font-weight: 400;
+  margin-bottom: 0px;
+}
+a.whitening_gel {
+  background-color: #fa319e;
+  margin-right: 25px;
+  min-width: 291px !important
+}
+a.desenitizing_gel {
+  background-color: #b8b8dd;
+  min-width: 291px !important;
+}
+.buttons a:hover,.explore_btn a:hover,.reviews_btn a:hover,a.our_promise:hover {
+  color: #fff;
+  background-color: #595858;
+  border-color: #595858;
+  box-shadow: none;
+  transition: all .5s ease 0;
+}
+.buttons a.micorbiomi:hover{
+  background-color: transparent;
+}
+.caripro_vitals_wrapper {
+  position: relative;
+  background: #fafdfd;
+  overflow-y: hidden;
+  padding-bottom: 80px;
+}
+.caripro_vitals_heading {
+  padding: 80px 0px;
+  position: relative;
+  z-index: 99;
+  text-align: center;
+}
+.caripro_vitals_heading p {
+  font-size: 24px;
+  font-weight: 400;
+  font-family: "montserrat";
+  padding-top: 10px;
+}
+.caripro_vitals_heading p span {
+  font-weight: 600;
+  color: #2d2e2f;
+
+}
+.top_bg_img {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 0;
+}
+.bottom_bg_img {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.bottles_image {
+  max-width: 340px;
+}
+.bottles_image img {
+  max-width: 100%;
+  height: auto;
+}
+.cariproLogo {
+  max-width: 266px;
+  margin: 0px auto;
+}
+.cariproLogo img {
+  max-width: 100%;
+  height: auto;
+}
+.caripro_vital_right_text {
+  padding-left: 100px;
+  position: relative;
+  z-index: 999;
+}
+.caripro_vital_right_text h2 {
+  font-weight: 800;
+  font-size: 48px;
+  position: relative;
+  color: #002244;
+  font-family: "montserrat";
+
+}
+.caripro_vital_right_text p {
+  font-size: 32px;
+  position: relative;
+  padding-top: 25px;
+  font-family: "montserrat";
+  font-weight: 600;
+  line-height: 36px;
+  color: #2d2e2f;
+
+}
+.caripro_vital_right_text p span {
+  font-weight: 700;
+}
+.bottles_image {
+  position: relative;
+  left: 120px;
+  top: 20px;
+  z-index: 99;
+}
+.brush_image {
+  position: absolute;
+  bottom: -170px;
+  z-index: 9;
+}
+.vital_text_wrapper {
+  position: absolute;
+  bottom: 382px;
+  left: -102px;
+  z-index: 9;
+}
+.vital_text_wrapper h1 {
+  transform: rotate(270.5deg);
+  font-size: 205px;
+  color: #d2f2f1;
+  font-family: "montserrat";
+  font-weight: 900;
+}
+.text_slider_wrapper {
+  padding-top: 3.4rem;
+  padding-bottom: 3.4rem;
+  text-align: center;
+  background-color: #002244;
+}
+.align_center_smilebrilliant {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 26px;
+  text-transform: uppercase;
+  line-height: 1.4;
+  color: #fff;
+  font-family: "montserrat";
+}
+.dot_yellow {
+  display: inline-flex;
+  width: 11px;
+  height: 11px;
+  border-radius: 11px;
+  background-color: #00bbb4;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.skin_care_section_wrapper {
+  position: relative;
+  background-color: #f6f4ee;
+  overflow: hidden;
+}
+.women_skin_img {
+  max-width: 690px;
+  position: relative;
+  top: -154px;
+  left: 60px;
+  z-index: 1;
+}
+.women_skin_img img {
+  max-width: 130% !important;
+  height: auto;
+  position: relative;
+  left: -12%;
+  margin-top: -119px;
+}
+.skin_care_content {
+  position: relative;
+  z-index: 99;
+  height: 600px;
+}
+
+.skin_care_content .heading {
+  padding-top: 155px;
+  padding-bottom: 60px;
+}
+.skin_care_content .heading h2 {
+  font-size: 42px;
+  font-weight: 600;
+  color: #2d2e2f;
+  font-family: "montserrat";
+}
+.skin_care_content .heading h2 i,
+.skin_care_content .heading h2 span {
+  font-weight: 900;
+}
+.skin_care_content .parargraph {
+  padding-bottom: 60px;
+}
+.explore_btn a {
+  text-decoration: none;
+  color: #fff;
+  background: #2d2e2f;
+  padding: 13px 60px;
+  border-radius: 6px;
+  font-family: "montserrat";
+  font-weight: 300;
+  font-size: 18px;
+}
+.skin_bottle_image {
+  position: relative;
+  left: 75%;
+  top: -145px;
+  max-width: 292px;
+}
+.buttons p a {
+  padding: 10px 0px;
+    border-radius: 8px;
+    min-width: 284px;
+    margin-bottom: 15px;
+    color: #2d2e2f;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: "montserrat";
+    display: inline-block;
+    text-align: center;
+    font-weight: 400;
+    width: 100%;
+}
+.buttons p a:hover {
+  background-color: transparent;
+  color: #2d2e2f;
+
+
+}
+.skin_bottle_image img {
+  max-width: 100%;
+  height: auto;
+}
+.skincare_bottom_section {
+  background-color: #f4efe2;
+  padding: 38px 0px;
+}
+.skin_bottom_image {
+  position: absolute;
+  bottom: 0;
+}
+.skin_bottom_image img {
+  max-width: 100%;
+  height: auto;
+}
+.custom_container {
+  max-width: 1050px;
+  margin-left: auto;
+}
+.custom_container .align_center_smilebrilliant {
+  color: #2d2e2f;
+  font-weight: 400;
+}
+.custom_container .dot_yellow {
+  background-color: #f0c23a;
+}
+.parargraph p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #2d2e2f;
+
+}
+.reviews_heading {
+  padding-top: 60px;
+  text-align: center;
+}
+.reviews_heading h2 {
+  font-size: 48px;
+  font-family: "montserrat";
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #3d3f40;
+  padding-bottom: 10px;
+}
+.reviews_heading img {
+  margin-bottom: 20px;
+}
+.reviews_heading p {
+  font-size: 24px;
+  font-family: "montserrat";
+  font-weight: 300;
+  color: #3d3f40;
+}
+.reviews_heading p span {
+  font-weight: 700;
+  font-style: italic;
+  color: #3d3f40;
+}
+.reviews_boxes_wrapper {
+  padding-top: 40px;
+}
+.review_box {
+  max-width: 25%;
+  border: 1px solid #a7a6a6;
+  padding: 30px 20px;
+  border-radius: 12px;
+  margin-right: 30px;
+}
+.review_stars {
+  padding-bottom: 30px;
+}
+.review_text p {
+  font-size: 14px;
+  font-family:"Open Sans";
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+
+.review_owner {
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+}
+.check_mark {
+  max-width: 40px;
+}
+.check_mark img {
+  max-width: 100%;
+  height: auto;
+}
+.reviewer_name {
+  padding-left: 10px;
+}
+.reviewer_name h5 {
+  margin-bottom: 0px;
+  line-height: 1;
+  font-size: 14px;
+  font-weight: 600;
+  font-family:"Open Sans";
+  color: #555759;
+}
+.reviewer_name p {
+  margin-bottom: 0px;
+  font-size: 14px;
+  margin-top: 2px;
+  color: #555759;
+  font-family: "montserrat";
+  line-height: 1.1;
+}
+.review_section_wrapper .custom_container {
+  max-width: 1440px;
+}
+.reviews_btn {
+  padding: 80px 0px;
+  text-align: center;
+}
+.reviews_btn a {
+  padding: 13px 80px;
+  border-radius: 8px;
+  font-family: "montserrat";
+  font-weight: 400;
+  background-color: #62b1f4;
+  color: #fff;
+  font-size: 18px;
+  text-decoration: none;
+}
+.blue_logos_wapeer {
+  background-color: #f0f5f9;
+}
+.logo_box img {
+  max-width: 100%;
+  height: auto;
+}
+
+.partnership_banner_bootom {
+  overflow: hidden;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  background: #2d2e2f;
+  position: relative;
+}
+.partnership_banner_bootom:before {
+  content: "";
+  background-image: url("../../../public//assets/bootm_bg.jpg");
+  width: 100%;
+  height: 107%;
+  display: block;
+  position: absolute;
+  left: 0;
+  background-repeat: no-repeat;
+  top: 0;
+  background-size: contain;
+}
+.content_section {
+  position: relative;
+  z-index: 9;
+}
+.image_circle {
+  position: relative;
+  top: 45px;
+  left: 135px;
+}
+.Probiotics {
+  background-color: #9e1e82;
+}
+.enamle {
+  background-color: #002244;
+}
+.highlighters {
+  background-color: #875aa3;
+}
+.dropdown_content .buttons {
+padding-top: 0px;
+}
+.micorbiomi {
+ color:#000 !important;
+}
+.image_circle img {
+  max-width: 65%;
+  height: auto;
+}
+.section_heading_partner {
+  font-size: 36px;
+  color: #fa319e;
+}
+.section_heading_partner span {
+  font-weight: 700;
+}
+.content_section p {
+  color: #fff;
+  padding-top: 30px;
+  font-family: "montserrat";
+  max-width: 600px;
+  font-size: 16px;
+}
+.content_section p span {
+  font-weight: 600;
+}
+p.red_text {
+  color: #fa319e;
+  padding-top: 10px;
+  font-family: "montserrat";
+  max-width: 590px;
+  font-size: 16px;
+  font-weight: 600;
+}
+p.no_string_attach {
+  color: #fff;
+  font-family: "montserrat";
+  font-size: 24px;
+  font-weight: 500;
+  padding-top: 20px;
+  padding-bottom: 35px;
+}
+a.our_promise {
+  background-color: #3c97cb;
+  color: #fff;
+  border-radius: 8px;
+  font-family: "montserrat";
+  text-decoration: none;
+  padding: 13px 60px;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 15px;
+}
+.family_image {
+  position: absolute;
+  bottom: -120px;
+  z-index: -1;
+  left: -105px;
+}
+.family_image img {
+  max-width: 115%;
+}
+p.america_paragraph span {
+  color: #2d2e2f;
+}
+.desktop_hidden {
+  display: none;
+}
+.dropdown_content {
+  max-width: 410px;
+  padding-left: 105px;
+}
+.reviews_heading p {
+  margin-bottom: 0px;
+}
+@media (min-width: 2551px) and (max-width: 2899px) {
+  .partnership_banner_bootom:before {
+    width: 100%;
+    height: 148%;
+    background-size: contain;
+  }
+  .image_circle {
+    left: 5px !important;
+  }
+  .bottom_bg_img img {
+    width: 142%;
+    height: auto;
+   }
+   .bottom_bg_img{
+    bottom: -49px;
+    left: 0;
+   }
+   .vital_text_wrapper {
+    left: 200px;
+   }
+}
+@media (min-width: 2400px) and (max-width: 2550px) {
+  .partnership_banner_bootom:before {
+    width: 100%;
+    height: 137%;
+    background-size: contain;
+  }
+  .skin_bottom_image {
+    bottom: -16px;
+  }
+  .skin_bottom_image img {
+    max-width: 135% !important;
+    height: auto;
+    width: 135% !important;
+  }
+  .bottom_bg_img img {
+    width: 129%;
+    height: auto;
+   }
+   .bottom_bg_img {
+    bottom: -60px;
+   }
+   .vital_text_wrapper {
+    bottom: 398px;
+    left: 125px;
+   }
+}
+@media (min-width: 2000px) and (max-width: 2299px) {
+  .partnership_banner_bootom:before {
+    height: 122%;
+    background-size: contain;
+  }
+  .skin_bottom_image {
+    bottom: -16px;
+  }
+  .skin_bottom_image img {
+    max-width: 115% !important;
+    height: auto;
+    width: 115% !important;
+  }
+  .bottom_bg_img img {
+   width:112%
+  }
+  .vital_text_wrapper {
+    left: 0px;
+  }
+}
+@media (min-width: 1600px) and (max-width: 1799px) {
+  .partnership_banner_bootom:before {
+    left: -111px;
+  }
+}
+@media (max-width: 1599px) {
+  .partnership_banner_bootom:before {
+    height: 100%;
+    left: -140px;
+  }
+}
+
+@media screen and (min-width:1600px) and (max-width:1766px){
+    .vital_text_wrapper {
+        left: -180px;
+      }
+      .vital_text_wrapper h1 {
+        font-size: 180px;
+      }
+}
+
+@media screen and (min-width: 1400px) and (max-width: 1599px) {
+  .circle_image {
+    top: -115px;
+    left: -25%;
+  }
+  .blue_text h2 {
+    font-size: 38px;
+    margin-left: 0px;
+  }
+  .blue_text:before {
+    height: 132px;
+    left: -1150px;
+  }
+  .green_text p {
+    font-size: 18px;
+    margin-left: 0px;
+  }
+  .green_text:before {
+    left: -1192px;
+  }
+  .vital_text_wrapper {
+    left: -235px;
+  }
+  .vital_text_wrapper h1 {
+    font-size: 180px;
+  }
+  .logos_wrapper{
+    padding:20px 20px;
+  }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1399px) {
+  .home_page_hero_section {
+    background-position: center;
+  }
+  .blue_text h2 {
+    font-size: 39px;
+    margin-left: 64px;
+  }
+  .blue_text:before {
+    height: 134px;
+    left: -1080px;
+  }
+  .green_text p {
+    font-size: 20;
+    margin-left: 60px;
+  }
+  .green_text:before {
+    left: -1158px;
+  }
+  .circle_image {
+    top: -114px;
+    left: -26%;
+  }
+  .optimal_health p {
+    font-size: 28px;
+  }
+  .logo_box {
+    padding: 0px 40px;
+  }
+  .heading_wrapper {
+    position: relative;
+  }
+  .make_impression_wrapper {
+    position: relative;
+  }
+  .whiening_text p {
+    font-size: 28px;
+  }
+  .caripro_vital_right_text h2 {
+    font-size: 32px;
+  }
+  .caripro_vital_right_text p {
+    font-size: 24px;
+  }
+  .caripro_vitals_heading p {
+    font-size: 18px;
+  }
+  .bottom_bg_img {
+    left: -20%;
+  }
+  .brush_image {
+    bottom: -170px;
+    max-width: 530px;
+    left: 150px;
+  }
+  .brush_image img {
+    max-width: 100%;
+    height: auto;
+  }
+  .bottles_image {
+    left: 175px;
+    top: 50px;
+  }
+  .vital_text_wrapper h1 {
+    font-size: 156px;
+  }
+  .vital_text_wrapper {
+    left: -188px;
+  }
+  .skin_care_content .heading h2 {
+    font-size: 34px;
+  }
+  .skin_bottom_image {
+    bottom: -96px;
+    left: -96px;
+  }
+  .section_heading_partner {
+    font-size: 28px;
+  }
+  .content_section p,
+  p.red_text {
+    font-size: 14px;
+  }
+  .partnership_banner_bootom:before {
+    left: -150px;
+  }
+}
+@media screen and (max-width:1399px){
+  a.whitening_gel {
+    min-width: 200px !important;
+    font-size: 18px !important;
+    margin-right: 15px !important;
+  }
+  a.desenitizing_gel {
+    min-width: 234px !important;
+    font-size: 18px !important;
+
+  }
+}
+@media screen and (min-width: 1025px) and (max-width: 1199px) {
+  .home_page_hero_section {
+    background-position: center;
+  }
+  .blue_text h2 {
+    font-size: 38px;
+    margin-left: -35px;
+  }
+  .green_text p {
+    font-size: 18px;
+    line-height: 28px;
+    margin-left: -35px;
+  }
+  .circle_image {
+    left: -35%;
+  }
+  .blue_text:before {
+    height: 131px;
+  }
+  .optimal_health p {
+    font-size: 28px;
+  }
+  .logo_box {
+    padding: 0px 40px;
+  }
+  .heading_wrapper {
+    position: relative;
+  }
+  .impression_heading h2 {
+    font-size: 28px;
+  }
+  .impression_heading p {
+    font-size: 26px;
+  }
+  .impression_heading h3 {
+    font-size: 27px;
+  }
+  .mold_img {
+    max-width: 220px;
+    top: -35px;
+    left: -40px;
+  }
+  .nightguard_img {
+    max-width: 120px;
+    bottom: -83px;
+    left: -140px;
+  }
+  .whiening_text p {
+    font-size: 24px;
+  }
+  .whitening_trays_wrapper .buttons {
+    text-align: left;
+  }
+  .whitening_trays_wrapper .buttons a {
+    min-width: 213px;
+  }
+  a.whitening_gel {
+    margin-right: 5px;
+  }
+  .whitening_trays_wrapper .buttons a {
+    padding: 10px 12px;
+  }
+  .caripro_vitals_heading p {
+    font-size: 18px;
+  }
+  .caripro_vital_right_text h2 {
+    font-size: 28px;
+  }
+  .caripro_vital_right_text p {
+    font-size: 20px;
+    padding-top: 10px;
+  }
+  .brush_image {
+    max-width: 528px;
+    bottom: -154px;
+  }
+  .brush_image img {
+    max-width: 100%;
+    height: auto;
+  }
+  .caripro_vitals_heading {
+    padding: 80px 0px 40px 0px;
+  }
+  .bottles_image {
+    left: 86px;
+    top: 20px;
+  }
+  .vital_text_wrapper h1 {
+    font-size: 157px;
+  }
+  .vital_text_wrapper {
+    bottom: 368px;
+    left: -214px;
+  }
+  .bottom_bg_img {
+    left: -20%;
+  }
+  .skin_care_content .heading {
+    padding-top: 105px;
+    padding-bottom: 30px;
+  }
+  .skin_bottom_image {
+    bottom: -75px;
+    left: -80px;
+  }
+  .skin_care_content .parargraph {
+    padding-bottom: 95px;
+  }
+  .skin_care_content .heading h2 {
+    font-size: 28px;
+  }
+  .partnership_banner_bootom:before {
+    left: -212px;
+  }
+  .image_circle {
+    top: 70px;
+    left: 67px;
+  }
+  .section_heading_partner {
+    font-size: 24px;
+  }
+  .content_section p,
+  p.red_text {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width:768px) and (max-width:1024px) {
+ 
+  .dropdown_content{
+    max-width: 284px;
+    margin: 0px auto;
+    z-index: 9;
+    padding-left: 0px;
+    position: relative;
+  }
+  .skin_bottle_image {
+    top: -190px;
+  }
+  .dropdown_content .buttons a {
+    min-width: 100%;
+  }
+  .impression_heading h2 {
+    font-size: 22px;
+  }
+  .make_impression_wrapper{
+    padding:40px 0px 20px 40px;
+  }
+  .impression_heading p {
+    font-size: 22px;
+  }
+  .bottles_image {
+    top: 30px;
+  }
+  .impression_heading h3 {
+    font-size: 31px;
+  }
+  .women_img{
+    display: block;
+    top: 135px;
+  }
+  .mold_img{
+    top: -20px;
+  }
+  .nightguard_img{
+    bottom: -135px;
+    left: -208px;
+  }
+  .circle_image {
+    position: absolute;
+    top: 60px;
+    left: -17%;
+    width: 450px;
+    height: 450px;
+  }
+  .whitening_trays_wrapper {
+    display: none;
+  }
+  .caripro_vitals_heading{
+    padding:80px 0px 40px 0px;
+  }
+  .vital_text_wrapper{
+    left: -47%;
+  }
+  .caripro_vital_right_text h2 {
+    font-size: 26px;
+  }
+  .caripro_vital_right_text p {
+    font-size: 24px;
+  }
+  .caripro_vital_right_text p br {
+   display: none;
+  }
+  .brush_image{
+    position: absolute;
+    bottom: -57px;
+    left: 25px;
+    max-width: 500px;
+    z-index: 9;
+    height: 500px;
+  }
+  .reviews_heading p {
+    font-size: 16px;
+  }
+  .review_box {
+    padding: 10px 20px;
+    margin-right: 20px !important;
+  }
+  .content_section_two_stars_logo{
+    padding:30px 0px 0px 0px;
+  }
+
+  .partnership_banner_bootom:before{
+    height: 100%;
+    left: -43%;
+  }
+  .skin_bottle_image{
+    max-width: 300px;
+  }
+  .women_skin_img {
+    max-width: 750px;
+    top: -48px;
+  }
+  a.our_promise{
+    padding: 13px 40px;
+  }
+  .skin_care_content .heading h2 {
+    font-size: 24px;
+  }
+  .bottles_image {
+    left: 40px; 
+    top: 70px;
+  }
+  .caripro_vital_right_text{
+    padding-left: 40px;
+  }
+  .bottom_bg_img {
+    max-width: 100%;
+  }
+  .bottom_bg_img img {
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+  }
+  .circle_image img {
+    height: auto;
+  }
+  .brush_image img {
+    max-width: 100%;
+    height: auto;
+  }
+  .home_page_hero_section {
+    background-position: center;
+  }
+  .blue_text h2 {
+    padding: 20px 20px 20px 30px;
+    font-size: 24px;
+    margin-left: 0px;
+  }
+  .blue_text:before {
+    height: 97px;
+    left: -1052px;
+  }
+  .green_text p {
+    padding: 20px 50px 18px 30px;
+    font-size: 14px;
+    line-height: 24px;
+    margin-left: 0px;
+  }
+  .green_text:before{
+    height: 110px;
+  }
+  .heading_wrapper {
+    position: relative;
+  }
+  .homepage_wrapper {
+    padding-top: 65px;
+  }
+}
+@media screen and (min-width:810px) and (max-width:1024px) {
+  .women_img {
+    max-width: 370px;
+    left: 10px;
+    top: 190px !important;
+  }
+  .women_img img{
+    max-width: 120%;
+  }
+  .review_section_wrapper{
+    max-width: 95%; 
+   
+  }
+}
+@media screen and (min-width:768px) and (max-width:991px){
+  .review_box {
+    max-width: 100%;
+  }
+  .skin_bottle_image {
+    left: 110%;
+  }
+  .review_section_wrapper{
+    max-width: 95%; 
+    margin: 0px auto;
+    overflow-x: hidden;
+  }
+  .review_section_wrapper .custom_container {
+    max-width: 100%;
+  }
+  .image_circle {
+    top: 250px;
+    left: -35px;
+  }
+  .image_circle img{
+    max-width: 90%;
+  }
+}
+@media screen and (max-width: 991px) and (orientation:landscape) {
+  .skin_bottle_image {
+    top: -190px;
+  }
+  .impression_heading h2 {
+    font-size: 22px;
+  }
+  .make_impression_wrapper{
+    padding:40px 0px 20px 40px;
+  }
+  .impression_heading p {
+    font-size: 22px;
+  }
+  .bottles_image {
+    top: 30px;
+  }
+  .impression_heading h3 {
+    font-size: 31px;
+  }
+  .women_img{
+    display: block;
+    top: 135px;
+  }
+  .mold_img{
+    top: -20px;
+  }
+  .nightguard_img{
+    bottom: -135px;
+    left: -208px;
+  }
+  .circle_image {
+    position: absolute;
+    top: 60px;
+    left: -17%;
+    width: 450px;
+    height: 450px;
+  }
+  .whitening_trays_wrapper {
+    display: none;
+  }
+  .caripro_vitals_heading{
+    padding:80px 0px 40px 0px;
+  }
+  .vital_text_wrapper{
+    left: -36%;
+  }
+  .caripro_vital_right_text h2 {
+    font-size: 26px;
+  }
+  .caripro_vital_right_text p {
+    font-size: 24px;
+  }
+  /* .caripro_vital_right_text p br {
+   display: none;
+  } */
+  .brush_image{
+    position: absolute;
+    bottom: -57px;
+    left: 25px;
+    max-width: 500px;
+    z-index: 9;
+    height: 500px;
+  }
+  .reviews_heading p {
+    font-size: 16px;
+  }
+  .review_box {
+    padding: 10px;
+    margin-right: 10px;
+  }
+  .content_section_two_stars_logo{
+    padding:30px 0px 0px 0px;
+  }
+  /* .reviews_boxes_wrapper {
+    display: flex;
+    align-items: center;
+  } */
+  .partnership_banner_bootom:before{
+    height: 100%;
+    left: -43%;
+  }
+  .skin_bottle_image{
+    max-width: 300px;
+  }
+  .women_skin_img {
+    max-width: 750px;
+    top: -48px;
+  }
+  .skin_care_content .heading h2 {
+    font-size: 24px;
+  }
+  .bottles_image {
+    left: 40px;
+    top: 70px;
+  }
+  .caripro_vital_right_text{
+    padding-left: 40px;
+  }
+  .bottom_bg_img {
+    max-width: 535px;
+  }
+  .bottom_bg_img img {
+    max-width: 100%;
+    height: auto;
+  }
+  .circle_image img {
+    height: auto;
+  }
+  .brush_image img {
+    max-width: 100%;
+    height: auto;
+  }
+  .home_page_hero_section {
+    background-position: center;
+  }
+  .blue_text h2 {
+    padding: 20px 20px 20px 30px;
+    font-size: 24px;
+    margin-left: 0px;
+  }
+  .blue_text:before {
+    height: 97px;
+    left: -1052px;
+  }
+  .green_text p {
+    padding: 20px 50px 18px 30px;
+    font-size: 14px;
+    line-height: 24px;
+    margin-left: 0px;
+  }
+  .green_text:before{
+    height: 110px;
+  }
+  .heading_wrapper {
+    position: relative;
+  }
+
+}
+
+@media screen and (max-width: 767px) {
+  .logo_box img {
+    max-width: 75% !important;
+    height: auto;
+  }
+  .reviews_heading img {
+    max-width: 110px;
+    height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 6px;
+
+  }
+  .review_owner {
+    padding-top: 15px;
+  }
+  .reviewer_name h5 {
+    font-size: 12px;
+    font-weight: 900;
+  }
+  .reviewer_name p {
+    font-size: 10px;
+    font-weight: 600;
+  }
+  .reviews_heading h2 {
+    padding-bottom: 0px;
+  }
+  .skin_care_content:before{ 
+    content: '';
+        position: absolute;
+        width: 160%;
+        height: 493px;
+        max-width: 160%;
+        bottom: -76px;
+        background-image: url(../../../public/assets/skin_bottom.png);
+        z-index: -1;
+        left: -12px;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+  }
+  .purple_image_bottom_section img {
+    max-width: 100%;
+    position: absolute;
+    height: auto;
+    transform: rotate(-14deg);
+    bottom: -300px;
+    left: -195px;
+    z-index: 1;
+  }
+  .women_img_puple_bg img {
+    color: transparent;
+    max-width: 100%;
+    height: auto;
+    position: absolute;
+    bottom: -165px;
+    right: -100px;
+    z-index: 0;
+  }
+  .impression_heading {
+    z-index: 9;
+  }
+  .homepage_wrapper {
+    padding-top: 65px;
+  }
+  .align_center_smilebrilliant {
+    font-size: 18px;
+  }
+  .dropdown_content {
+    max-width: 330px;
+    margin: 0px auto;
+    padding-left: 0px;
+  }
+  .micorbiomi{
+    display: none !important;
+  }
+  .dropdown_content .buttons {
+    padding-top: 0px;
+    position: relative;
+    z-index: 4;
+  }
+  .review_box {
+    max-width: 100%;
+    margin-right: 20px;
+    padding: 10px 20px;
+  }
+  .vital_text_wrapper{  
+    top: 405px;
+    /* right: 110px; */
+    left: unset;
+    z-index: 2;
+  }
+  .skin_care_content{
+    height: 560px !important;
+  }
+  .skin_care_content .parargraph p {
+    margin-top: -35px;
+    margin-bottom: 5px;
+  }
+  .reviews_boxes_wrapper {
+    padding-top: 20px;
+  }
+  .mobile_slider{
+    padding: 15px 0px;
+    position: relative;
+    background-color: #f4efe2;
+    z-index: 99;
+    margin-top: 8px;
+  }
+  .purple_circle img {
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+    bottom: -30px;
+  }
+  .purple_circle ,.bottom_bg_img{
+    max-width: 100%;
+    width: 100%;
+  }
+  .bottom_bg_img img{
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+
+  }
+  .rating_stars {
+    max-width: 80%;
+    margin: 0px auto;
+  }
+  .skin_bottle_image{
+    top: -20px;
+    left: 0%;
+    max-width: 100%;
+  }
+  .rating_stars img {
+    max-width: 87px  !important;
+    height: auto;
+  }
+  .skin_care_content .parargraph{
+    padding-bottom: 30px;
+    text-align: center;
+  }
+  .review_stars {
+    padding-bottom: 20px;
+    padding-top: 15px;
+  }
+  .explore_btn{
+    text-align: center;
+  }
+  .skin_care_content .parargraph p br {
+    display: none;
+  }
+  .reviews_btn {
+    padding: 50px 0px;
+  }
+  .skin_care_content .parargraph p {
+    font-weight: 600;
+    padding-top: 10px;
+    font-size: 12px;
+    max-width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+  
+  .caripro_vitals_wrapper{
+    overflow: hidden;
+    padding-bottom: 30px;
+  }
+  .skin_bottom_image img {
+    max-width: 216%;
+        width: 216%;
+  }
+  .reviews_heading h2 {
+    font-size: 18px;
+  }
+  .reviews_heading p {
+    font-size: 14px;
+  }
+  .partnership_banner_bootom:before{
+    left: -303px;
+    transform: rotate(13deg);
+    width: 148%;
+    top: -114px;
+  }
+  .women_skin_img{
+    max-width: 100%;
+  }
+  .women_skin_img img{
+    max-width: 110% !important;
+    height: auto;
+    left: -4% !important;
+  }
+  .skin_care_content .heading h2 {
+    font-size: 28px;
+    text-align: center;
+  }
+  .skin_care_content .heading{
+    padding-top: 0px;
+  }
+  .women_skin_img{
+    top: -60px;
+    left: 0px;
+  }
+  .vital_text_wrapper h1{
+    font-size: 148px;
+  }
+  .women_img{
+    display: block;
+  }
+  .purple_circle {
+    height: auto;
+  }
+  .caripro_vital_right_text{
+    padding-left: 0px;
+    position: relative;
+    z-index: 9;
+    padding-bottom: 30px;
+  }
+  .text_slider_wrapper{
+    position: relative;
+    z-index: 9;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 8px;
+  }
+  .brush_image{
+    bottom: 181px;
+    max-width: 390px;
+    margin: 0px auto;
+  }
+  .brush_image {
+    z-index: 3;
+  }
+  .brush_image img {
+    max-width:100%;
+    height: auto;
+  }
+  .bottles_image {
+    margin: 0px auto;
+    max-width: 200px;
+    left: 0px;
+    top: -25px !important;
+    margin-bottom: 115px !important;
+  }
+  .review_text p, .reviewer_name p {
+    font-size: 12px;
+  }
+  .reviewer_name h5 {
+    font-size: 14px;
+  }
+  .bottles_image img {
+    max-width: 100%;
+    height: auto;
+  }
+  .blue_logos_wapeer .logos_wrapper {
+    padding: 10px 0px 10px 0px;
+  }
+  .caripro_vital_right_text h2 {
+    font-size: 32px;
+    text-align: center;
+    
+  }
+  .caripro_vital_right_text p {
+    font-size: 12px;
+    text-align: center;
+    line-height: 18px;
+  }
+  
+  .caripro_vitals_heading {
+    padding: 40px 0px 30px 0px;
+  }
+  .cariproLogo{
+    max-width: 160px;
+  }
+  .caripro_vital_right_text p br {
+    display: none;
+  }
+  .top_bg_img {
+    right: -61px;
+    top: -290px;
+  }
+  .mobile_hidden{
+    display: none;
+  }
+  .america_one_wrapper{
+    padding-bottom: 60px;
+  }
+  .impression_heading h2 {
+    font-size: 28px;
+    padding-top: 60px;
+    text-align: center;
+  }
+  .mold_img{
+    top: 19px;
+    position: relative;
+    left: 34px;
+    z-index: 999; 
+    max-width: 272px;
+  }
+  .nightguard_img {
+    bottom: -90px;
+    right: 0;
+    left: auto;
+    max-width: 200px;
+  }
+  .heading_wrapper {
+    padding: 130px 0px 0px 0px;
+    position: relative;
+  }
+  .impression_heading p {
+    font-size: 26px;
+    text-align: center;
+  }
+  .impression_heading h3 {
+    font-size: 26px;
+    text-align: center;
+  }
+  .desktop_hidden {
+    display: block;
+  }
+  /* .top_bg_img {
+    z-index: 1;
+  } */
+  .family_image {
+    position: absolute;
+    bottom: -70px;
+    z-index: -1;
+    left: -80px;
+  }
+  .family_image img {
+    max-width: 100%;
+    height: auto;
+  }
+  .heading_wrapper p.america_heading{
+    font-size: 24px;
+    font-weight: 500;
+  }
+  p.america_paragraph {
+    font-size: 12px;
+    padding-top: 20px;
+    font-weight: 500;
+
+  }
+  .make_impression_wrapper{
+    padding: 40px 0px 20px 0px;
+    text-align: center;
+  }
+  .buttons{
+    padding-top: 20px;
+  }
+  .pink_circle {
+    max-width: 300px;
+    height: 300px;
+    position: absolute;
+    left: -113px;
+    top: -285px;
+    transform: rotate(315deg);
+  }
+  .content_section_two_stars_logo {
+    padding: 30px 0px 0px 0px;
+  }
+  .home_page_hero_section{ background:none;    padding: 183px 0px 35px 0px;    position: relative;}
+  .home_page_hero_section_mobile {
+    background-image: url(../../../public/assets/mbl_hero.jpg);
+    background-position: right;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+  }
+ 
+  .image_circle {
+    top: 0; 
+     left: 0; 
+    max-width: 300px;
+    margin: 0px auto;
+  } 
+  .image_circle img {
+    max-width: 100%;
+  }
+  .circle_image img {
+    width: 410px !important;
+    height: 410px !important;
+  }
+  .section_heading_partner {
+    font-size: 26px;
+    padding-top: 30px;
+    text-align: center;
+  }
+  .content_section p {
+    font-size: 14px;
+    padding: 10px 15px 0px 15px;
+    text-align: center;
+  }
+  .content_section{
+    text-align: center;
+  }
+  .section_heading_partner  br {
+    display: none;
+  }
+  .circle_image {
+    position: absolute;
+    top: 0px;
+    left: -65%;
+  }
+  .blue_text h2 {
+    padding: 20px 20px 20px 30px;
+    font-size: 23px;
+    margin-left: 0px;
+  }
+  .blue_text:before {
+    height: 97px;
+    left: -1052px;
+  }
+  .green_text p {
+    padding: 20px 30px 18px 30px;
+    font-size: 14px;
+    line-height: 24px;
+    margin-left: 0px;
+    font-weight: 400;
+    border-radius: 40px;
+  }
+  .green_text:before {
+    height: 110px;
+  }
+  .optimal_health p {
+    font-size: 18px;
+  }
+  .content_section_two_stars_logo .heading p {
+    font-size: 14px;
+    padding-top: 10px;
+  }
+  .skin_bottle_image {
+    top: -20px;
+    left: 12%;
+    max-width: 75%;
+}
+p.no_string_attach {
+  font-size: 18px;
+  margin-bottom: 60px;
+}
+.blue_text h2 {
+  padding: 20px 45px 20px 30px;
+}
+.skin_care_content .heading {
+  margin-top: -30px !important;
+}
+.logo_box img {
+  max-width: 70%;
+  height: auto;
+}
+.skincare_bottom_section{
+  padding: 15px 0px;
+}
+.heading_wrapper {
+  z-index: 999;
+}
+.vital_text_wrapper{
+  /* top: 370px;
+  left: -58px; */
+  top: 75%;
+  transform: rotate(-90deg);
+  left: 111px;
+  transform: rotate(179deg);
+}
+.vital_text_wrapper h1 {
+  position: absolute;
+        bottom: 100%;
+        -webkit-transform: rotateZ(90deg);
+        transform-origin: 0 100%;
+}
+}
+
+@media screen and (min-width:991px){
+  /* .content_section_two_stars_logo .logos_wrapper .logo_box, .blue_logos_wapeer .logos_wrapper .logo_box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  } */
+  .reviews_boxes_wrapper {
+    display: flex;
+    align-items: center;
+  }
+  /* .logo_health {
+    max-width: 130px;
+  }
+  .logo_forbee {
+    max-width: 140px;
+  
+  } */
+  .reviews_boxes_wrapper {
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .logo_box img {
+    max-width: 80%;
+  }
+  /* .logo_fox {
+    max-width: 90px;
+  
+  }
+  .logo_post {
+    max-width: 240px;
+  
+  }
+  .logo_sleep {
+    max-width: 140px;
+  
+  }
+  .logo_cnet {
+    max-width: 100px;
+  
+  }
+  .logo_allure {
+    max-width: 135px;
+  
+  }
+  .logo_refine {
+    max-width: 40px;
+  
+  } */
+}
+
+@media screen and (max-width:1024){
+  .review_box{
+    max-width: 100%;
+  }
+  .dropdown_content {
+    max-width: 410px;
+    margin: 0px auto;
+    padding-left: 0px;
+  }
+}
+
+
+@media screen and (max-width:430px){
+  .purple_circle {
+    bottom: -30px;
+  }
+  .section_heading_partner {
+    padding: 40px 31px 31px 20px;
+  }
+  /* .vital_text_wrapper {
+    right: 115px;
+  }  */
+  .skincare_bottom_section{
+    padding: 30px 0px;
+  }
+  /* .skin_bottom_image img {
+    max-width: 132%;
+        width: 132%;
+  } */
+} 
+@media screen and (max-width:430px){
+  .bottles_image{
+    margin-bottom: 85px;
+    top: 0;
+  }
+  .caripro_vital_right_text h2 {
+    font-size: 37px;
+  }
+  .skin_bottle_image{
+    top: -20px;
+    left: 12%;
+    max-width: 75%;
+}
+.purple_image_bottom_section img {
+  left: -175px;
+}
+.skin_care_content .parargraph p {
+  margin-bottom: 15px;
+}
+.blue_text h2 {
+  padding: 20px 45px 20px 30px;
+}
+.section_heading_partner {
+  padding: 40px 31px 10px 31px;
+}
+.blue_text:before{
+  height: 105px;
+  padding: 20px 15px 20px 30px;
+}
+.blue_text h2 {
+  font-size: 27px;
+}
+p.america_paragraph {
+  padding: 20px 30px 0px 30px ;
+
+}
+/* .vital_text_wrapper {
+  right: 125px;
+  top: 370px;
+} */
+}
+@media screen and (max-width:395px){
+  /* .skin_bottom_image img {
+    max-width: 146%;
+        width: 146%;
+  } */
+  p.america_paragraph {
+    padding: 20px 10px 0px 10px ;
+
+  }
+  /* .vital_text_wrapper{
+    right: 84px;
+    top: 372px;
+  } */
+  .align_center_smilebrilliant {
+    font-size: 22px;
+  }
+  .logo_box img {
+    max-width: 100%;
+    height: auto;
+  }
+  .blue_text h2 {
+    padding: 20px 15px 20px 30px;
+  }
+  .skincare_bottom_section{
+    padding: 20px 0px;
+  }
+  .blue_text::before{
+    height: 102px;
+  }
+  .blue_text h2 {
+    font-size: 26px;
+  }
+  .bottles_image{
+    margin-bottom: 45px;
+  }
+  .skin_bottle_image {
+    top: -20px;
+    left: 10%;
+    max-width: 85%;
+}
+.caripro_vital_right_text h2 {
+  font-size: 34px;
+}
+.section_heading_partner {
+  padding: 40px 29px 10px 29px;
+}
+.women_img_puple_bg img{
+  bottom: -126px;
+  right: -100px;
+}
+.purple_image_bottom_section img{
+  bottom: -265px;
+        left: -170px;
+}
+.skincare_bottom_section{
+  padding: 30px 0px;
+}
+}
+@media screen and (max-width:375px){
+  .align_center_smilebrilliant {
+    font-size: 18px;
+  }
+  /* .skin_bottom_image img {
+    max-width: 153%;
+        width: 153%;
+  } */
+  /* .vital_text_wrapper {
+    right: 72px;
+  } */
+  .bottles_image {
+    margin-bottom: 90px !important;
+  }
+  .skincare_bottom_section{
+    padding: 30px 0px;
+  }
+  .bottles_image{
+    margin-bottom: 60px;
+  }
+ /* .vital_text_wrapper {
+  top: 370px;
+ } */
+  .skin_bottle_image {
+    top: -20px;
+    left: 5%;
+    max-width: 87%;
+}
+.skin_care_content .parargraph p {
+  margin-bottom: 5px;
+}
+.blue_text h2 {
+  padding: 20px 15px 20px 30px;
+}
+.blue_text::before{
+  height: 102px;
+}
+.blue_text h2 {
+  font-size: 26px;
+}
+.section_heading_partner {
+  padding: 40px 20px 10px 20px;
+}
+a.our_promise {
+  padding: 13px 40px;
+}
+}
+
+@media screen and (max-width:375px){
+  .women_img_puple_bg img{
+    bottom: -100px;
+        right: -100px;
+  }
+  .purple_image_bottom_section img{
+    bottom: -248px;
+        left: -140px;
+  }
+  .top_bg_img {
+    right: -61px;
+    top: -310px;
+  }
+}
+@media screen and (max-width:400px){
+  /* .skin_bottom_image img {
+    max-width: 150%;
+        width: 150%;
+  } */
+}
+@media screen and (max-width:360px){
+  .blue_text:before{
+    height: 101px;
+  }
+  .blue_text h2 {
+    font-size: 25px;
+    padding: 20px 15px 20px 30px;
+  }
+  .skincare_bottom_section{
+    padding: 20px 0px;
+  }
+  .top_bg_img {
+    right: -61px;
+    top: -320px;
+  }
+  .heading_wrapper p.america_heading{
+    font-size: 23px;
+  }
+  .impression_heading h3 {
+    font-size: 24px;
+  }
+  .impression_heading h2 {
+    font-size: 26px;
+  }
+}
+
+@media screen and (min-width:431px) and (max-width:767px){
+  .purple_image_bottom_section img,.bottom_bg_img img {
+    max-width: 70%;
+  }
+  .women_img_puple_bg img {
+    max-width: 70%;
+
+  }
+  .brush_image {
+    max-width: 100%;
+  }
+  .skin_care_content{
+    height: 100% !important;
+  }
+  .skin_care_content:before{
+   left:-160px !important;
+  }
+  .skincare_slider {
+    max-width: 100% !important;
+  }
+  /* .vital_text_wrapper {
+    left: -36%;
+    right: unset;
+  } */
+  .mobile_mold_img{
+    max-width: 400px;
+    margin: 0px auto;
+  }
+  .pink_circle{
+    left: initial;
+    right: inherit;
+    margin: 0px auto;
+  }
+.circle_image{
+  left: -30%;
+}
+.blue_text:before{
+  height: 95px;
+}
+.bottom_bg_img.mobile_hidden {
+  display: block !important;
+}
+.bottom_bg_img.desktop_hidden {
+  display: none !important;
+}
+.bottom_bg_img.mobile_hidden img {
+  max-width: 100% !important;
+}
+}
+
+@media screen and (max-width:359px){
+  .blue_text h2 {
+    font-size: 20px;
+  }
+  .blue_text:before{
+    height: 88px;
+  }
+}

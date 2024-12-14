@@ -1,0 +1,743 @@
+.enamelArmourrWrapper {
+  background-color: #effbfb;
+  padding-top: 80px;
+}
+
+.retainCleanerInnerWrapper {
+  padding-top: 30px;
+}
+
+.retainCleanerColumn {
+  text-align: center;
+}
+.scienceOfSensitiveTeethWrapper {
+  margin-top: 117px;
+  margin-bottom: 80px;
+}
+.sensitiveTeethDetails h4 {
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  text-align: center;
+  font-family:
+    'Open Sans',
+    'BlinkMacSystemFont',
+    -apple-system,
+    'Roboto',
+    'Lucida Sans';
+  font-size: 38px;
+  margin-bottom: 30px;
+}
+.sensitiveTeethDetails p {
+  line-height: 1.4;
+  font-size: 24px;
+  text-align: center;
+  font-weight: 400;
+  color: #565759;
+  font-family:
+    'Open Sans',
+    'BlinkMacSystemFont',
+    -apple-system,
+    'Roboto',
+    'Lucida Sans';
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.enamelArmourrWrapper .retainCleanerInnerWrapper .container {
+  max-width: 1440px;
+  margin: 0px auto;
+}
+
+.retainCleanerColumn {
+  padding-top: 20px;
+  padding-right: 1.25rem;
+  padding-left: 1.25rem;
+}
+
+.retainCleanerColumn img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 35px;
+}
+
+.retainerCleanerBannerDetails {
+  max-width: 340px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.retainerDetailInner {
+  margin-bottom: 35px;
+}
+
+.retainerCleanerBannerDetails .retainerDetailInner h2 {
+  margin-top: 80px;
+  font-size: 30px;
+  font-weight: 700;
+  color: #565759;
+  line-height: 30px;
+  font-family: 'Montserrat';
+}
+
+.retainerDetailInner .cariproTop {
+  position: relative;
+  font-weight: 800;
+}
+
+.retainerDetailInner .tmSymbol {
+  font-size: 8px;
+  position: absolute;
+  top: -4px;
+}
+.sealPresDetail .cariproTOp {
+  position: relative;
+  font-weight: 800;
+  font-weight: 600;
+}
+.sealPresDetail .tmSymbol {
+  font-size: 15px;
+  position: absolute;
+  top: 10px;
+  right: 15px;
+}
+.retainerCleanerBannerDetails .retainerDetailInner h1 {
+  font-size: 48px;
+  font-weight: 600;
+  font-family: 'Montserrat';
+  color: #00b5bb;
+  letter-spacing: 0;
+  line-height: 1;
+  margin-top: 9px;
+}
+
+.retainerCleanerBannerDetails .retainerDetailInner p {
+  color: #3a3a3a;
+  line-height: 20px;
+  font-size: 14px;
+  margin-bottom: 32px;
+  font-family: 'Open sans';
+}
+
+.btnPrimaryDarkBlue {
+  text-decoration: none;
+  background-color: #00b5bb;
+  border-color: #00b5bb;
+  font-size: 18px;
+  color: #fff;
+  display: inline-block;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  user-select: none;
+  background-image: none;
+  height: auto;
+  padding: 11px 40px;
+  border: 2px solid;
+  font-weight: 300;
+  border-width: 1px;
+  border-radius: 0;
+  font-family: 'Montserrat';
+  text-shadow: none;
+}
+.btnPrimaryDarkBlue:hover,.btnlearnScience:hover {
+  background-color: #595858;
+    border-color: #595858;
+    color:#fff;
+}
+.getEnamelArmourBtn .btnPrimaryDarkBlue {
+  letter-spacing: .2em;
+}
+.btnlearnScience {
+  text-decoration: none;
+  background-color: transparent;
+  border-color: #595858;
+  font-size: 18px;
+  color: #595858;
+  display: inline-block;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  user-select: none;
+  background-image: none;
+  height: auto;
+  padding: 10px 40px;
+  border: 2px solid;
+  font-weight: 300;
+  border-width: 1px;
+  border-radius: 0;
+  font-family: 'Montserrat';
+  text-shadow: none;
+}
+
+.howItWorkText {
+  font-family: 'Montserrat';
+  padding-top: 9px;
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+
+button.howItWorkText {
+  appearance: none;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  line-height: 1;
+  cursor: auto;
+}
+
+.lightTextWithImage {
+  background-color: #0eb4ba;
+  padding-bottom: 3.1rem;
+}
+
+.lightTextDetail h2 {
+  font-family:
+    'Montserrat',
+    'BlinkMacSystemFont',
+    -apple-system,
+    'Roboto',
+    'Lucida Sans';
+  padding-top: 42px;
+  text-align: center;
+  font-weight: 700;
+  color: #fff;
+  font-size: 43px;
+  letter-spacing: 0.05em;
+  margin-bottom: 0;
+}
+
+ul.backgroundGraphics {
+  padding-left: 25px;
+}
+
+.lightTextcontainer {
+  padding-top: 27px;
+}
+
+ul.backgroundGraphics li {
+  background-image: url(../../../../public/assets/adults-probiotics-blue-tick.webp);
+  background-repeat: no-repeat;
+  background-position: left;
+  font-size: 30px;
+  list-style: none;
+  padding-left: 92px;
+  line-height: 56px;
+  margin-top: 8px;
+  margin-bottom: 10px;
+  color: #fff;
+  font-family: 'Montserrat';
+}
+
+.lightTextColumn img {
+  margin-top: 2px;
+  margin-left: 24px;
+}
+
+.lightTextColumn {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+.choosePackageDetail {
+  padding-bottom:85px;
+}
+.choosePackageDetail h2 {
+  font-weight: 400;
+  color: #0eb4ba;
+  font-size: 39px;
+  text-align: center;
+  margin-top: 62px;
+  margin-bottom: 12px;
+  font-family:
+    'Montserrat',
+    'BlinkMacSystemFont',
+    -apple-system,
+    'Roboto',
+    'Lucida Sans';
+}
+.choosePackageDetail h5 {
+  font-family: 'Open sans', sans-serif;
+  font-size: 24px;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-weight: normal;
+  color: #565759;
+}
+
+.retainerCol {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.enamelLoss {
+  min-height: 100%;
+  padding: 40px 25px;
+  text-align: center;
+  background-color: #ddddde;
+}
+.toothDehydration {
+  padding: 40px 25px;
+  text-align: center;
+  background-color: #fbf0de;
+}
+
+.sealporesContainer {
+  margin-top: 24px;
+  padding: 40px 25px 75px 25px;
+  background: #e3faff;
+}
+.sealPresDetail h1 {
+  line-height: 1;
+  font-family:
+    'Montserrat',
+    'BlinkMacSystemFont',
+    -apple-system,
+    'Roboto',
+    'Lucida Sans';
+  font-size: 62px;
+  font-weight: 800;
+}
+.seprator {
+  border-top: 1px solid #555759;
+  margin-top: 2.5rem;
+}
+.getEnamelArmourBtn .btnPrimaryLight {
+  margin-top: 35px;
+  margin-bottom: 55px;
+  min-width: 284px;
+  background-color: #0db4ba;
+  border-color: #0db4ba;
+  color: white;
+  font-size: 18px;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  border: 0px;
+  height: auto;
+  padding: 10px 40px;
+  font-family: 'Montserrat';
+  letter-spacing: 0.2em;
+  text-shadow: none;
+}
+.sealPresDetail {
+  text-align: center;
+}
+.sealPresDetail img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+  vertical-align: top;
+}
+.sealPresDetail h2 {
+  line-height: 1;
+  font-family:
+    'Montserrat',
+    'BlinkMacSystemFont',
+    -apple-system,
+    'Roboto',
+    'Lucida Sans';
+  font-size: 60px;
+  color: #0eb4ba;
+  font-weight: 800;
+}
+.sealPresDetail h6 {
+  font-weight: 800;
+  font-family:
+    'Open Sans',
+    'BlinkMacSystemFont',
+    -apple-system,
+    'Roboto',
+    'Lucida Sans';
+  font-size: 28px;
+  color: #1a4664;
+  letter-spacing: 0;
+}
+.sealpresParagraph {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.sealpresParagraph p {
+  font-size: 24px;
+  line-height: 1.3;
+  padding-top: 36px;
+  font-family: 'Montserrat';
+  color: #1b4764;
+  margin-bottom: 52px;
+}
+
+.enamelLoss h3 {
+  font-size: 52px;
+  margin-top: 0;
+  font-weight: 800;
+  margin-bottom: 0;
+  line-height: 1;
+}
+.toothDehydration h5 {
+  font-weight: 400;
+  margin-top: 7px;
+  font-size: 18px;
+  margin-bottom: 35px;
+  font-style: italic;
+  font-family: 'Open sans', sans-serif !important;
+}
+.enamelLoss h5 {
+  font-weight: 400;
+  margin-top: 7px;
+  font-size: 18px;
+  margin-bottom: 35px;
+  font-style: italic;
+  font-family: 'Open sans', sans-serif !important;
+}
+.enamelLosImage img {
+  margin-top: 2rem;
+  margin-bottom: 4.2rem;
+}
+.scienceDetailsSection p strong {
+  color: #1b4764;
+  font-weight: 600;
+  font-size: 24px;
+  font-family: 'Montserrat';
+}
+.scienceDetailsSection p {
+  font-size: 24px;
+  line-height: 1.3;
+  font-family: 'Montserrat';
+  color: #1b4764;
+}
+.toothDehydration h3 {
+  font-size: 52px;
+  margin-top: 0;
+  font-weight: 800;
+  margin-bottom: 0;
+  line-height: 1;
+}
+.sealPores {
+  margin-top: 20px;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+@media screen and (min-width:768px) and (max-width:1499px){
+  .sealpresParagraph p br {
+    display: none;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .lightTextDetail h2 {
+    font-size: 30px;
+    padding: 40px 28px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .retainCleanerRowTop {
+    flex-direction: column-reverse;
+  }
+  .retainerCleanerBannerDetails .retainerDetailInner h2 {
+    margin-top: 0px;
+  }
+  ul.backgroundGraphics li {
+    background-position: top left;
+    font-size: 16px;
+    padding-left: 32px;
+    line-height: 27px;
+    margin-top: 0px;
+    color: #fff;
+    background-size: 24px;
+    text-align: left;
+    max-width: 338px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .lightTextImage {
+    flex-direction: column-reverse;
+  }
+
+  .lightTextcontainer {
+    padding-top: 0px;
+  }
+  .choosePackageDetail h2 {
+    font-size: 28px;
+  }
+  .sensitiveTeethDetails h4 {
+    font-size: 28px;
+  }
+  .sensitiveTeethDetails p {
+    font-size: 18px;
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+  .enamelLoss h3 {
+    font-size: 40px;
+  }
+  .enamelLoss {
+    padding: 40px 10px;
+  }
+  .scienceDetailsSection p strong {
+    font-size: 20px;
+    padding: 0px 12px;
+    display: block;
+  }
+  .scienceDetailsSection p strong br{
+    display: none;
+  }
+  .scienceDetailsSection p {
+    font-size: 18px;
+    padding: 0px 15px;
+    padding-top: 10px;
+  }
+  .toothDehydration h3 {
+    font-size: 40px;
+  }
+  .sealPresDetail h1,
+  .sealPresDetail h2 {
+    font-size: 26px;
+    margin-bottom: 12px;
+  }
+  .sealPresDetail h6 {
+    font-size: 22px;
+    color: #1a4664;
+    margin-top: 38px;
+  }
+  .sealpresParagraph p {
+    font-size: 20px;
+  }
+  .sealpresParagraph {
+    width: 100%;
+  }
+  .enamelArmourrWrapper {
+    padding-top: 0px;
+  }
+  h2.headingProcess {
+    font-size: 28px !important;
+  }
+  .getEnamelArmourBtn .btnPrimaryLight {
+    letter-spacing: 0px;
+  }
+  .retainerCleanerBannerDetails .retainerDetailInner h1 {
+    font-size:36px;
+  }
+   .retainCleanerInnerWrapper {
+    padding-top: 65px;
+  } 
+  .retainerCleanerBannerDetails .retainerDetailInner p br {
+display: none;
+  }
+  .retainCleanerColumn img {
+    padding: 0px 30px;
+  }
+  .lightTextDetail h2 {
+    padding: 40px 20px;
+  }
+  .backgroundGraphics li {
+    padding-right: 20px;
+  }
+  .lightTextColumn .col-md-8 {
+    padding-bottom: 20px;
+  }
+  .scienceOfSensitiveTeethWrapper {
+    margin-top: 60px;
+  }
+  .toothDehydration {
+    padding:40px 0px ;
+  }
+  .scienceColumns .sixCol {
+    margin-bottom: 20px;
+    padding: 0px 25px;
+  }
+  .sealpresParagraph p br {
+    display: none;
+  }
+  .getEnamelArmourBtn .btnPrimaryLight  {
+    max-width: 100%;
+    padding: 10px 20px;
+    min-width: auto
+  }
+  .getEnamelArmourBtn .btnPrimaryDarkBlue {
+    min-width: auto;
+    max-width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .lightTextColumn {
+    text-align: center;
+  }
+  .lightTextColumn img {
+    margin-left: 0px;
+  }
+  .toothDehydration h5 {
+    padding: 0px 20px;
+  }
+}
+
+@media screen and (max-width:400px){
+  .retainerCleanerBannerDetails .retainerDetailInner p  {
+    padding: 0px 20px;
+      }
+}
+@media screen and (max-width:430px){
+  .sealPresDetail .tmSymbol {
+    font-size: 15px;
+    position: absolute;
+    top: -2px;
+    right: -2px;
+  }
+}
+@media screen and (max-width:400px){
+  .sealPresDetail .tmSymbol {
+    top: 0px;
+    right: -15px;
+  }
+}
+@media screen and (min-width: 640px) {
+  .retainCleanerInnerWrapper .container {
+    padding: 0px 35px;
+  }
+  .retainCleanerProductWrapper {
+    padding: 0 35px;
+  }
+  .scienceContainer {
+    padding: 0px 35px;
+  }
+}
+.scienceContainer {
+  padding: 0px 0px;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .scienceDetailsSection p strong br,
+  .scienceDetailsSection p br {
+    display: none;
+  }
+  .scienceContainer {
+    max-width: 960px;
+  }
+  .enamelLoss h3 {
+    font-size: 34px;
+  }
+  .sealPores {
+    padding: 0px;
+  }
+  .toothDehydration h3 {
+    font-size: 34px;
+  }
+  .retainerCol {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .sealPresDetail h1,
+  .sealPresDetail h2 {
+    font-size: 34px;
+  }
+  .sixCol {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .retainerCleanerBannerDetails .retainerDetailInner h2 {
+    margin-top: 48px;
+  }
+  .retainerDetailInner {
+    margin-bottom: 45px;
+  }
+  .retainerCleanerBannerDetails .retainerDetailInner h1 {
+    font-size: 42px;
+  }
+  ul.backgroundGraphics li {
+    font-size: 20px;
+    padding-left: 72px;
+  }
+  ul.backgroundGraphics {
+    padding-left: 45px;
+  }
+  .lightTextcontainer {
+    max-width: 930px;
+    padding-top: 0px;
+  }
+  .lightTextColumn img {
+    width: 182px;
+    height: auto;
+    margin-top: -7px;
+    margin-left: -20px;
+  }
+}
+
+@media screen and (min-width: 64em) {
+  .scienceColumns {
+    padding-right: 1.25rem;
+    padding-left: 1.25rem;
+  }
+
+  .enamelArmourrWrapper .retainCleanerInnerWrapper {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+  .retainerCleanerProduct {
+    padding-right: 1.25rem;
+    padding-left: 1.25rem;
+  }
+  .lightTextDetail {
+    padding-right: 1.25rem;
+    padding-left: 1.25rem;
+  }
+}
+
+@media screen and (min-width: 992) {
+  ul.backgroundGraphics li {
+    font-size: 20px;
+  }
+  
+}
+
+@media screen and (min-width: 1200px) {
+  ul.backgroundGraphics li {
+    font-size: 22px;
+  }
+  .retainCleanerProductWrapper {
+    width: 1170px;
+    margin: 0px auto;
+  }
+  .lightTextcontainer {
+    max-width: 1240px;
+  }
+  .scienceContainer {
+    max-width: 1170px;
+    margin: 0px auto;
+  }
+  .sealporesContainer {
+    max-width: 1170px !important;
+    margin: 0px auto;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .lightTextcontainer {
+    max-width: 1440px;
+    margin: 0px auto;
+  }
+  .sealporesContainer {
+    max-width: 1440px !important;
+    margin: 0px auto;
+  }
+  .scienceContainer {
+    max-width: 1440px;
+    margin: 0px auto;
+  }
+  .retainCleanerProductWrapper {
+    width: 1420px;
+    margin: 0px auto;
+  }
+
+  .retainCleanerInnerWrapper .container {
+    padding: 0 0px;
+  }
+
+  ul.backgroundGraphics li {
+    font-size: 30px;
+  }
+}

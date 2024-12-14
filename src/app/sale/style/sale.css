@@ -1,0 +1,1276 @@
+#product-list.teethWhieteingSystemWrapper:not(.grid-changed) .medium-12.thb-dark-column.small-12.landing-product.child-6>.vc_column-inner {
+    background-color: #fff !important;
+}
+
+#product-list.productLandingPageContainer .medium-12.thb-dark-column.small-12.landing-product>.vc_column-inner .product-selection-box {
+    max-width: 1330px;
+}
+
+#newsalePage .newsalePageBanner {
+    max-height: 620px;
+    overflow: hidden;
+    background: rgb(69, 8, 118);
+    background: linear-gradient(190deg, rgba(69, 8, 118, 1) 0%, rgba(79, 23, 125, 1) 55%, rgba(99, 53, 137, 1) 85%);
+    /* background-image: url(/wp-content/themes/revolution-child/assets/images/geha-page/geha-banner-bg.jpg); */
+
+}
+
+.gehanFormSection {
+    background-image: url(/wp-content/themes/revolution-child/assets/images/geha-page/geha-banner-bg.jpg);
+    background-color: #683c8b;
+    background-repeat: repeat-x;
+}
+
+#newsalePage .rowMbt {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mt-100 {
+    padding-top: 100px;
+}
+
+#newsalePage .geha-banner-text-section-parent {
+    width: 40%;
+}
+
+#newsalePage .graphicImagePeople {
+    width: 60%;
+    text-align: right;
+}
+
+#newsalePage .text-white {
+    color: #fff;
+}
+
+#newsalePage .geha-banner-text-section {
+    text-align: center;
+}
+
+
+#newsalePage .geha-banner-text-section p {
+    margin-bottom: 0;
+    padding-bottom: 10px;
+}
+
+#newsalePage .geha-banner-text-section h2 {
+    margin-top: 40px;
+    font-size: 30px;
+    margin-bottom: 50px;
+    line-height: 1.1;
+}
+
+#newsalePage .gehaLoginCustomer {
+    margin-top: 25px;
+}
+
+#newsalePage .seeDiscountBtn button {
+    background: #eb6754;
+    border-color: #eb6754;
+    letter-spacing: 0;
+    font-size: 20px;
+
+}
+
+#newsalePage .seeDiscountBtn button:hover {
+    background-color: #595858;
+    border-color: #595858;
+}
+
+#newsalePage .gehaLoginCustomer h3 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+#newsalePage .gehaLoginCustomer h3 a:hover {
+    color: #fff;
+}
+
+#newsalePage .gehaLoginCustomer h3 a {
+    color: #dec5f5;
+}
+
+#newsalePage .splitTwo {
+    width: calc(100%/2);
+}
+
+#newsalePage .productGripgSectionWrapper {
+    background: #17a2b8;
+    padding: 20px;
+}
+
+#newsalePage .productGripgSection {
+    border: 1px solid #fff;
+    padding: 30px;
+}
+
+#newsalePage .productGripgSection li {
+    background-image: url(https://smilebrilliant.com/wp-content/themes/revolution-child/assets/images/adults-probiotics-blue-tick.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    font-size: 26px;
+    list-style: none;
+    padding-left: 74px;
+    line-height: 44px;
+    margin-top: 0px;
+    background-size: 45px;
+    margin-bottom: 10px;
+    font-weight: 300;
+}
+
+#newsalePage .productGripgSection h3 {
+    font-size: 67px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    line-height: 52px;
+    margin-bottom: 50px;
+}
+
+#newsalePage .productGripgSection ul {
+    margin-bottom: 60px;
+}
+
+#newsalePage .productGripgSectionProduct {
+    background-position: center;
+    background: url(https://www.smilebrilliant.com/wp-content/themes/revolution-child/assets/images/geha-page/geha-product-image.jpg);
+}
+
+#newsalePage section.sectionProductDisplay {
+    margin-top: 10px;
+}
+
+#newsalePage .logoesSecHfa {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+
+}
+
+#newsalePage .logoesSecHfa img {
+    max-width: 118px;
+}
+
+#newsalePage section.sectionHsaFsa {
+    background: #555759;
+    padding: 20px 0px;
+}
+
+#newsalePage .colhFsaSec {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#newsalePage .colhFsaSec h4 {
+    font-size: 30px;
+}
+
+#newsalePage section.ourSuportedCustomers.product-logo-wrapper {
+    background: #440876;
+    padding-top: 38px;
+    padding-bottom: 38px;
+    margin-top: 0px;
+}
+
+#newsalePage .extra_logo_before-top .boxSecBox {
+    position: relative;
+}
+
+#newsalePage .extra_logo_before-top .col-md-3,
+#newsalePage .extra_logo_before .col-md-3 {
+    -webkit-box-flex: 0;
+    -ms-flex: initial;
+    flex: initial;
+    max-width: max-content;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+}
+
+#newsalePage .extra_logo_before-top .boxSecBox.box-with-extra-logo:before {
+    content: "";
+    background-image: url(/wp-content/themes/revolution-child/assets/images/geha-page/logoes-tiktok.png);
+    width: 114px;
+    height: 149px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-repeat: no-repeat;
+}
+
+#newsalePage .box-with-extra-logo-right:before {
+    content: "";
+    background-image: url(/wp-content/themes/revolution-child/assets/images/geha-page/logoes-small-circle.png);
+    width: 50px;
+    height: 49px;
+    position: absolute;
+    top: 0;
+    right: -100px;
+    background-repeat: no-repeat;
+}
+
+#newsalePage .logo-strip-two .col-md-3 {
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+#newsalePage .justify-conten {
+    justify-content: center;
+}
+
+#newsalePage .extra_logo_before-top .spacing-left-emphty,
+#newsalePage .smilePageIconSection-parent-div .extra_logo_before .spacing-left-emphty {
+    position: relative;
+    padding-left: 158px;
+}
+
+#newsalePage .rowMbt.extra_logo_before-top.logo-strip-one.justify-conten {
+    margin-bottom: 35px;
+}
+
+#newsalePage .second-row .boxSecBox.spacing-left-emphty.col-md-3.col-4 {
+    padding-left: 30px;
+}
+
+#newsalePage .fullWidth {
+    width: 100%;
+}
+
+#newsalePage .year-wrannanty-container .itsSimpleHeading {
+    color: #522773;
+    text-align: center;
+    margin-bottom: 0;
+    font-weight: 400;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+#newsalePage section.warrantysectionPage {
+    margin-bottom: 70px;
+}
+
+#newsalePage section.gehanFormSection {
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+#newsalePage .gehanFormSection input[type="text"],
+#newsalePage .gehanFormSection input[type="email"] {
+    margin-bottom: 10px;
+    min-height: 70px;
+}
+
+#newsalePage .member-ids input[type="text"] {
+    background: #efdefc;
+}
+
+#newsalePage #product-list.productLandingPageContainer .medium-12.thb-dark-column.small-12.landing-product>.vc_column-inner .product-selection-box,
+#newsalePage .profile-container {
+    width: 100%;
+}
+
+#newsalePage section.sectionHsaFsa {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#newsalePage section.ourCustomers h2 {
+    font-size: 60px;
+    font-weight: 700;
+    margin-top: 0px;
+    margin-bottom: 36px;
+    padding-top: 40px;
+}
+
+#newsalePage section.ourCustomers h3 {
+    font-size: 26px;
+    font-weight: normal;
+    margin-top: 0;
+
+}
+
+#newsalePage .customer-before-after-image {
+    margin-top: 60px;
+    margin-bottom: 65px;
+}
+
+#newsalePage .warrabty-text-container p {
+    font-weight: 400;
+}
+
+#newsalePage .col-md-12.text-center.form-notes {
+    margin-top: 20px;
+}
+
+#newsalePage .w-100 {
+    width: 100%;
+}
+
+#newsalePage .row.after-success {
+    width: 100%;
+}
+
+#newsalePage .colhFsaSec p {
+    font-size: 14px;
+}
+
+#newsalePage .container {
+    margin-left: auto;
+    margin-right: auto;
+    /* padding-bottom:30px; */
+}
+
+#newsalePage section.shopLanderPageHader .pageheaderTop {
+    /* background: rgb(69, 8, 118) !important;
+    background: linear-gradient(190deg, rgba(69, 8, 118, 1) 0%, rgba(79, 23, 125, 1) 55%, rgba(99, 53, 137, 1) 85%) !important; */
+    background-image: url(/wp-content/themes/revolution-child/assets/images/sales/2022/cyber-monday-sale/BannerBackground.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#newsalePage .shopLanderPageHader .whitening-teeth-girl-with-smile {
+    right: 78px;
+    top: -16px;
+    max-width: 436px;
+}
+
+#newsalePage .alin-items-center {
+    align-items: center;
+}
+
+#newsalePage #product-list.productLandingPageContainer .medium-12.thb-dark-column.small-12.landing-product>.vc_column-inner {
+    background-color: #ebedee !important;
+}
+
+#newsalePage #product-list.teethWhieteingSystemWrapper:not(.grid-changed) .medium-12.thb-dark-column.small-12.landing-product.child-5>.vc_column-inner {
+    background-color: #fff !important;
+}
+
+
+#newsalePage .teethWhieteingSystemWrapper.productLandingPageContainer .product-selection-price-wrap button,
+.teethWhieteingSystemWrapper.productLandingPageContainer .product-selection-price-wrap a.product_type_composite,
+.teethWhieteingSystemWrapper.productLandingPageContainer .btn {
+    background-color: #d4545a;
+    border-color: #d4545a;
+}
+
+#newsalePage .productLandingPageContainer .medium-12 .small-desc h4,
+.productLandingPageContainer .medium-12 .small-desc h5 {
+    color: #65657f;
+}
+
+#newsalePage #product-list:not(.grid-changed) .medium-12.thb-dark-column.small-12.landing-product .product-selection-description-parent {
+    justify-content: center;
+}
+
+#newsalePage #product-list.productLandingPageContainer .medium-12 .product-selection-description b {
+    color: #65657f;
+    font-weight: 500;
+    font-size: 1.3em;
+}
+
+#newsalePage .teethWhieteingSystemWrapper.productLandingPageContainer .landing-product:not(.medium-12) .product-selection-description-parent,
+#newsalePage .packageQuantityBox,
+.selectPackageBox {
+    background: #f1f1f8;
+}
+
+#newsalePage .graphicImagePeople img {
+    width: 100%;
+    max-width: 776px;
+}
+
+
+/* 9th-child-image-section added */
+#newsalePage #product-list.productLandingPageContainer .medium-12.child-9 .product-selection-description b {
+    font-size: 16px;
+    font-weight: normal;
+    color: #565759;
+    font-weight: 400;
+}
+
+#newsalePage #product-list.teethWhieteingSystemWrapper .medium-12.child-9 .productDescriptionDiv b {
+    font-weight: bold;
+    line-height: inherit;
+    color: #565759;
+}
+
+#newsalePage #product-list.teethWhieteingSystemWrapper:not(.grid-changed) .medium-12.child-9 .productDescriptionDiv b {
+    font-size: 22px;
+}
+
+#newsalePage #product-list.productLandingPageContainer .medium-12.child-9 .product-selection-description-text {
+    padding-top: 0px;
+}
+
+#newsalePage #product-list.productLandingPageContainer .medium-12.child-9 .product-selection-description-text p {
+    margin: 0
+}
+
+#newsalePage #product-list.productLandingPageContainer .medium-12.child-9 .days-textFortyFive {
+    margin-top: 35px;
+}
+
+#newsalePage #product-list.productLandingPageContainer .medium-12.child-9 .text-blue {
+    color: #3c98cc !important;
+}
+
+.product-selection-description-parent{ position: relative;}    
+.ultrasonic-text-contain-by-js .backOrderList { 
+    position: absolute;
+/* display: block; */
+top: -2px;
+right: 0;
+max-width: 366px;
+}
+
+ #product-list.grid-changed .ultrasonic-text-contain-by-js .backOrderList{
+    line-height: 14px;
+    top: -7px;
+}
+#gehaPage   #product-list.productLandingPageContainer:not(.grid-changed) .medium-12 .ultrasonic-text-contain-by-js .backOrderList {
+    position: static;
+}
+/* Ended 9th-child-image-section added */
+
+/* popup */
+
+.modal {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0 0 0 / 70%);
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(1.1);
+    transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s;
+    z-index: 999;
+}
+
+.modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 1rem 1rem;
+    width: 30rem;
+    border-radius: 0.5rem;
+    border: 10px solid #440776;
+}
+
+.close-button {
+    width: 30px;
+    cursor: pointer;
+    border-radius: 1rem;
+    background-color: lightgray;
+    position: absolute;
+    right: -20px;
+    top: -20px;
+    background: #fff;
+    color: #453651;
+    border: 2px solid #453651;
+    font-size: 24px;
+    font-weight: 700;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.close-button:hover {
+    background-color: darkgray;
+}
+
+.show-modal {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1.0);
+    transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s;
+}
+
+h1.gehaTextmember {
+    margin-bottom: 0;
+}
+
+p.memeberGranted {
+    color: #440776;
+    margin-bottom: 10px;
+}
+
+h2.youreInText {
+    color: #555759;
+    font-weight: bolder;
+    font-size: 72px;
+    margin-bottom: 10px;
+}
+
+h3.pleaseRed {
+    color: #eb6754;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.descriptionBody {
+    font-size: 16px;
+    line-height: 1.2;
+    max-width: 84%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.modal .seeDiscountBtn .btn {
+    background: #440776;
+    color: #fff;
+    letter-spacing: 0;
+    font-size: 20px;
+}
+
+#newsalePage .container-form {
+    max-width: 820px;
+}
+
+#newsalePage .after-success #geha-coupon-code-box {
+    background-color: #ffffff;
+}
+
+#newsalePage .after-success h1 {
+    line-height: 42px;
+}
+
+
+#newsalePage #product-list.grid-changed .medium-12 .product-selection-image-wrap img {
+    max-width: 100%;
+}
+
+
+#newsalePage #product-list.grid-changed .medium-12 .product-selection-description b {
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding-right: 15px;
+    color: #565759;
+}
+
+#newsalePage #product-list.grid-changed .medium-12 .product-selection-description .productDescriptionDiv {
+    max-height: 44px;
+    overflow: hidden;
+    min-height: 44px;
+    display: flex;
+    align-items: flex-end;
+}
+
+#newsalePage #product-list.grid-changed .medium-12 .normalyAmount {
+    display: none;
+}
+
+#newsalePage #product-list.grid-changed .product-selection-price-text-top {
+    height: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: initial;
+    justify-content: flex-start;
+}
+
+#newsalePage #product-list.grid-changed .starRatinGImage {
+    display: none;
+}
+
+#newsalePage #product-list.grid-changed .medium-12.thb-dark-column.small-12.landing-product .product-selection-description-parent-inner {
+    padding: 0px;
+}
+
+#newsalePage #product-list.grid-changed .medium-12 .small-desc,
+#newsalePage #product-list.grid-changed .medium-12 .featureShippingPrice {
+    display: none;
+}
+
+#newsalePage #product-list.grid-changed .medium-12 .product-selection-price-text-top {
+    margin: 0px;
+}
+
+#newsalePage #product-list.grid-changed .medium-12.thb-dark-column.small-12.landing-product>.vc_column-inner {
+    background-color: #ffffff !important;
+}
+
+#newsalePage #product-list.grid-changed .product-selection-price-text {
+    font-size: 18px;
+}
+
+#newsalePage #product-list.grid-changed span.product-selection-price-text del:before {
+    top: 10px;
+    left: -8px;
+}
+
+#newsalePage #product-list.grid-changed .medium-12.thb-dark-column.small-12.landing-product .product-selection-description-parent-inner .btn-primary-blue {
+    font-size: 18px;
+}
+
+#newsalePage #product-list.grid-changed .landing-product div[data-tagging="Featured!"] .featureTag {
+    margin-right: 22px;
+    top: 0px;
+}
+
+#newsalePage #product-list.grid-changed #product-list .product-selection-description {
+    margin-bottom: 0px;
+}
+
+#newsalePage #product-list.grid-changed .medium-12 .selectPackageBox,
+#newsalePage #product-list.grid-changed .medium-12 .packageQuantityBox {
+    margin-right: 0;
+}
+
+#newsalePage #product-list.grid-changed .thb-dark-column.medium-12.landing-product {
+    margin-bottom: 0px;
+}
+
+section.shopLanderPageHader {
+    margin-top: 0rem;
+}
+
+div#product-list.grid-changed {
+    margin-top: 20px;
+}
+
+#newsalePage #product-list.grid-changed .active-recomendation-tab #product-list .product-selection-description {
+    margin-bottom: 0px;
+}
+
+#newsalePage #product-list.grid-changed .medium-3 .product-selection-description-parent-inner>.normalyAmount {
+    display: none;
+}
+
+#newsalePage #product-list.grid-changed .medium-3 .productDescriptionDiv {
+    text-align: left;
+}
+
+#newsalePage #product-list.grid-changed .product-selection-price-wrap button.btn {
+    min-width: 220px;
+}
+
+#newsalePage #product-list.grid-changed .medium-12.thb-dark-column.small-12.landing-product .product-selection-description-parent {
+    max-width: inherit;
+    width: auto;
+
+}
+
+.secondary-area-mbt {
+    /* display: block !important; */
+}
+
+
+section.shopLanderPageHader #product-list.productLandingPageContainer:not(.grid-changed) .small-12.landing-product:nth-child(6) .vc_column-inner {
+    /* background-color: #e9e9f5 !important; */
+}
+
+#product-list .landing-product:not(.medium-12) .featureTag {
+    background: #f8a18a;
+}
+
+#newsalePage #product-list.grid-changed .medium-12 .featureTag,
+#newsalePage #product-list.grid-changed .landing-product .featureTag {
+    top: 0px;
+    margin-right: 20px;
+}
+
+
+#newsalePage .rowMbtInner {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#newsalePage .row.after-success h1,
+#newsalePage .row.after-success p {
+    display: none !important;
+}
+
+#newsalePage section.sectionHsaFsa,
+#newsalePage .ourSuportedCustomers {
+    max-width: 1420px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+#newsalePage .medium-3 .product-selection-price-text-top.noflexDiv {
+    /* display: block !important; */
+    line-height: 1;
+}
+
+#newsalePage #product-list:not(.grid-changed) .medium-6.landing-product .productDescriptionDiv {
+    align-items: flex-start;
+}
+
+#newsalePage .productLandingPageContainer .medium-3 span.product-selection-price-text del bdi,
+#newsalePage .productLandingPageContainer .medium-6 span.product-selection-price-text del bdi {
+    margin-right: 0;
+}
+
+#newsalePage .productLandingPageContainer .medium-12.landing-product span.product-selection-price-text.hoo,
+#newsalePage .productLandingPageContainer .medium-12.landing-product span.product-selection-price-text.heee {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.grid-changed #newsalePage .medium-3 .product-selection-price-text-top.noflexDiv {
+    text-align: left;
+    padding-top: 4px;
+}
+
+.grid-changed #newsalePage .medium-12 span.product-selection-price-text.heee {
+    display: flex;
+    align-items: center;
+}
+
+#newsalePage #product-list.grid-changed .medium-12 .product-selection-price-text {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+#newsalePage #product-list.grid-changed .medium-12 .product-selection-price-text span.woocommerce-Price-amount.amount,
+#newsalePage #product-list.grid-changed .medium-12 span.product-selection-price-text ins bdi {
+    font-weight: 500;
+}
+
+#newsalePage #product-list.grid-changed .medium-12 span.product-selection-price-text del:before {
+    top: 14px;
+}
+
+#newsalePage #product-list.grid-changed .product-selection-price-text-top {
+    padding-top: 5px;
+}
+
+#product-list.productLandingPageContainer .medium-12 span.product-selection-price-text del span bdi,
+#product-list.productLandingPageContainer .medium-12 span.product-selection-price-text del span,
+#product-list.productLandingPageContainer .medium-12 span.product-selection-price-text del,
+#product-list.productLandingPageContainer .medium-12 .product-selection-price-text-top .product-selection-price-text span.woocommerce-Price-amount.amount {
+    font-weight: 500;
+}
+
+.hidden {
+    display: none !important;
+}
+
+section.shopLanderPageHader .pageheaderTop .row {
+    align-items: center;
+    flex-wrap: initial;
+    justify-content: center;
+}
+
+.banner-img.banner-text-center {
+    position: relative;
+    /* left: 2.5vw; */
+}
+
+section.shopLanderPageHader .pageheaderBotm {
+    position: relative;
+    z-index: 12;
+    margin-bottom: 3rem;
+}
+
+#product-list .featureTag {
+    font-size: 14px;
+}
+
+.back-order p {
+    margin: 0;
+}
+
+.back-order {
+    position: relative;
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    color: #856404;
+    background-color: #fff3cd;
+    border-color: #ffeeba;
+    display: none;
+}
+
+
+
+
+/* discount prices side by side with but line */
+#newsalePage #product-list .columns:not(.medium-12) span.product-selection-price-text .wasText {
+    display: none;
+}
+
+#newsalePage #product-list .columns:not(.medium-12) span.product-selection-price-text del bdi {
+    color: #c6c9cd;
+    font-size: 20px;
+}
+
+#newsalePage #product-list .columns:not(.medium-12) span.product-selection-price-text del:before {
+    left: -1px;
+    height: 2px;
+    background: #f8a18a;
+
+}
+
+#newsalePage #product-list:not(.grid-changed) .columns:not(.medium-12) span.product-selection-price-text del:before {
+    top: 25px;
+}
+
+
+
+
+
+@media (min-width: 768px) {
+
+    .banner-img.banner-image-retainer-cleaner img {
+        position: relative;
+        top: 37px;
+    }
+
+    .banner-img.banner-image-flosser img {
+        position: relative;
+        top: 69px;
+    }
+
+    section.shopLanderPageHader .pageheaderTop h1,
+    section.shopLanderPageHader .pageheaderTop h1 span {
+        font-size: 55px;
+    }
+
+    #newsalePage #product-list.grid-changed .openPackage-quantity .packageQuantityBox,
+    #newsalePage #product-list.grid-changed .openPackage .selectPackageBox {
+        max-width: 308px;
+        right: 0;
+        left: inherit;
+        border-left: 1px solid #c5c6c9;
+        margin-right: 0;
+    }
+
+    #newsalePage section.ourCustomers .container {
+        background: #eaeff3;
+        padding-bottom: 65px;
+    }
+
+
+
+}
+
+
+@media (min-width: 1024px) {
+    .vc_wp_text.wpb_content_element.warrabty-text-container {
+        max-width: 82%;
+    }
+
+    #newsalePage .gehanFormSection .seeDiscountBtn #send-my-discount {
+        min-width: 400px;
+    }
+
+    #newsalePage #product-list.grid-changed .medium-12.thb-dark-column.small-12.landing-product .product-selection-description-parent {
+        max-width: inherit;
+        width: auto;
+        min-height: 130px;
+        max-height: 130px;
+        /* background: orange!important; */
+    }
+
+    #newsalePage #product-list.grid-changed .landing-product.medium-6 .product-selection-description-parent,
+    #newsalePage #product-list.grid-changed .landing-product.medium-3 .product-selection-description-parent {
+        min-height: 130px;
+        max-height: 130px;
+        /* background: red!important; */
+
+    }
+
+    section.shopLanderPageHader .pageheaderBotm select {
+        padding: 0 30px 0 10px;
+        min-width: 186px;
+        font-family:'Montserrat' ;
+    }
+
+
+}
+
+@media (max-width: 1500px) {
+    #newsalePage .productGripgSection h3 {
+        font-size: 52px;
+    }
+
+    #newsalePage .productGripgSection li {
+        font-size: 20px;
+        padding-left: 59px;
+    }
+
+    section.shopLanderPageHader .pageheaderTop h1,
+    section.shopLanderPageHader .pageheaderTop h1 span {
+        font-size: 46px;
+    }
+
+    section.shopLanderPageHader .pageheaderTop p {
+        font-size: 16.8px;
+    }
+
+}
+
+@media (max-width: 1300px) {
+    #newsalePage .productGripgSection h3 {
+        font-size: 42px;
+    }
+
+    #newsalePage .productGripgSection li {
+        font-size: 16px;
+    }
+
+    #newsalePage section.ourCustomers h2 {
+        font-size: 48px;
+    }
+
+    #newsalePage .rowMbt.extra_logo_before-top.logo-strip-one.justify-conten {
+        margin-bottom: 60px;
+    }
+
+    #newsalePage .mt-100 {
+        padding-top: 56px;
+    }
+
+
+    section.shopLanderPageHader .pageheaderTop h1,
+    section.shopLanderPageHader .pageheaderTop h1 span {
+        font-size: 3.2vw;
+    }
+
+    section.shopLanderPageHader .pageheaderTop p {
+        font-size: 1.4vw;
+    }
+
+
+}
+
+@media (max-width: 767px) {
+
+    #newsalePage .geha-banner-text-section-parent {
+        width: 100%;
+    }
+
+    #newsalePage h1.gehaLogoLarge img {
+        max-width: 200px;
+    }
+    section.shopLanderPageHader .pageheaderTop {
+        margin-top: 30px;
+    }
+
+    #newsalePage .mt-100 {
+        padding-top: 25px;
+    }
+
+    #newsalePage .geha-banner-text-section h2 {
+        margin-top: 20px;
+        font-size: 26px;
+        margin-bottom: 35px;
+        line-height: 1.1;
+    }
+
+    #newsalePage .graphicImagePeople {
+        width: 100%;
+        text-align: center;
+    }
+
+    #newsalePage .splitTwo {
+        width: calc(100%/1);
+    }
+
+    #newsalePage .productGripgSection h3 {
+        font-size: 34px;
+        line-height: 33px;
+        margin-bottom: 20px;
+    }
+
+    #newsalePage .productGripgSection li {
+        padding-left: 37px;
+        background-size: 30px;
+        line-height: 28px;
+        text-align: left;
+    }
+
+    #newsalePage .productGripgSection {
+        padding: 20px;
+    }
+
+    #newsalePage .productGripgSection ul {
+        margin-bottom: 30px;
+    }
+
+    #newsalePage .seeDiscountBtn button {
+        font-size: 18px;
+    }
+
+    #newsalePage .colhFsaSec {
+        justify-content: center;
+    }
+
+    /* .sectionHsaFsa .colhFsaSec{order: 2;}
+    .sectionHsaFsa .colhLogoSec{order: 1;}         */
+    #newsalePage section.ourCustomers h2 {
+        font-size: 32px;
+        line-height: 1;
+        margin-top: 30px;
+        margin-top: 0px;
+        margin-bottom: 20px;
+        padding-top: 40px;
+    }
+
+    #newsalePage section.ourCustomers h3 {
+        font-size: 18px;
+        line-height: 1.4;
+    }
+
+    #newsalePage section.ourCustomers {
+        padding: 0 15px;
+    }
+
+    #newsalePage section.ourCustomers h3 br {
+        display: none;
+    }
+
+    #newsalePage .customer-before-after-image {
+        margin-top: 30px;
+        margin-bottom: 38px;
+    }
+
+    #newsalePage section.gehanFormSection {
+        padding-top: 30px;
+        padding-bottom: 25px;
+        padding-left: 15px;
+        padding-right: 10px;
+    }
+
+    .header-spacer {
+        height: 60px !important;
+    }
+
+    #newsalePage .productGripgSectionWrapper {
+        padding: 0px;
+    }
+
+    #newsalePage .logoesSecHfa img {
+        max-width: 88px;
+    }
+
+    #newsalePage .colhFsaSec {
+        margin-bottom: 6px;
+    }
+
+    #newsalePage .form-steps h5 {
+        margin-bottom: 28px;
+        font-size: 18px;
+    }
+
+    #newsalePage section.ourSuportedCustomers.product-logo-wrapper {
+        padding-top: 20px;
+        padding-bottom: 16px;
+        margin-top: 0px;
+    }
+
+    #newsalePage .logoesformobileOnly .col-4 {
+        max-width: 33.33%;
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 33.33%;
+        flex: 0 0 33.33%;
+        max-width: 33.33%;
+        margin-bottom: 11px;
+    }
+
+    #newsalePage .gehaLoginCustomer h3 {
+        font-size: 16px;
+    }
+
+    #newsalePage .pageHeader {
+        position: relative;
+    }
+
+    #newsalePage .shopLanderPageHader .mobileOptionDisplay.whitening-teeth-girl-with-smile {
+        right: 0;
+        top: 35px;
+        max-width: 161px;
+        left: 0;
+        max-height: 210px;
+        overflow: hidden;
+    }
+
+    .modal-content {
+        width: 95%;
+    }
+
+    h2.youreInText {
+        font-size: 53px;
+    }
+
+    #newsalePage .descriptionBody {
+        max-width: 100%;
+    }
+
+    h1.gehaTextmember {
+        margin-bottom: 10px;
+    }
+
+    #newsalePage .graphicImagePeople img {
+        max-width: 283px;
+    }
+
+    #newsalePage #product-list.grid-changed .product-selection-price-text-top {
+        justify-content: center;
+    }
+
+    #newsalePage #product-list.grid-changed .medium-12 .product-selection-description .productDescriptionDiv {
+        align-items: flex-start;
+        min-height: 0px;
+    }
+
+    #newsalePage #product-list.grid-changed .medium-12 .product-selection-description b {
+        padding-right: 0px;
+
+    }
+
+    #newsalePage #product-list.grid-changed .medium-12 .product-selection-description b {
+        font-size: 16px;
+    }
+
+    section.shopLanderPageHader .pageheaderTop h1,
+    section.shopLanderPageHader .pageheaderTop h1 span {
+        font-size: 24px;
+    }
+
+    section.shopLanderPageHader .pageheaderTop p {
+        font-size: 14px;
+    }
+
+    section.shopLanderPageHader {
+        margin-top: 0.5rem;
+    }
+
+    #newsalePage #product-list.grid-changed .normalyAmount {
+        margin-bottom: 0px;
+    }
+
+    .productLandingPageContainer span.product-selection-price-text del:before {
+        left: -10px;
+    }
+
+    span.product-selection-price-text del:before,
+    .body-plaque-highlighter span.product-selection-price-text del:before,
+    .product-electric-toothbrush span.product-selection-price-text del:before {
+        width: auto;
+    }
+
+    #newsalePage .ourCustomers .container {
+        padding-bottom: 40px;
+    }
+
+    #newsalePage #product-list.grid-changed .product-selection-price-text-top {
+        height: auto;
+    }
+
+    #product-list .product-selection-description b {
+        padding-right: 0px;
+    }
+
+    #newsalePage #product-list.grid-changed .product-selection-price-text-top {
+        padding-top: 0px;
+    }
+
+    #newsalePage #product-list.grid-changed .medium-3 .productDescriptionDiv {
+        text-align: center;
+    }
+
+    #newsalePage #product-list.grid-changed .product-selection-price-text-top {
+        text-align: center;
+        margin-bottom: 3px;
+    }
+
+    #product-list.productLandingPageContainer .medium-12 .product-selection-price-text-top {
+        margin-top: 6px;
+        margin-bottom: 6px;
+    }
+
+    #newsalePage #product-list.grid-changed .wasTextParent-div,
+    .wasTextParent-div {
+        line-height: 1;
+    }
+
+    #newsalePage .product-selection-description-parent-inner .normalyAmount,
+    .normalyAmount {
+        margin-bottom: 0px;
+    }
+
+    #newsalePage div#product-list {
+        margin-top: 24px;
+    }
+
+    section.shopLanderPageHader .pageheaderBotm select {
+        font-size: 12px;
+    }
+
+    .resetFilter a {
+        font-size: 11px;
+    }
+
+    section.shopLanderPageHader .pageheaderTop h1,
+    section.shopLanderPageHader .pageheaderTop h1 span {
+        font-size: 20px;
+    }
+
+    #newsalePage #product-list .landing-product:not(.medium-12) .product-selection-price-wrap {
+        padding-top: 6px;
+    }
+
+    #newsalePage #product-list.productLandingPageContainer span.woocommerce-Price-amount.amount {
+        line-height: 1;
+    }
+
+    #newsalePage #product-list.grid-changed .medium-12.thb-dark-column.small-12.landing-product .product-selection-description-parent-inner .btn-primary-blue {
+        font-size: 14px;
+    }
+
+    #newsalePage .newsalePageBanner {
+        margin-top: 55px;
+    }
+
+    .banner-img.banner-image-retainer-cleaner {
+        position: relative;
+        top: 31px;
+    }
+
+    .banner-img.banner-image-flosser {
+        position: relative;
+        top: 40px;
+    }
+
+    section.shopLanderPageHader .pageheaderTop {
+        padding-top: 8rem;
+    }
+
+    #newsalePage #product-list:not(.grid-changed) .columns:not(.medium-12) span.product-selection-price-text del:before {
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .ultrasonic-text-contain-by-js .backOrderList{
+        top: -51px;
+    }
+    #product-list.grid-changed .ultrasonic-text-contain-by-js .backOrderList {
+        line-height: 14px;
+        top: -65px;
+    }
+
+}
+
+
+/* sale banner */
+
+#product-list:not(.grid-changed) .landing-product.medium-3 .product-selection-description-parent
+,#product-list:not(.grid-changed) .landing-product.medium-6 .product-selection-description-parent
+,#product-list:not(.grid-changed) .landing-product.medium-4 .product-selection-description-parent
+{
+overflow: inherit;
+}

@@ -1,0 +1,157 @@
+.drop_down_wrapper{
+    /* max-width: 400px;
+    padding-left: 119px; */
+    text-align: center;
+    padding-top: 85px;
+    position: relative;
+}
+.custom_item {
+    border: 0px ;
+    margin-bottom: 15px ;
+}
+.brushes {
+    background: #4597cb !important;
+    border-radius: 10px !important;
+}
+.oral {
+    background: #9e1e82 !important;
+    border-radius: 10px !important;
+}
+.sensitivity {
+    background: #002244 !important;
+    border-radius: 10px !important;
+}
+.plaque {
+    background: #875aa3 !important;
+    border-radius: 10px !important;
+ 
+}
+.microbiome a {
+    text-decoration: none;
+    color: #2d2e2f;
+}
+.oral_custom .custom_body a {
+    margin-bottom: 0px !important;
+    border-bottom:0px !important;
+    padding: 0px !important;
+    color: #fff !important;
+}
+.oral_custom .custom_body  {
+    background-color: #ac4c97 !important;
+}
+.sensitivity a {
+    color: #fff !important;
+    text-decoration: none;
+}
+.brushes .custom_body a {
+    color: #fff !important;
+}
+.plaque .custom_body a {
+    color: #fff !important;
+}
+.brushes .custom_body {
+    background-color: #6badd7 !important
+}
+.plaque .custom_body {
+    color: #fff !important;
+}
+.plaque .custom_body {
+    background-color: #ab83c4 !important ;
+}
+.sensitivity button:after{
+    display: none;
+}
+.microbiome button:after{
+    display: none;
+}
+.custom_item .microbiome button {
+    color: #000 !important;
+}
+.oral_custom .custom_body a:first-child {
+    margin-bottom: 10px  !important;
+    border-bottom: dashed 1px  !important;
+    border-radius: 0px  !important;
+    padding-top: 0  !important;
+    padding-bottom: 10px !important;
+}
+.custom_item button {
+    color: #fff !important;
+    font-family: "montserrat" !important;
+    position: relative !important; 
+    justify-content: center !important;
+    font-weight: 300 !important;
+    font-size: 20px !important;
+    background-color: transparent !important;
+}
+.custom_item button:after {
+    right: 12px !important;
+    position: absolute !important; 
+}
+.custom_item button{
+    padding: 13.5px 0px !important;
+}
+.buttons{
+    position: relative;
+}
+.custom_item{
+    position: relative;
+}
+.custom_body {
+    max-width: 100% !important;
+    width: 100%;
+    background: #b6e3ff  !important;
+    z-index: 9 !important;
+    position: absolute;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border-radius: 0px 0px 12px 12px;
+    margin-top: -5px;
+}
+.custom_item{
+    border-radius: 12px !important;
+}
+.custom_body a {
+    text-decoration: none !important;
+    font-size: 16px !important;
+    color: #fff !important;
+}
+.custom_body a {
+    width: 100%;
+    color: #565657 !important;
+    display: block;
+    padding: 10px 0px;
+    border-radius: 6px;
+    border-radius: 5px;
+    text-align: left;
+}
+.custom_body a:first-child{
+    margin-bottom: 10px;
+    border-bottom: dashed 1px;
+    border-radius: 0px;
+    padding-top: 0;
+}
+.custom_body a:nth-child(2){
+    padding-top: 0;
+    padding-bottom: 0;
+}
+@media screen and (max-width:767px){
+    .custom_body {
+        position: relative !important;
+    }
+    .drop_down_wrapper{
+        width: 90%;
+        margin: 0px auto;
+        padding-left: 0px;
+        position: relative;
+        z-index: 9;
+    }
+    .microbiome{
+        display: none;
+      }
+}
+@media screen and (min-width:768px) and (max-width:992px){
+    .drop_down_wrapper{
+        /* padding-left: 60px; */
+        position: relative;
+        z-index: 9999;
+    }
+}

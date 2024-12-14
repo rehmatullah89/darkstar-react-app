@@ -1,0 +1,1250 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+.flossPicksWrapper {
+  background-color: #effbfb;
+  padding-top: 80px;
+}
+
+.retainCleanerInnerWrapper {
+  padding-top: 150px;
+  padding-bottom: 17px;
+}
+
+.teethCleanerWarpper {
+  background-color: #00b5bb;
+  position: relative;
+  padding-bottom: 62px;
+
+}
+
+.teethCleanerDetail {
+  font-family: 'Open sans', sans-serif;
+  font-size: 24px;
+  text-align: center;
+  /* margin-top: 10px; */
+  margin-bottom: 0px;
+  font-weight: 400;
+  color: white;
+}
+
+.flossPicksColumn {
+  position: relative;
+  padding-left: 20px;
+  top: -10px;
+}
+
+.flossTitleText {
+  font-size: 48;
+  font-weight: 600;
+  margin-bottom: 30;
+  font-family: 'Montserrat';
+}
+
+.handImage {
+  position: absolute;
+  right: 180px;
+  bottom: -70px;
+}
+.open-sans {
+  font-family: 'Open Sans'
+}
+
+.flossPicksColumn {
+  padding-top: 0px;
+  padding-right: 1.25rem;
+  padding-left: 1.25rem;
+}
+.teethCleanerWarpper .teeth_cleaner_container {
+  max-width: 1440px;
+}
+.flossPicksColumn img {
+  max-width: 115%;
+  height: auto;
+  margin-bottom: 35px;
+  margin-left: 6px;
+  margin-top: -10px;
+}
+
+.retainerCleanerBannerDetails {
+  position: relative;
+  top: -100px;
+  max-width: 340px;
+  text-align: center;
+  margin-right: auto;
+  margin-top: 130px;
+}
+
+.retainerDetailInner {
+  margin-bottom: 35px;
+}
+
+.retainerCleanerBannerDetails .retainerDetailInner h2 {
+  margin-top: 30px;
+  font-size: 30px;
+  font-weight: 600;
+  color: #0eb4ba;
+  line-height: 10px;
+  font-family: 'Montserrat';
+  margin-bottom: 20px;
+}
+
+.retainerDetailInner .cariproTop {
+  position: relative;
+  font-weight: 800;
+  color: #555759;
+}
+
+.retainerDetailInner .tmSymbol {
+  font-size: 8px;
+  position: absolute;
+  top: 2px;
+  right: -10px;
+  font-weight: 600;
+}
+.sealPresDetail .cariproTOp {
+  position: relative;
+  font-weight: 800;
+  font-weight: 600;
+}
+.sealPresDetail .tmSymbol {
+  font-size: 15px;
+  position: absolute;
+  top: 10px;
+  right: 15px;
+}
+.retainerCleanerBannerDetails .retainerDetailInner h1 {
+  font-size: 48px;
+  font-weight: 600;
+  font-family: 'Montserrat';
+  color: #00b5bb;
+  letter-spacing: 0;
+  line-height: 1;
+  margin-top: 9px;
+}
+
+.retainerCleanerBannerDetails .retainerDetailInner p {
+  color: #6a6d6f;
+  line-height: 24px;
+  font-size: 16px;
+ margin-bottom: 0px;
+    font-family: 'Open Sans';
+}
+
+.avoidGinivitisWrapper {
+  margin-top: 50px;
+  background-color: white;
+  margin-bottom: 3%;
+}
+
+.avoidGinivitisDetail h2 {
+  padding: 30px 50px 60px 50px;
+  text-align: center;
+  font-weight: 400;
+  color: #0eb4ba;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 44px;
+}
+
+.avoidGinivitisDetail p {
+  text-align: center;
+  font-weight: 400;
+  font-size: 24px;
+  color: #565759;
+  font-family: 'Open Sans';
+  line-height: 38px;
+  margin-bottom: 30px;
+}
+
+.askhygenic {
+  padding-top: 5px;
+}
+.askHygenicWarpper .askhugenicContainer {
+  max-width: 1420px;
+}
+.askHygenicWarpper .askhugenicContainer .first_col {
+ position: relative;
+ left: 15px;
+}
+.askHygenicWarpper {
+  margin-top: 30px !important;
+  text-align: center;
+}
+
+.askhygenic p {
+  text-align: center;
+  font-weight: 500;
+  color: #0eb4ba;
+}
+/* 
+.premiumText{
+     color: #0eb4ba;
+     font-size: 30px;
+     font-weight: 600;
+     margin-bottom:18px;
+     font-family:"Montserrat"
+} */
+
+.askhygenicHealthyDetail h4,
+.askhygenicGigvitnsDetail h4,
+.askhygenicPreodontitisDetail h4,
+.askhygenicAdvanceDetail h4 {
+  text-align: center;
+  color: #0eb4ba;
+  padding: 35px 20px 0px 20px;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: 'Montserrat';
+  line-height: 18px;
+}
+
+.askhygenicGigvitnsDetail p,
+.askhygenicHealthyDetail p,
+.askhygenicAdvanceDetail p,
+.askhygenicPreodontitisDetail p {
+  text-align: center;
+  color: #565759;
+  padding: 0px;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: 'Open Sans';
+  line-height: 18px;
+  padding-top: 4px;
+}
+
+.btnPrimaryDarkBlue {
+  text-decoration: none;
+  background-color: #00b5bb;
+  border-color: #00b5bb;
+  font-size: 18px;
+  color: #fff;
+  display: inline-block;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  user-select: none;
+  background-image: none;
+  height: auto;
+  padding: 11px 40px;
+  border: 2px solid;
+  font-weight: 300;
+  border-width: 1px;
+  border-radius: 0;
+  font-family: 'Montserrat';
+  text-shadow: none;
+  margin-top: 20px;
+}
+
+.btnPrimaryDarkBlue:hover {
+  background-color: #3a3a3a;
+}
+
+.btnlearnScience:hover {
+  background-color: #3a3a3a;
+  color: white;
+}
+
+.flossalpickbanner {
+  width: 100% !important;
+  background-color: #56575b;
+  margin-top: 50px;
+  position: relative;
+  display: block;
+  overflow: hidden;
+  padding-bottom: 56px;
+}
+.flossPicksColumnTwo img {
+  max-width: 109% !important;
+  position: relative;
+  left: 2px;
+}
+
+.useDentalFlossContainer {
+  text-align: center;
+  margin: 60px 50px 60px 50px;
+}
+.container_custom {
+  max-width: 1420px;
+}
+.custom_row {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+
+}
+.useDentalFlossContainer h2 {
+  color: #0eb4ba;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 49px;
+  letter-spacing: 0.1rem;
+    font-family: 'Montserrat';
+    word-spacing: 4px;
+    position: relative;
+    left: -56px;
+}
+
+.listContainer {
+  display: flex;
+  flex-direction: column;
+  padding-left: 140px;
+  padding-top: 3%;
+}
+
+.listItemOne,
+.listItemTwo,
+.listItemThree,
+.listItemFour {
+  display: flex;
+  align-items: center;
+  padding: 0px 0px 10px 0px;
+}
+
+.listItemOne span,
+.listItemTwo span,
+.listItemThree span,
+.listItemFour span {
+  color: white;
+  font-size: 30px;
+  margin-left: 30px;
+  font-family: 'Montserrat';
+  font-weight: 400;
+  line-height: 40px;
+}
+/* 
+.flossPickImage{
+    max-width:260px ;
+  
+} */
+
+.useDentalFlossStepTwo,
+.useDentalFlossStepOne,
+.useDentalFlossStepThree {
+  margin-top: 10px;
+  text-align: center;
+  color: #565759;
+  font-size: 25px;
+  line-height: 35px;
+  font-weight: 400;
+}
+
+.useDentalFlossStepTwo p,
+.useDentalFlossStepOne p,
+.useDentalFlossStepThree p {
+  font-size: 25px;
+}
+.teethStagesText {
+  text-align: center;
+  color: #565759;
+  font-size: 14px;
+  font-family: 'Open Sans';
+  line-height: 20px;
+  font-weight: 400;
+}
+.theprocesscircle {
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  background: transparent;
+  border: 2px solid #565759;
+  text-align: center;
+  color: #565759;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 0;
+  padding-top: 15px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.btnOrderFlossPick {
+  text-decoration: none;
+  background-color: #00b5bb;
+  border-color: #00b5bb;
+  font-size: 18px;
+  color: #fff;
+  display: inline-block;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  user-select: none;
+  background-image: none;
+  height: auto;
+  padding: 11px 40px;
+  border: 2px solid;
+  font-weight: 300;
+  border-width: 1px;
+  border-radius: 0;
+  font-family: 'Montserrat';
+  text-shadow: none;
+}
+
+.btnOrderFlossPick:hover {
+  background-color: #565759;
+}
+
+.btnlearnScience {
+  text-decoration: none;
+  background-color: transparent;
+  border-color: #595858;
+  font-size: 18px;
+  color: #595858;
+  display: inline-block;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  user-select: none;
+  background-image: none;
+  height: auto;
+  padding: 10px 40px;
+  border: 2px solid;
+  font-weight: 300;
+  border-width: 1px;
+  border-radius: 0;
+  font-family: 'Montserrat';
+  text-shadow: none;
+}
+
+.btnCordlessFlossal {
+  text-decoration: none;
+  background-color: transparent;
+  border-color: #595858;
+  font-size: 18px;
+  color: #595858;
+  display: inline-block;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  user-select: none;
+  background-image: none;
+  height: auto;
+  padding: 10px 40px;
+  border: 2px solid;
+  font-weight: 300;
+  border-width: 1px;
+  border-radius: 0;
+  font-family: 'Montserrat';
+  text-shadow: none;
+}
+
+.btnCordlessFlossal:hover {
+  background-color: white;
+  border: 1px solid #fff !important;
+}
+
+.cordlessFlossalDetail {
+  padding: 0px;
+  text-align: center;
+}
+
+.cordlessFlossalDetail h3 {
+  font-size: 42px;
+  margin-bottom: 41px;
+  color: #555759;
+  font-weight: 400;
+  font-family: 'Montserrat';
+  line-height: 29px;
+  margin-top: 3px;
+}
+
+.cordlessFlossalWrapper {
+  margin-top: 79px;
+  background-color: #cff0f1;
+  padding:44px 0px 38px 0px;
+}
+
+.howItWorkText {
+  font-family: 'Montserrat';
+  padding-top: 9px;
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+
+button.howItWorkText {
+  appearance: none;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  line-height: 1;
+  cursor: auto;
+}
+
+.lightTextWithImage {
+  background-color: #0eb4ba;
+  padding-bottom: 2rem;
+}
+
+.lightTextDetail h2 {
+  font-family:
+    'Montserrat',
+    'BlinkMacSystemFont',
+    -apple-system,
+    'Roboto',
+    'Lucida Sans';
+  padding-top: 42px;
+  text-align: center;
+  font-weight: 700;
+  color: #fff;
+  font-size: 43px;
+  letter-spacing: 0.05em;
+  margin-bottom: 0;
+}
+
+ul.backgroundGraphics {
+  padding-left: 25px;
+}
+
+.lightTextcontainer {
+  padding-top: 27px;
+}
+
+ul.backgroundGraphics li {
+  background-image: url(../../../../public/assets/adults-probiotics-blue-tick.webp);
+  background-repeat: no-repeat;
+  background-position: left;
+  font-size: 30px;
+  list-style: none;
+  padding-left: 92px;
+  line-height: 56px;
+  margin-top: 8px;
+  margin-bottom: 10px;
+  color: #fff;
+  font-family: 'Montserrat';
+}
+
+.choosePackageDetail h2 {
+  font-weight: 400;
+  color: #0eb4ba;
+  font-size: 39px;
+  text-align: center;
+  margin-top: 72px;
+  margin-bottom: 12px;
+  font-family:
+    'Montserrat',
+    'BlinkMacSystemFont',
+    -apple-system,
+    'Roboto',
+    'Lucida Sans';
+}
+.choosePackageDetail h5 {
+  font-family: 'Open sans', sans-serif;
+  font-size: 24px;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: -30px;
+  font-weight: normal;
+  color: #565759;
+}
+
+.retainerCol {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.seprator {
+  border-top: 1px solid #c5c6c9;
+  margin-top: 54px;
+}
+
+.textFumbling {
+  text-align: 'center';
+  color: 'white';
+  margin-top: 30;
+  font-weight: 700;
+  font-size: 36px;
+  letter-spacing: 0.14rem;
+}
+
+.flossPicksColumnImg {
+  position: absolute;
+  top: 7px;
+  right: 325px;
+}
+.flossPicksColumnImg  img {
+  max-width: 104%;
+    height: auto;
+}
+.flossTitleText p {
+  color: #6a6d6f;
+  line-height: 24px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.separatorLine {
+  background: #0eb4ba;
+  width: 100px;
+  margin: 37px auto 25px 123px;
+  height: 4px;
+}
+.floss_img_wrapper {
+        margin: 0;
+        position: absolute;
+        display: inline-block;
+}
+.floss_img_inner_wrapper {
+  display: block;
+    width: 100%;
+    position: relative;
+}
+/* color: "#6a6d6f", fontSize: 16,fontWeight: 400,fontFamily:"Open sans",lineHeight:1.7,textAlign:'center'}} */
+
+@media screen and (max-width:1599px){
+  .floss_img_wrapper {
+    max-width: 960px;
+  }
+ 
+}
+@media screen and (max-width:1399px){
+  .floss_img_wrapper {
+    max-width: 840px;
+  }
+}
+@media screen and (max-width:1200px){
+  .flossPicksColumnTwo img {
+    max-width: 100%;
+    right: 40px;
+  }
+  .floss_img_wrapper {
+    max-width: 715px;
+  }
+}
+@media screen and (max-width:1120px){
+  .floss_img_wrapper {
+    max-width: 420px;
+   
+  }
+  .flossalpickbanner{
+    padding-bottom: 20px;
+  }
+  .womenImage {
+    max-width: 100%;
+    height: auto;
+
+  }
+}
+@media screen and (min-width:1024px) and (max-width:1499px){
+  .handImage {
+    right: 90px;
+  }
+  .avoidGinivitisDetail p br {
+    display: none;
+  }
+  .askhygenicHealthyDetail img {
+    max-width: 100%;
+    height: auto;
+  }
+  .flossPicksColumnOne img {
+    max-width: 100%;
+    height: auto;
+  }
+  .flossPicksColumnImg {
+    bottom: 0px;
+    right: 195px;
+    top: unset;
+  }
+  .askhugenicContainer img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+  .flossPicksColumnImg {
+    position: absolute;
+    width: unset;
+    height: auto;
+    top: unset;
+    left: unset;
+    right: 50px;
+  }
+  .flossPicksColumnImg img {
+    height: 300px;
+    width: 300px;
+  }
+  .peronImage {
+    width: 300px;
+    height: 300px;
+  }
+  .listContainer {
+    display: flex;
+    flex-direction: column;
+    padding-left: 120px;
+  }
+}
+
+@media screen and (min-width: 767px) and (max-width: 1024px) {
+  .listContainer {
+    padding-top: 0px;
+  }
+  .retainCleanerInnerWrapper {
+    padding-top: 0px;
+  }
+
+  .handImage {
+    display: none;
+  }
+
+  .retainCleanerInnerWrapper p {
+    padding-top: 0px;
+  }
+
+  .useDentalFlossContainer h2 {
+    font-size: 32px;
+    margin-left: -50px;
+  }
+
+  .teethStageImage {
+    width: 200px;
+    height: 100px;
+  }
+
+  .womenImage {
+    width: 600px;
+    height: 300px;
+  }
+
+  .askhygenicHealthyDetail p,
+  .askhygenicPreodontitisDetail p,
+  .askhygenicAdvanceDetail p,
+  .askhygenicGigvitnsDetail p {
+    font-weight: 400;
+  }
+
+  .teethImage {
+    width: 150px;
+    height: 110px;
+  }
+
+  .avoidGinivitisDetail p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+  }
+
+  .avoidGinivitisDetail h2 {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 30px;
+  }
+
+  .cordlessFlossalDetail h3 {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+  }
+
+  .choosePackageDetail h5 {
+    font-size: 20px;
+    font-family: 'Open Sans';
+  }
+  .choosePackageDetail h2 {
+    font-size: 32px;
+    font-weight: 400;
+  }
+
+  .retainerCleanerProduct {
+    margin-top: -70px;
+  }
+
+  .peronImage {
+    width: 300px;
+    height: 300px;
+  }
+  .flossPicksColumnImg img {
+    position: absolute;
+    width: 576px;
+    height: auto;
+    top: 15px;
+    left: 90px;
+  }
+.avoidGinivitisDetail p br {
+  display: none;
+}
+  .retainerDetailInner h2 {
+    width: 300px;
+    margin-top: 0px;
+  }
+
+  .retainerDetailInner p {
+    width: 300px;
+  }
+  .retainerDetailInner h1 {
+    width: 300px;
+  }
+
+  .flossTitleText p {
+    color: #6a6d6f;
+    line-height: 2px;
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .retainCleanerInnerWrapper {
+    padding-top: 100px;
+  }
+
+  .retainerCleanerBannerDetails {
+    position: relative;
+    /* top: -100px; */
+    max-width: 360px;
+    text-align: center;
+    margin-right: auto;
+    right: 50px;
+    margin-top: 100px;
+  }
+  .flossPicksColumnOne {
+    max-width: 100%;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+
+  .flossPicksColumn {
+    right: 30px;
+    max-width: 100%;
+  }
+  .flossPicksColumn img {
+    max-width: 80%;
+    height: auto;
+    margin-bottom: 35px;
+    margin-bottom: 6px;
+  }
+  .flossTitleText {
+    font-size: 30px;
+  }
+  /* .flossPicksColumnOne{
+        display: none;
+    } */
+  .textFumbling {
+    text-align: 'center';
+    color: 'white';
+    /* margin-top:10; */
+    font-weight: 600;
+    font-family: 'Montserrat';
+    font-size: 20;
+    z-index: -999;
+  }
+  .listItemOne span,
+  .listItemTwo span,
+  .listItemThree span,
+  .listItemFour span {
+    color: white;
+    font-size: 17px !important;
+    margin-left: 20px !important;
+  }
+
+  .listItemOne,
+  .listItemTwo,
+  .listItemThree,
+  .listItemFour {
+    display: flex;
+    align-items: center;
+    padding: 5px !important;
+  }
+  .listContainer {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    /* padding-top: 100px !important; */
+  }
+  .handImage {
+    display: none;
+  }
+  /* .flossPicksColumn{
+        display: none;
+    } */
+  .lightTextDetail h2 {
+    font-size: 30px;
+    padding: 40px 28px;
+  }
+
+  .teethCleanerWarpper {
+    top: -80px;
+  }
+  .askhygenicGigvitnsDetail p br,
+  .askhygenicHealthyDetail p br,
+  .askhygenicAdvanceDetail p br,
+  .askhygenicPreodontitisDetail p br{
+    display: none;
+  }
+  .retainerCleanerProduct {
+    padding-bottom: 95px;
+  }
+}
+
+@media screen and (min-width:768px) and (max-width:992px){
+  .flossPicksColumnImg img {
+    position: absolute;
+        width: 350px;
+        height: 350px;
+        top: 181px;
+        left: 228px;
+        object-fit: contain;
+  }
+}
+@media screen and (max-width: 767px) {
+  .flossPicksColumnTwo {
+    margin-top: 0px;
+    padding: 20px;
+  }
+  .flossPicksColumnTwo img{
+    max-width: 100% !important;
+    left: 0px;
+  }
+  .siteNavigation {
+    margin-left: 0px;
+  }
+
+  .separatorLine {
+    margin: 37px auto 25px auto;
+  }
+
+  .retainCleanerInnerWrapper {
+    padding-top: 0px;
+  }
+  .handImage {
+    display: none;
+  }
+  .cordlessFlossalWrapper {
+    margin-top: 40px;
+  }
+  .useDentalFlossStepTwo,
+  .useDentalFlossStepOne,
+  .useDentalFlossStepThree {
+    margin-bottom: 30px;
+  }
+
+  .flossPicksColumn img {
+    margin-left: 20px;
+    margin-top: -50px;
+  }
+  .askHygenicWarpper .askhugenicContainer .first_col {
+    position: relative;
+    left: 0px;
+   }
+   .btnOrderFlossPick {
+    font-size: 16px;
+    min-width: 230px !important;
+    margin-top: 0px !important;
+   }
+   .order_loss_btn {
+    margin-top: 30px !important;
+   }
+   .flossPickImage {
+    min-height: 210px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+  .flossPickImage img {
+    max-width: 200px;
+    max-height: 100px;
+  }
+p.teethStagesText {
+  margin-bottom: 0px;
+}
+  .flossPicksColumnTwo {
+    max-width: 100%;
+  }
+  p.teethStagesText  br {
+  display: none;
+}
+  .bannerImage {
+    background-color: #00b5bb;
+    max-width: 100%;
+  }
+
+  .flossalpickbanner {
+    max-width: 100% !important;
+    margin-top: 0px;
+  }
+  .useDentalFlossContainer h2 {
+    letter-spacing: 0px;
+    word-spacing: 0px;
+    font-size: 24px;
+    left: 0px;
+  }
+  .flossPicksColumnOne {
+    max-width: 100% !important;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+
+  .listItemOne img,
+  .listItemTwo img,
+  .listItemThree img,
+  .listItemFour img {
+    width: 25px;
+    height: 25px;
+    margin-right: -10px;
+  }
+
+  .listItemOne span,
+  .listItemTwo span,
+  .listItemThree span,
+  .listItemFour span {
+    line-height: 0px !important;
+    font-size: 15px;
+    margin-left: 20px;
+  }
+.retainerCleanerBannerDetails {
+  margin-left: auto;
+}
+  .retainerCleanerBannerDetails .retainerDetailInner h1 {
+    font-size: 36px;
+    margin-top: 0px;
+  }
+
+  .flossPicksColumnOne {
+    display: none;
+  }
+  .flossTitleText {
+    font-size: 32px;
+    margin-bottom: 30;
+  }
+.flossPicksColumn img {
+  max-width: 100%;
+  margin-left: 40px;
+}
+  .cordlessFlossalDetail h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #555759;
+    font-weight: 400;
+    font-family: 'Montserrat';
+    padding: 0px 10px;
+  }
+
+  .avoidGinivitisDetail p {
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 20px;
+  }
+  .avoidGinivitisDetail p br {
+    display: none;
+  }
+  .avoidGinivitisDetail h2 {
+    padding: 20px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 34px;
+  }
+
+  .useDentalFlossContainer h2 {
+    font-size: 22px !important;
+    margin-left: 0px !important;
+    line-height: 30px;
+    margin-bottom: 40px;
+  }
+  .useDentalFlossContainer {
+    text-align: center;
+    margin: 0px;
+  }
+  .flossPicksColumnOne {
+    text-align: center;
+    padding: 80px;
+  }
+
+  .askhygenicGigvitnsDetail p,
+  .askhygenicHealthyDetail p,
+  .askhygenicAdvanceDetail p,
+  .askhygenicPreodontitisDetail p {
+    text-align: center;
+    margin-bottom: 65px;
+    padding: 4px 10px;
+  }
+  .askhygenicGigvitnsDetail p br,
+  .askhygenicHealthyDetail p br,
+  .askhygenicAdvanceDetail p br,
+  .askhygenicPreodontitisDetail p br{
+    display: none;
+  }
+  .askhygenicHealthyDetail img {
+    text-align: center !important;
+  }
+
+  .flossPicksColumnImg {
+    display: none;
+  }
+  .listContainer {
+    padding-top: 10px !important;
+    padding-left: 10px;
+    margin-left: 5px;
+    margin-bottom: 50px;
+  }
+  .textFumbling {
+    margin-top: 5;
+    font-weight: 700;
+    font-size: 30px;
+    z-index: -999;
+    font-family: 'Montserrat';
+  }
+  .choosePackageDetail h2 {
+    margin-top: 42px;
+    margin-bottom: 0px;
+    font-size: 22px;
+    padding: 10px;
+  }
+
+  .choosePackageDetail h5 {
+    font-size: 18px;
+    margin-bottom: 0px;
+    padding: 4px 10px;
+    padding-bottom: 60px;
+  }
+
+  /* .flossPicksColumn{
+        display: none;
+    } */
+  .retainCleanerRowTop {
+    flex-direction: column-reverse;
+  }
+
+
+  .lightTextImage {
+    flex-direction: column-reverse;
+  }
+  .lightTextColumn img {
+    margin-left: 50px;
+  }
+  .lightTextcontainer {
+    padding-top: 0px;
+  }
+  .choosePackageDetail h2 {
+    font-size: 24px;
+  }
+
+  h2.headingProcess {
+    font-size: 28px !important;
+  }
+  .teethCleanerWarpper .teeth_cleaner_container {
+    max-width: 100%;
+    padding: 0px 25px;
+  }
+  .teethCleanerWarpper {
+    padding-bottom: 0px;
+    max-width: 100%;
+  }
+}
+@media screen and (min-width: 640px) {
+  .retainCleanerInnerWrapper .container {
+    padding: 0px 35px;
+  }
+  .retainCleanerProductWrapper {
+    padding: 0 35px;
+  }
+  .scienceContainer {
+    padding: 0px 35px;
+  }
+}
+.scienceContainer {
+  padding: 0px 0px;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .retainerCol {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .sixCol {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .retainerCleanerBannerDetails .retainerDetailInner h2 {
+    margin-top: 30px;
+  }
+  .retainerDetailInner {
+    margin-bottom: 45px;
+  }
+  .retainerCleanerBannerDetails .retainerDetailInner h1 {
+    font-size: 42px;
+  }
+}
+
+@media screen and (min-width: 64em) {
+  .retainCleanerInnerWrapper {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+  .retainerCleanerProduct {
+    padding-right: 1.25rem;
+    padding-left: 1.25rem;
+    margin-bottom: 95px;
+  }
+}
+
+@media screen and (min-width: 992) {
+  ul.backgroundGraphics li {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .retainCleanerProductWrapper {
+    width: 1170px;
+    margin: 0px auto;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .lightTextcontainer {
+    max-width: 1440px;
+    margin: 0px auto;
+  }
+  .retainCleanerProductWrapper {
+    width: 1420px;
+    margin: 0px auto;
+  }
+  .retainCleanerInnerWrapper .container {
+    padding: 0 0px;
+  }
+  .askhygenicGigvitnsDetail img {
+    max-width: 100%;
+    height: auto;
+  }
+  .flossPicksColumnImg img {
+    max-width: 643px;
+    height: auto;
+  }
+  .flossPicksColumnOne img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+@media screen and (max-width:400px){
+  .textFumbling{
+    font-size: 22px;
+  }
+  .askhygenicGigvitnsDetail p,
+  .askhygenicHealthyDetail p,
+  .askhygenicAdvanceDetail p,
+  .askhygenicPreodontitisDetail p {
+    padding: 4px 15px;
+  }
+  .choosePackageDetail {
+    padding: 4px 15px;
+      }
+}
+
+@media screen and (min-width:400px) and (max-width:430px){
+  .choosePackageDetail {
+padding: 4px 30px;
+  }
+  .textFumbling {
+    font-size: 28px;
+  }
+}

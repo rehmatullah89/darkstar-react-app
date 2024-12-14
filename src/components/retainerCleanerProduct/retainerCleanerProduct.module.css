@@ -1,0 +1,91 @@
+.productSelectionBox {
+  border: solid #c5c6c9 1px;
+  padding: 30px;
+  text-align: center;
+  margin-top: 84px;
+}
+.productSelectionPriceWrap {
+  padding-top: 20px;
+  margin-top: 20px;
+  text-align: center;
+}
+.productSelectionDentistPriceNote {
+  font-size: 13px;
+  color: #565759;
+  font-family:
+    'Open Sans',
+    'BlinkMacSystemFont',
+    -apple-system,
+    'Roboto',
+    'Lucida Sans';
+}
+.productSelectionDollarSymbol {
+  width: 16px;
+  color: #565759;
+  margin-top: -10px;
+}
+.productSelectionPriceText {
+  font-family: 'Montserrat';
+  font-size: 33px;
+  color: #565759;
+  font-weight: 700;
+}
+.productSelectiondDescription b {
+  font-family: 'Open sans', sans-serif;
+  font-weight: 600;
+  display: block;
+  padding-top: 5px;
+  font-size: 1em;
+  color: #565759;
+}
+
+.ValueText {
+  color: #2eb4ba;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: 'Open sans', sans-serif;
+}
+.btnprimaryPurple {
+  background-color: #00b5bb;
+  border-color: #00b5bb;
+  margin-top: 8px;
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+  text-align: center;
+  display: inline-block;
+  margin-bottom: 0;
+  font-size: 14px;
+  line-height: 1.42857143;
+  white-space: nowrap;
+  vertical-align: middle;
+  color: #fff;
+  height: auto;
+  padding: 10px 40px;
+  border: 2px solid #00b5bb;
+  border-width: 1px;
+  border-radius: 0;
+  font-family: 'Montserrat';
+  letter-spacing: 0.2em;
+  text-shadow: none;
+}
+
+@media screen and (max-width: 1200px) {
+  .productSelectionBox img {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .teethWhiteningGelWorkText br {
+    display: none;
+  }
+  .productSelectionBox {
+    padding: 10px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .productSelectionBox {
+    padding: 10px;
+  }
+}

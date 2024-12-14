@@ -1,0 +1,105 @@
+.desktop-page-container {
+  /* max-width: 1460px; */
+  margin-left: auto;
+  margin-right: auto;
+  background: #f3f8fb;
+}
+.accordion-button:not(.collapsed) {
+  /* background-color: #ffffff; */
+}
+.techwave_fn_leftpanel {
+  z-index: 12345;
+  position: fixed;
+  background-color: #f5f5f5;
+  width: 325px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  border-right: 1px solid #ddd;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
+  -o-flex-direction: column;
+  flex-direction: column;
+  transition: all 0.2s ease;
+}
+.techwave_fn_content {
+  position: relative;
+  margin-left: 350px;
+  margin-top: 100px;
+  min-height: calc(100vh - (100px));
+  transition: all 0.2s ease;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
+  -o-flex-direction: column;
+  flex-direction: column;
+  width: 78%;
+}
+.techwave_fn_leftpanel .accordion {
+  --bs-accordion-bg: transparent;
+}
+.desktop-page-container .techwave_fn_leftpanel .accordion-body a {
+  background-color: transparent;
+}
+.techwave_fn_leftpanel .leftpanel_content {
+  flex: 1 0 auto;
+  padding: 48px 20px;
+  overflow-y: auto;
+  height: calc(100% - (100px));
+  padding-top: 30px;
+}
+.techwave_fn_leftpanel .leftpanel_content {
+  scrollbar-width: thin;
+  scrollbar-color: #999 #fff;
+}
+.desktop-page-container
+  .techwave_fn_leftpanel
+  .accordion-button:not(.collapsed) {
+  background-color: #e7e7e7;
+}
+.desktop-page-container .accordion-body a {
+  color: rgb(86, 87, 89);
+  font-size: 14px;
+  line-height: 1;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  padding: 13px 20px;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+
+.techwave_fn_leftpanel .logo-wrap-smilebrilliant {
+  padding: 19px 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding-bottom: 20px;
+}
+.techwave_fn_leftpanel .accordion-header button.accordion-button {
+  padding: 0;
+  padding-bottom: 12px;
+}
+header.dark-header {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+header.header-light {
+  padding-top: 9px;
+}
+.desktop-page-container .techwave_fn_leftpanel .accordion-button:not(.collapsed) {
+  padding: 0px;
+}
+
+

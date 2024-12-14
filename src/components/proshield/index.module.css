@@ -1,0 +1,47 @@
+.proshieldPage {
+  padding-top: 85px;
+}
+
+.mainContainer {
+  max-width: 1420px;
+}
+
+.proshieldBanner {
+  height: 658px;
+}
+
+.proshieldBannerContent h1 {
+  font-size: 90px;
+  line-height: 75px;
+}
+
+/* .psImage{
+    top: 50%;
+    left: 50%;
+    transform: translate(-33%, -45%) scale(1.02);
+} */
+
+.bgBraphic {
+  background-size: cover;
+  height: 100%;
+  width: 864px;
+  background-repeat: no-repeat;
+  max-width: 724px;
+  right: -60px;
+}
+
+.proshieldPage .secition3 {
+  /* height: 750px; */
+  background-repeat: no-repeat !important;
+  background: #002244;
+  background-position: left center;
+  /* min-height: 750px; */
+}
+
+.proshieldPage .secition4 {
+  /* height: 750px; */
+  /* min-height: 750px; */
+  background: #5f6c79;
+  background-repeat: no-repeat;
+  background-position: right center;
+}

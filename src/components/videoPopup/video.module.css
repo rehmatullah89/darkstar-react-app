@@ -1,0 +1,361 @@
+@font-face {
+    font-family: "montserrat";
+    src: url("../../../public/assets/fonts/montserrat/Montserrat-Bold.woff2") format("woff2");
+    src: url("../../../public/assets/fonts/montserrat/Montserrat-Bold.woff") format("woff");
+    src: url("../../../public/assets/fonts/montserrat/Montserrat-ExtraBold.woff")format("woff");
+    src: url("../../../public/assets/fonts/montserrat/Montserrat-ExtraBold.woff2")format("woff2");
+    src: url("../../../public/assets/fonts/montserrat/Montserrat-Medium.woff")format("woff");
+    src: url("../../../public/assets/fonts/montserrat/Montserrat-Medium.woff2")format("woff2");
+    src: url("../../../public/assets/fonts/montserrat/Montserrat-Light.woff")format("woff");
+    src: url("../../../public/assets/fonts/montserrat/Montserrat-Light.woff2")format("woff2");
+    src: url("../../../public/assets/fonts/montserrat/Montserrat-Regular.woff")format("woff");
+    src: url("../../../public/assets/fonts/montserrat/Montserrat-Regular.woff2")format("woff2");
+  } 
+   @font-face {
+    font-family:"Open Sans";
+    src: url("../../../public/assets/fonts/Open_Sans/OpenSans-Bold.woff2") format("woff2");
+    src: url("../../../public/assets/fonts/Open_Sans/OpenSans-Bold.woff") format("woff");
+    src: url("../../../public/assets/fonts/Open_Sans/OpenSans-Light.woff")format("woff");
+    src: url("../../../public/assets/fonts/Open_Sans/OpenSans-Medium.woff")format("woff");
+    src: url("../../../public/assets/fonts/Open_Sans/OpenSans-Regular.woff")format("woff");
+    /* src: url("../../../public/assets/fonts/Open_Sans/OpenSans_Condensed-ExtraBold.woff")format("woff"); */
+  } 
+
+.font_mont {
+    font-family: "Montserrat";
+} 
+.weight_normal {
+    font-weight: normal;
+}
+.weight_900 {
+    font-weight: 900;
+}
+.mb_0 {
+    margin-bottom: 0 !important; 
+}
+.weight_600{
+    font-weight: 600;
+}
+
+
+.partner_banner_bottom {
+    overflow: hidden;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background: #2d2e2f;
+    position: relative;
+}
+.partner_banner_bottom:before{
+    content: '';
+    background-image: url(../../../public/assets/yellow-pattern-bottom.webp);
+    width: 100%;
+    height: 107%;
+    display: block;
+    position: absolute;
+    left: 0;
+    background-repeat: no-repeat;
+    top: 0;
+    background-size: contain;
+}
+.yellow_text {
+    color: #f0c23a;
+}   
+h5.section_heading_partner {
+    font-size: 36px;
+    color:#f0c23a;
+    font-weight: 800;
+    padding-bottom: 10px;
+}
+.text_white {
+    color: #fff;
+}
+.Custom_row {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1420px;
+}
+.partner_text {
+    font-size: 16px;
+    font-family: 'Open Sans', 'BlinkMacSystemFont', -apple-system, 'Roboto', 'Lucida Sans';
+    margin-bottom: 1.5rem;
+}
+.powered_by_section{
+    display: flex;
+    justify-content: space-between;
+}
+.powered_by_text {
+    max-width: 190px;
+}
+.powered_by_text span {
+    font-size: 12px;
+    color: #9e9e9e;
+    font-style: italic;
+}
+.formulate_logo img{
+    max-width: 100%;
+    height: auto;
+}
+.our_people_promise {
+    width: auto;
+    margin-top: -23px;
+}
+.our_people_promise a {
+    background: #f0c23b;
+    color: #2d2e2f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-color: #2d2e2f;
+    border-radius: 10px;
+    letter-spacing: 0;
+    font-size: 18px;
+    font-family: 'Montserrat';
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    height: auto;
+    padding: 10px 40px;
+    border: 2px solid;
+    font-weight: 300;
+    text-shadow: none;
+    border-width: 1px;
+    max-width: 305px;
+    text-decoration: none;
+}
+.content_section{
+    position: relative;
+    z-index: 2;
+}
+.image_circle .postion_custom {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+
+}
+.video_play_button {
+    position: absolute;
+    z-index: 10;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    box-sizing: content-box;
+    display: block;
+    width: 32px;
+    height: 44px;
+    /* background: #fa183d; */
+    border-radius: 50%;
+    padding: 18px 20px 18px 28px;
+}
+.video_play_button:before {
+    content: "";
+    position: absolute;
+    z-index: 0;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    display: block;
+    width: 80px;
+    height: 80px;
+    background: #ba1f24;
+    border-radius: 50%;
+    animation: pulse-border 1500ms ease-out infinite;
+}
+.video_play_button span {
+    display: block;
+    position: relative;
+    z-index: 3;
+    width: 0;
+    height: 0;
+    border-left: 32px solid #fff;
+    border-top: 22px solid transparent;
+    border-bottom: 22px solid transparent;
+}
+.image-circle  img {
+    max-width: 100%;
+    height: auto;
+}
+.video_play_button:after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    display: block;
+    width: 80px;
+    height: 80px;
+    background: #fa183d;
+    border-radius: 50%;
+    transition: all 200ms;
+}
+.no_padding{
+    padding: 0px 0px !important;
+}
+.image_circle a {
+    position: relative;
+}
+.postion_custom img {
+    max-width: 100%;
+    height: auto;
+}
+@keyframes pulse-border {
+    0% {
+      transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
+      opacity: 1;
+    }
+  
+    100% {
+      transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5);
+      opacity: 0;
+    }
+  }
+@media screen and (min-width:640px){
+    .Custom_row{
+        padding: 0px 35px;
+    }
+}
+@media (min-width: 768px) {
+    .container_wrap {
+        max-width: 750px;
+    }
+     br.hidden_desktop{
+        display: none;
+    }
+}
+@media (min-width: 992px) {
+    .container_wrap {
+        max-width: 970px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+   
+}
+@media (min-width: 1200px) {
+    .container_wrap {
+        max-width: 1170px;
+    }
+}
+@media (min-width: 1500px) {
+    .container_wrap {
+        max-width: 1420px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+   
+}
+
+
+
+@media (min-width: 1600px) and (max-width: 1799px) {
+    .partner_banner_bottom:before{
+        left: -111px;
+    }
+}
+
+@media (max-width: 1599px) {
+    .circle_banner_home {
+        left: -441px;
+        top: 385px;
+    }
+}
+@media (max-width: 1400px) {
+  
+    .partner_banner_bottom:before{
+        height: 100%;
+        left: -140px;
+    }
+}
+
+@media screen and (max-width:990px){
+    .gurantee-logo{
+        max-width: 100px;
+    }
+    .gurantee-logo img{
+        max-width: 100%;
+        height: auto;
+    }
+    .powered_by_section {
+        align-items: center;
+    }
+    .mobile_hidden_text{
+        display: none;
+    }
+   .gurantee_logo_yellow {
+    max-width: 100px;
+   }
+   .formulate_logo {
+    max-width: 160px;
+    display: inline-block;
+   }
+   
+    .our_people_promise {
+        margin-top: 8px;
+    }
+    
+}
+
+@media screen and (max-width:767px){
+    .image_circle {
+        max-width: 320px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+   
+    .mobile_hidden_text br.hidden_desktop{
+        display: block;
+    }
+    
+    .mobile_medium {
+        font-weight: 600;
+    }
+  
+    .hidden_mobile {
+        display: none;
+    }
+ 
+    .our_people_promise {
+        margin-top: 41px;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .our_people_promise a {
+        color: #fff !important;
+        border-color: #f0c23b !important;
+    }
+    
+    .partner_banner_bottom .container_wrap{
+        max-width: 100%;
+    }
+    .content_section {
+        text-align: left;
+    }
+    p.partner_text {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:400px){
+        .section_header.dark_blue h1 {
+            font-size: 19px;
+        }
+        .men_apply_cream {
+        max-height: 216px;
+        }
+        .section_top_banner {
+            background-position: 129px;
+            background-position-y: 131px;
+            padding-top: 5rem;
+        }
+        .circle_banner_home {
+            left: -316px;
+        }
+    .section_top_banner .action_btn a{
+        min-width: 244px !important;
+    }
+  
+}

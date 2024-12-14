@@ -1,0 +1,6 @@
+.trayProduct {
+  background: red;
+}
+.trayProduct .verticle-line {
+  background: red !important;
+}

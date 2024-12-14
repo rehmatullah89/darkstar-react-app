@@ -1,0 +1,1870 @@
+@media (max-width: 1500px) {
+  .pr-banner-section img {
+    max-width: 400px;
+    height: auto;
+  }
+  .prochieldPage .pr-banner-section {
+    height: 600px;
+  }
+  .proshield_bgBraphic__WLa66.col-sm-6 {
+    right: -160px;
+  }
+  .pr-section3 img[alt='section-footbal-product-graphic'] {
+    max-width: 80%;
+    height: auto;
+  }
+  .pr-section4 img[alt='section-footbal-product-graphic'] {
+    max-width: 70%;
+    height: auto;
+  }
+  .pr-section3 .ml-140.w-450.mt-5.pe-5 {
+    width: 100%;
+    max-width: fit-content;
+    margin: auto;
+  }
+  .pr-section3 div.ms-5 {
+    margin: unset !important;
+    text-align: center;
+  }
+  .xl-w-50 {
+    width: 50%;
+  }
+  .proshield_proshieldPage__VzDb4 .proshield_secition4__oJkbV {
+    background-position: unset !important;
+  }
+}
+@media (max-width: 1200) {
+  .prochieldPage .proshield_proshieldPage__VzDb4 .proshield_secition3__YbmXi {
+    background-position-x: right !important ;
+  }
+  .prochieldPage .pr-secition5.section5 {
+    background-position: right center !important;
+  }
+}
+
+@media (max-width: 1199px) {
+  .night-guards .bannerImageSetting {
+    background-position: inherit;
+  }
+
+  .night-guards .banner-content .w-fit.ms-auto {
+    margin-left: 0px !important;
+  }
+
+  .ng-section1 .container {
+    max-width: 100%;
+  }
+
+  .lg-min-w-100 {
+    min-width: 100%;
+  }
+
+  .btn-lg {
+    padding: 10px 0px !important;
+  }
+
+  .ng-section3 .min-h-5 {
+    min-height: 490px;
+  }
+
+  .ng-section3 .min-h-330 {
+    min-height: 400px;
+  }
+
+  .lg-max-w-100 {
+    max-width: 100%;
+  }
+
+  .lg-w-100 {
+    width: 100%;
+  }
+
+  .lg-flex-column {
+    flex-direction: column;
+  }
+
+  .lg-d-block {
+    display: block;
+  }
+
+  .lg-d--none {
+    display: none;
+  }
+}
+
+@media (max-width: 1024px) {
+  .night-guards .container {
+    max-width: 100%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .night-guards .bannerImageSetting {
+    /* background-position:center; */
+    background-position: -590px 200px !important;
+    max-height: 840px;
+  }
+
+  .night-guards .banner-content .w-fit.ms-auto {
+    margin-left: auto !important;
+  }
+
+  .ng-section2 img {
+    max-width: 99%;
+  }
+
+  .ng-section3 figure > div {
+    height: auto !important;
+    margin-bottom: 2rem;
+  }
+
+  .ng-section3 img {
+    width: 40%;
+    height: auto;
+  }
+
+  .ng-section5 .col-md-6 {
+    width: 100%;
+    margin-bottom: 3rem;
+  }
+
+  .ng-section5 .col-md-6 .ps-5,
+  .ng-section5 .col-md-6 .ps-3 {
+    padding-left: 0px !important;
+  }
+
+  .ng-section5 .col-md-6 .img-box {
+    min-width: 170px;
+  }
+
+  .ng-section5 .row {
+    padding-bottom: 0px !important;
+  }
+
+  .md-w-100 {
+    width: 100%;
+    max-width: 100% !important;
+  }
+
+  body .md-px-0 {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+
+  body .md-border-end-0 {
+    border-right: 0px !important;
+  }
+
+  .teeth-whitening-facts .section1 .pb-5.mb-5,
+  .teeth-whitening-facts .section2 {
+    margin-bottom: 0px !important;
+    padding-bottom: 30px !important;
+  }
+
+  .teeth-whitening-facts .section1 .vc_custom_heading {
+    margin-top: 0px !important;
+    padding-top: 20px !important;
+  }
+
+  .teeth-whitening-facts .section2 .py-5 {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+  }
+
+  body .lg-pt-0 {
+    padding-top: 0px !important;
+  }
+
+  body .lg-pb-0 {
+    padding-bottom: 0px !important;
+  }
+
+  body .lg-pt-20 {
+    padding-top: 20px !important;
+  }
+
+  body .lg-pb-20 {
+    padding-bottom: 20px !important;
+  }
+
+  .lg-max-w-600 {
+    max-width: 600px;
+  }
+
+  body .lg-px-30 {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+  }
+  .prochieldPage .pr-banner-section img {
+    max-width: 300px !important;
+    height: auto;
+  }
+}
+
+@media (max-width: 991px) {
+  .prochieldPage .ng-section6 .accordion .fs-20 {
+    font-size: 18px !important;
+  }
+
+  .md-flex-column {
+    flex-direction: column;
+  }
+
+  body .md-pt-0 {
+    padding-top: 0px !important;
+  }
+
+  body .md-mt-0 {
+    margin-top: 0px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .night-guards .container {
+    max-width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .min-w-100 {
+    min-width: 100%;
+  }
+
+  .scmt {
+    margin-top: 20px !important;
+  }
+
+  #night-guards .product-selection-title {
+    padding: 50px 0px 20px;
+    font-size: 20px !important;
+  }
+
+  .ng-section1 .card {
+    padding: 10px !important;
+    margin-top: 5rem;
+  }
+
+  .ng-section1 .row .col-md-4 .card:first-child {
+    margin-top: 0px !important;
+  }
+
+  .ng-section3 h2 {
+    margin: 0px 0px 0px 0px !important;
+    padding: unset !important;
+  }
+
+  body .md-mb-30 {
+    margin-bottom: 30px !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .prochieldPage .color-layer {
+    z-index: 2;
+    background: #001e3d9c;
+  }
+  .prochieldPage .proshield_bgBraphic__WLa66.position-absolute {
+    z-index: -1;
+  }
+
+  .ng-section3 .min-h-5,
+  .ng-section3 .min-h-120 {
+    min-height: auto !important;
+  }
+
+  .ng-section3 .min-h-120 {
+    margin-top: 1.5rem;
+  }
+
+  .ng-section5 .fs-24 {
+    font-size: 18px;
+  }
+
+  .ng-section5 .fs-34 {
+    font-size: 24px;
+  }
+
+  .ng-section5 .col-md-6 .img-box {
+    min-width: 100px;
+  }
+
+  .ng-section5 .col-md-6 .img-box img {
+    width: 80px;
+    height: auto;
+  }
+
+  .ng-section4 .fs-35 {
+    font-size: 18px;
+    padding-top: 0.5rem;
+  }
+
+  .ng-section4 .fs-34 {
+    font-size: 18px;
+  }
+
+  .ng-section4 .min-h-200 {
+    min-height: auto;
+    padding: 20px 0px 30px;
+  }
+
+  .ng-section4 .min-w-180 {
+    min-width: auto;
+    padding: 0px 20px;
+  }
+
+  .accordion .fs-22 {
+    font-size: 16px !important;
+  }
+
+  .accordion .accordion-body {
+    font-size: 14px !important;
+  }
+
+  .ng-section7 .fs-20 {
+    font-size: 16px;
+  }
+
+  .night-guards .price-section.fs-28 {
+    font-size: 22px !important;
+    padding: 0px 1.5rem;
+  }
+
+  .night-guards .ng-section1 .fs-34 {
+    font-size: 24px !important;
+  }
+
+  .night-guards .ng-section1 .fs-22 {
+    font-size: 16px !important;
+  }
+
+  .ng-section1 .product-selection-description {
+    text-align: center !important;
+  }
+
+  .ng-section1 .row .col-md-4.col-sm-12:not(:last-child) {
+    margin-bottom: 5rem;
+  }
+
+  .ng-section1 .row .col-md-4.col-sm-12:last-child {
+    margin-bottom: 0px;
+  }
+
+  .ng-section7 img {
+    width: 120px;
+    height: auto;
+  }
+
+  #night-guards .row .columns .wpb_wrapper {
+    max-width: 95%;
+    margin: auto;
+  }
+
+  #night-guards .demage-frustration-cont .txt-detl-mbt br {
+    display: none;
+  }
+
+  #night-guards .demage-frustration-cont .txt-detl-mbt {
+    font-size: 18px !important;
+  }
+
+  .prochieldPage .ng-section7 p.fs-20 {
+    font-size: 14px !important;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .prochieldPage .ng-section7 h3.fs-34 {
+    font-size: 28px;
+  }
+
+  .prochieldPage .ng-section7 h3.fs-31,
+  .prochieldPage .ng-section6 .fs-38 {
+    font-size: 30px;
+  }
+
+  .prochieldPage .ng-section7.mb-5 {
+    margin-bottom: 0px !important;
+    padding-top: 0px;
+  }
+
+  .prochieldPage .ng-section6 .max-w-1000.mx-auto,
+  .prochieldPage .ng-section6 .accordion.mx-auto.px-4,
+  .prochieldPage .ng-section6 .max-w-1130 {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+
+  .prochieldPage .ng-section6 {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .prochieldPage .ng-section5 {
+    padding-left: 14px;
+    padding-right: 14px;
+  }
+
+  .prochieldPage .ng-section5 .border-end {
+    border-left: 0px !important;
+    border-right: 0px !important;
+    margin-bottom: 0px;
+    border-bottom: 1px solid;
+  }
+
+  .prochieldPage .ng-section5 p.fs-17:not(strong) {
+    font-size: 12px;
+    line-height: 16px;
+    max-width: 100%;
+  }
+
+  .prochieldPage .ng-section5 p strong {
+    font-size: 16px;
+    line-height: 16px;
+  }
+
+  .prochieldPage .ng-section5 .pe-3,
+  .prochieldPage .ng-section5 .ps-4 {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+
+  .prochieldPage .ng-section5 .bg-yello-100 {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+
+  .prochieldPage .ng-section5 .max-w-1100 div {
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+    margin-bottom: 0px !important;
+  }
+
+  .prochieldPage .ng-section5 p {
+    margin-bottom: 0px;
+    padding-right: 0px !important;
+  }
+
+  .prochieldPage .ng-section5 .max-w-1100 .px-4.border-bottom {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+
+  .prochieldPage .ng-section5 .max-w-1100 .px-4.border-bottom div {
+    padding-left: 0.5rem;
+  }
+
+  .prochieldPage .ng-section5 .text-center.max-w-870.mx-auto.px-4 {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+
+  .prochieldPage .ng-section5 .text-slate-500.fs-20 {
+    font-size: 16px !important;
+    line-height: 25px;
+  }
+
+  .prochieldPage .ng-section3 {
+    margin-bottom: 0px !important;
+    padding-bottom: 30px !important;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .prochieldPage .ng-section5 {
+    margin-top: 35px !important;
+  }
+
+  .prochieldPage .ng-section5 h3.text-slate-500.fs-40.montserrat {
+    font-size: 24px !important;
+  }
+
+  .prochieldPage .ng-section3 .text-center.mt-5.pt-4 {
+    margin-top: 0px !important;
+  }
+
+  .prochieldPage .ng-section3 .fs-40 {
+    font-size: 24px !important;
+  }
+
+  .prochieldPage .ng-section3 figure.m-0 img {
+    width: 95%;
+  }
+
+  .prochieldPage .ng-section3 .mb-2.text-slate-500.mt-4.pt-3 {
+    margin-top: 0px !important;
+    padding-top: 0px !important;
+    padding-bottom: 0.5rem;
+  }
+
+  .prochieldPage .ng-section3 .text-center.fimaly-multiple-opn {
+    margin-bottom: 4rem !important;
+  }
+
+  .prochieldPage .ng-section3 .fs-14.fw-500.text-slate-500.px-4,
+  .prochieldPage .ng-section3 .text-center.px-4 {
+    padding: 0px !important;
+  }
+
+  .prochieldPage .ng-section3 .col-md-4 .text-center.px-4 .min-h-5 figure img {
+    width: 200px;
+    margin-top: 2rem;
+  }
+
+  .prochieldPage .ng-section3 .row3.col-md-4 img {
+    width: 90%;
+    margin-top: 2rem;
+  }
+
+  .prochieldPage .pr-section7 .px-35 {
+    width: 100%;
+  }
+
+  .prochieldPage .pr-section7 .px-35 h3 {
+    font-size: 18px;
+  }
+
+  .prochieldPage .price-section {
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-bottom: 0px !important;
+  }
+
+  .prochieldPage .price-section .text-center.max-w-1000.mx-auto.px-4.mt-4 {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    width: 100%;
+    margin: 0px !important;
+  }
+
+  .prochieldPage .price-section .text-center.max-w-1000.mx-auto.px-4.mt-4 h3 {
+    font-size: 24px;
+  }
+
+  .prochieldPage
+    .price-section
+    .text-center.max-w-1000.mx-auto.px-4.mt-4
+    .mt-4.px-4,
+  .prochieldPage
+    .price-section
+    .text-center.max-w-1000.mx-auto.px-4.mt-4
+    .mt-4.px-4
+    h4 {
+    padding: 0px !important;
+  }
+
+  .prochieldPage .price-section h4.fs-20 {
+    font-size: 16px !important;
+    line-height: 25px;
+  }
+
+  .prochieldPage .price-section .card.p-30 {
+    padding: 15px;
+    padding-bottom: 25px !important;
+  }
+
+  .prochieldPage
+    .pr-secition5
+    .d-flex.justify-content-between.align-items-center.h-100 {
+    flex-direction: column;
+  }
+
+  .prochieldPage
+    .pr-secition5
+    .d-flex.justify-content-between.align-items-center.h-100
+    h4 {
+    font-size: 28px;
+    margin-top: 3rem;
+  }
+
+  .prochieldPage
+    .pr-secition5
+    .d-flex.justify-content-between.align-items-center.h-100
+    h4
+    ~ p {
+    padding: 0px 3rem;
+  }
+
+  .prochieldPage .pr-secition5 .ms-5 {
+    margin-right: 0px !important;
+    text-align: center;
+    margin-left: 0px !important;
+    margin-bottom: 9rem;
+  }
+
+  .prochieldPage .pr-secition5 img.lg-img {
+    width: 100% !important;
+    max-width: 354px;
+    height: auto !important;
+    margin: auto !important;
+  }
+
+  .pr-secition5 {
+    min-height: auto !important;
+    height: auto !important;
+    background-position-x: 39% !important;
+  }
+
+  .prochieldPage .pr-secition5 .ml-140 {
+    margin: 0px;
+    width: 100%;
+    margin: auto;
+    padding-right: 0px !important;
+  }
+
+  .prochieldPage .pr-secition5 .w-220.ms-1.bg-white {
+    width: 160px;
+  }
+
+  .prochieldPage .pr-secition5 .text-center.ps-4 a,
+  .prochieldPage .pr-secition5 .text-center.order-1.me-5.pe-2 a {
+    position: absolute;
+    bottom: 56px;
+    left: 0;
+    right: 0;
+    max-width: 289px;
+    margin: auto;
+    font-size: 18px !important;
+  }
+
+  .prochieldPage .pr-secition5 .text-center.order-1.me-5.pe-2 {
+    margin: 0px !important;
+    order: 0 !important;
+  }
+
+  .prochieldPage
+    .pr-secition5
+    .d-flex.justify-content-between.align-items-center.h-100.position-relative {
+    padding-bottom: 9rem;
+  }
+
+  .prochieldPage
+    .pr-secition5
+    .d-flex.justify-content-between.align-items-center.h-100.position-relative
+    .fs-15 {
+    font-size: 14px;
+  }
+
+  .prochieldPage .pr-secition5.pr-section4 {
+    background-position-x: 71% !important;
+  }
+
+  .prochieldPage .pr-secition5.pr-section4.pr-section3 {
+    background-position-x: 40% !important;
+  }
+
+  .prochieldPage .pr-secition5.pr-section4 p {
+    padding: 0px 0rem !important;
+  }
+
+  .prochieldPage .pr-secition5.pr-section4.pr-section3 .text-center.ps-4 {
+    padding: 0px 2rem !important;
+  }
+
+  .prochieldPage .pr-section2 h3 {
+    font-size: 24px !important;
+  }
+
+  .prochieldPage .pr-section2 .d-flex {
+    flex-wrap: wrap;
+    padding-left: 14px;
+    padding-right: 15px;
+  }
+
+  .prochieldPage .pr-section2 .d-flex div {
+    margin-bottom: 1rem;
+  }
+
+  .prochieldPage .pr-section2 .d-flex div img {
+    width: 100%;
+    height: auto;
+  }
+
+  .prochieldPage .pr-section2 .d-flex div:nth-child(1) {
+    width: 50px;
+  }
+
+  .prochieldPage .pr-section2 .d-flex div:nth-child(2),
+  .prochieldPage .pr-section2 .d-flex div:nth-child(3) {
+    width: 130px;
+  }
+
+  .prochieldPage .pr-section2 .d-flex div:nth-child(4) {
+    width: 120px;
+  }
+
+  .prochieldPage .pr-section2 .d-flex div:nth-child(5) {
+    width: 120px;
+  }
+
+  .prochieldPage .pr-section2 .d-flex div:nth-child(6) {
+    width: 120px;
+  }
+
+  .prochieldPage .pr-section2 .d-flex div:nth-child(7) {
+    margin-bottom: 0px;
+    width: 50%;
+    text-align: center;
+  }
+
+  .prochieldPage .pr-section2 .d-flex div:nth-child(8) {
+    margin-bottom: 0px;
+    width: 50%;
+    text-align: center;
+  }
+
+  .prochieldPage .pr-section2 .d-flex div:nth-child(7) img {
+    max-width: 100px;
+  }
+
+  .prochieldPage .pr-section2 .d-flex div:nth-child(8) img {
+    max-width: 70px;
+  }
+
+  .prochieldPage .pr-banner-section .h-100.d-flex {
+    flex-direction: column;
+    align-items: unset !important;
+  }
+
+  .prochieldPage .pr-banner-section .position-absolute.d-flex {
+    /* position: relative !important; */
+    max-width: 100%;
+    right: 0;
+    width: 100% !important;
+    max-height: 440px;
+    background-position: bottom;
+    left: -10px;
+  }
+
+  .prochieldPage .pr-banner-section .max-w-600 {
+    position: relative !important;
+    z-index: 1;
+    padding: 3rem 1.6rem 3.3rem 1.6rem;
+  }
+
+  .prochieldPage .pr-banner-section .max-w-600 h1 {
+    font-size: 62px;
+    line-height: 52px;
+  }
+
+  .prochieldPage .pr-banner-section .max-w-600 h2 {
+    font-size: 21px;
+    margin-top: 35px !important;
+    max-width: 330px;
+  }
+
+  .prochieldPage .pr-banner-section .max-w-600 p {
+    font-size: 12px;
+  }
+
+  .prochieldPage .pr-banner-section .d-flex .flex-column.w-fit.mt-4.pt-1 a {
+    font-size: 18px !important;
+  }
+
+  .prochieldPage .pr-banner-section .buttons {
+    margin-top: 9rem !important;
+  }
+
+  .prochieldPage .pr-banner-section .buttons .max-w-280 {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  .prochieldPage .pr-banner-section .brtm {
+    top: -15px !important;
+    font-size: 12px !important;
+    display: inline-block;
+  }
+
+  .prochieldPage .price-section #pricing-section .col-md-4.col-12 {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-bottom: 3.1rem;
+  }
+
+  .prochieldPage .price-section #pricing-section .col-md-4.col-12:last-child {
+    margin-bottom: 0rem;
+  }
+
+  .prochieldPage .ng-section3 p.text-uppercase.fs-16 {
+    font-size: 13px;
+    text-align: center !important;
+    margin-bottom: 0px;
+    padding-left: 0.5rem;
+    padding-top: 0.5rem !important;
+  }
+
+  .prochieldPage .ng-section3 p.fs-16.max-w-250:first-child {
+    padding-right: 3rem;
+  }
+
+  .last12 {
+    padding-right: 0px !important;
+  }
+
+  .prochieldPage .ng-section3 .border-end {
+    line-height: 27px;
+    padding-top: 1rem !important;
+    padding-right: 1rem !important;
+  }
+
+  .prochieldPage .ng-section3 .d-flex.border-top.mt-3.ps-3 {
+    padding-right: 0rem !important;
+    padding-left: 2rem !important;
+  }
+
+  /* electric-toothbrush */
+  .ElectricToothbrushPage .Index_toothbrushHeadsWrapper__pfb0b.pt-5.mt-5 {
+    margin: 0 !important;
+    padding-top: 0 !important;
+  }
+
+  .ElectricToothbrushPage .toothbrush-heads h1 {
+    font-size: 30px;
+  }
+
+  .ElectricToothbrushPage .toothbrush-heads h4 {
+    font-size: 16px;
+    padding-bottom: 1.5rem;
+  }
+
+  .ElectricToothbrushPage .toothbrush-heads img {
+    margin-bottom: 2.5rem;
+  }
+
+  .ElectricToothbrushPage .Index_tbSection2Imges__AFKEd {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .ElectricToothbrushPage .Index_maintainingHealthSection__Jsegl {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+  }
+
+  .ElectricToothbrushPage .Index_maintainingHealthSection__Jsegl h2 {
+    font-size: 24px;
+  }
+
+  .ElectricToothbrushPage .Index_tbSection2Imges__AFKEd img {
+    width: auto;
+    max-width: 120px;
+    height: auto !important;
+    margin-bottom: 1.5rem;
+  }
+
+  .ElectricToothbrushPage .Index_tbSection2Imges__AFKEd .tb-img2 img {
+    min-width: 90px;
+    height: auto !important;
+  }
+
+  .ElectricToothbrushPage
+    .Index_tbSection2Imges__AFKEd
+    .mt-5.justify-content-between {
+    justify-content: space-evenly !important;
+  }
+
+  .ElectricToothbrushPage
+    .Index_choose_your_replacement_package__wvrwp
+    .col-md-12
+    h3 {
+    font-size: 24px;
+  }
+
+  .ElectricToothbrushPage .Index_replacement_package_wrapper__5JSeC {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .ElectricToothbrushPage .toothbrushProduct_product_selection_title__yjd7o {
+    padding: 15px 0 0 0;
+    margin: 0;
+  }
+
+  .ElectricToothbrushPage .pr-description .icon-btn {
+    padding-top: 2rem;
+  }
+
+  .ElectricToothbrushPage .pr-description .icon-btn .orignalPrice {
+    font-size: 2.6em;
+  }
+
+  .ElectricToothbrushPage
+    .Index_ship_world_Wide_wrapper__astBS
+    .Index_ship_world_title__rzxqW
+    h2
+    svg {
+    width: 15px !important;
+  }
+
+  .ElectricToothbrushPage
+    .Index_ship_world_Wide_wrapper__astBS
+    button.Index_popupBtn__H59gK {
+    min-width: 120px !important;
+  }
+
+  .ElectricToothbrushPage .Index_ship_world_Wide_wrapper__astBS {
+    margin-top: 40px !important;
+  }
+
+  .ElectricToothbrushPage .Index_content_detail__MZAhc {
+    margin-top: 20px !important;
+  }
+
+  .ElectricToothbrushPage
+    .Index_feel_difference_wrapper__EXBvK
+    .two-column-text
+    h5 {
+    font-size: 13px;
+  }
+
+  .ElectricToothbrushPage
+    .Index_feel_difference_wrapper__EXBvK
+    .two-column-text {
+    padding-left: 0px !important;
+  }
+
+  .ElectricToothbrushPage .two-rightside.ps-5,
+  .waterFlosserPage .two-rightside.ps-5 {
+    padding-left: 0px !important;
+  }
+
+  .ElectricToothbrushPage .two-leftside,
+  .ElectricToothbrushPage .two-rightside {
+    padding: 0px !important;
+  }
+
+  .ElectricToothbrushPage .two-rightside .min-w-138,
+  .waterFlosserPage .two-rightside .min-w-138,
+  .ElectricToothbrushPage .two-leftside .min-w-138 {
+    min-width: 120px;
+    text-align: left;
+  }
+
+  .ElectricToothbrushPage .two-rightside div:nth-child(1) .min-w-138 img {
+    margin: auto;
+    height: 160px;
+  }
+
+  .ElectricToothbrushPage .two-rightside div:nth-child(2) .min-w-138 {
+    margin: auto;
+  }
+
+  .ElectricToothbrushPage .two-rightside div:nth-child(2) .min-w-138 img {
+    width: 86px;
+    height: auto;
+    margin-bottom: 0px;
+  }
+
+  .ElectricToothbrushPage .two-rightside div:nth-child(3) {
+    margin-top: 40px;
+  }
+
+  .ElectricToothbrushPage .two-rightside div:nth-child(3) .min-w-138 img {
+    width: 110px;
+    height: auto;
+    margin-bottom: 0px;
+  }
+
+  .ElectricToothbrushPage .two-rightside .d-flex.align-items-center {
+    align-items: unset !important;
+    margin-bottom: unset !important;
+  }
+
+  .ElectricToothbrushPage .Index_image_text_wrapper__e8_gX .col-4.ms-auto {
+    margin-left: unset !important;
+    width: 100%;
+  }
+
+  .ElectricToothbrushPage .Index_image_text_wrapper__e8_gX .col-4.ms-auto h2 {
+    font-size: 24px;
+  }
+
+  .ElectricToothbrushPage .Index_image_text_wrapper__e8_gX {
+    background-position: 33% top;
+  }
+
+  .ElectricToothbrushPage #howit-work-section h2 {
+    font-size: 28px;
+  }
+
+  .ElectricToothbrushPage #howit-work-section figure.img1 img {
+    max-width: 110px;
+  }
+
+  .ng-section3 .min-h-330 {
+    min-height: auto;
+  }
+
+  .ng-section3#howit-work-section {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .ng-section3#howit-work-section .text-center.px-4 {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+
+  .ng-section3#howit-work-section .min-h-330 .fs-14.fw-500.text-slate-500 {
+    font-size: 13px !important;
+    padding: 30px 0 5px !important;
+  }
+
+  .ng-section3#howit-work-section .row2 img {
+    width: 247px;
+    margin-top: 4rem;
+  }
+
+  .ng-section3#howit-work-section .row3 img {
+    width: 216px;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+  }
+
+  .ng-section3#howit-work-section .text-center.mt-5.pt-4 {
+    margin: unset !important;
+  }
+
+  .ng-section3#howit-work-section .mb-2.text-slate-500.mt-4.pt-3 {
+    margin: unset !important;
+    padding-top: unset !important;
+  }
+
+  .ng-section3#howit-work-section
+    .d-flex.border-top.mt-3.ps-3
+    .ps-2.text-start.pt-2
+    .text-uppercase {
+    text-align: center;
+  }
+
+  .ElectricToothbrushPage .ng-section7 h3 {
+    font-size: 30px;
+  }
+
+  .ElectricToothbrushPage .ng-section7 h3.fw-600.fs-24 {
+    font-size: 24px;
+  }
+
+  .ElectricToothbrushPage .ng-section7 {
+    margin-bottom: 40px !important;
+  }
+
+  .ElectricToothbrushPage
+    .ng-section7
+    .text-center.max-w-670.mx-auto.px-2.mb-5 {
+    margin-bottom: 20px !important;
+  }
+
+  .waterFlosserPage .two-rightside .mb-4.text-start {
+    display: flex;
+    align-items: center;
+  }
+
+  .waterFlosserPage .two-rightside .min-w-138 img,
+  .waterFlosserPage .two-leftside img,
+  .img-ms {
+    max-width: 100px !important;
+    margin: 0px 0 0 0 !important;
+    height: auto;
+  }
+
+  .waterFlosserPage .two-rightside .mb-4.text-start .two-column-text {
+    padding-top: unset !important;
+  }
+
+  .d-none-sm {
+    display: none;
+  }
+
+  body .d-block-sm .min-w-138.text-start {
+    min-width: 120px;
+  }
+
+  body .d-block-sm {
+    display: flex !important;
+  }
+
+  .two-rightside
+    .two-column-text.text-start.fimaly-multiple-opn.text-slate-500.lh-22 {
+    padding-bottom: unset !important;
+  }
+
+  .waterFlosserPage .two-column-section .two-rightside {
+    padding-left: 25px !important;
+  }
+
+  .waterFlosserPage #howit-work-section h2.fw-300.fs-34 {
+    font-size: 28px !important;
+    padding: 0 10px !important;
+  }
+
+  .waterFlosserPage #best-brush-section .max-w-870 {
+    max-width: 100% !important;
+    padding: unset !important;
+  }
+
+  .waterFlosserPage #best-brush-section .max-w-870 h2 {
+    font-size: 28px;
+    padding: 0px 20px !important;
+  }
+
+  #best-brush-section .h-100.d-flex.align-items-end {
+    align-items: center !important;
+  }
+
+  .replacement_water_flosser_tips .col-md-6,
+  .replacement_water_flosser_tips .col-md-3 {
+    padding-right: unset !important;
+    padding-left: unset !important;
+  }
+
+  .replacement_water_flosser_tips h3.text-blue-500 {
+    font-size: 22px;
+  }
+
+  .replacement_water_flosser_tips p.fs-21 {
+    font-size: 16px !important;
+  }
+
+  .replacement_water_flosser_tips .col-xl-8.pt-3.pb-5 {
+    padding: 0 0 20px !important;
+  }
+
+  .waterFlosserPage .Index_replacement_package_column__8RGZ_ {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+
+  .waterFlosserPage
+    .Index_content_detail__LPH_l
+    .d-flex.justify-content-between.pt-4.pb-4.ps-3 {
+    flex-wrap: wrap;
+    padding-top: 0px !important;
+  }
+
+  .waterFlosserPage .Index_content_detail__LPH_l.ps-5 {
+    padding: unset !important;
+  }
+
+  .waterFlosserPage .pr-description {
+    width: 100% !important;
+  }
+
+  .waterFlosserPage .pr-description h4 {
+    font-size: 22px;
+  }
+
+  .waterFlosserPage .pr-description .freeShipping {
+    padding-bottom: 2rem;
+  }
+
+  .waterFlosserPage .toothbrushProduct_product_selection_title__yjd7o {
+    padding-bottom: unset;
+    padding-top: unset;
+    margin-top: -18px;
+    font-size: 20px;
+  }
+
+  .waterFlosserPage .Index_choose_your_replacement_package__KiHcb h3,
+  .waterFlosserPage .Index_maintainingHealthSection__SNUSs h2 {
+    font-size: 24px;
+  }
+
+  .waterFlosserPage .Index_replacement_package_wrapper__biXXB .col-11 {
+    width: 100%;
+    padding-top: unset !important;
+    padding-bottom: unset !important;
+  }
+
+  .waterFlosserPage .Index_replacement_package_wrapper__biXXB .col-11 .fs-22 {
+    margin-bottom: unset;
+    font-size: 19px !important;
+  }
+
+  .waterFlosserPage
+    .Index_replacement_package_column__8RGZ_
+    .Index_content_detail__LPH_l.ps-5 {
+    margin-top: 30px;
+  }
+
+  .waterFlosserPage .Index_maintainingHealthSection__SNUSs.mt-4.bg-grey-1000 {
+    padding: 20px 20px 0 20px;
+  }
+
+  .waterFlosserPage
+    .Index_maintainingHealthSection__SNUSs.mt-4.bg-grey-1000
+    .d-flex.mx-0.align-items-end {
+    flex-wrap: wrap;
+    justify-content: space-evenly !important;
+    margin-top: 20px !important;
+  }
+
+  .waterFlosserPage
+    .Index_maintainingHealthSection__SNUSs.mt-4.bg-grey-1000
+    .d-flex.mx-0.align-items-end
+    div {
+    width: 50%;
+    margin-bottom: 1.5rem;
+  }
+
+  .waterFlosserPage
+    .Index_maintainingHealthSection__SNUSs.mt-4.bg-grey-1000
+    .d-flex.mx-0.align-items-end
+    div
+    img {
+    width: 120px;
+  }
+
+  .waterFlosserPage
+    .Index_maintainingHealthSection__SNUSs.mt-4.bg-grey-1000
+    .d-flex.mx-0.align-items-end
+    .tb-img2
+    img {
+    width: 96px !important;
+  }
+
+  .waterFlosserPage
+    .Index_toothbrushHeadsWrapper__gPfRb
+    .Index_ToothbrushHeadsTitle__45wsM
+    h1,
+  .about-us .section1 h1 {
+    font-size: 28px;
+  }
+
+  .waterFlosserPage
+    .Index_toothbrushHeadsWrapper__gPfRb
+    .Index_ToothbrushHeadsTitle__45wsM
+    h4 {
+    font-size: 16px !important;
+  }
+
+  .waterFlosserPage .Index_ToothbrushHeadsTitle__45wsM {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .waterFlosserPage .Index_toothbrushHeadsWrapper__gPfRb {
+    padding-top: 80px !important;
+  }
+
+  .waterFlosserPage #learn_more.Index_ship_world_Wide_wrapper__dx6go {
+    margin-top: 0px;
+  }
+
+  .waterFlosserPage .color-layer-opacity-white {
+    display: block !important;
+  }
+
+  .teeth-whitening-facts .section1 {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .teeth-whitening-facts .section1 h4 {
+    font-size: 18px;
+  }
+
+  .teeth-whitening-facts .section1 h1,
+  .about-us .section2 div.fs-34,
+  .about-us .section3 div.fs-34,
+  .about-us .section4 div.fs-34 {
+    font-size: 28px;
+  }
+
+  .teeth-whitening-facts .section1 div.pb-5.mb-5 {
+    margin-bottom: 10px !important;
+  }
+
+  .teeth-whitening-facts .section2,
+  .teeth-whitening-facts .section3,
+  .teeth-whitening-facts .section4,
+  .teeth-whitening-facts .section5,
+  .teeth-whitening-facts .section6,
+  .teeth-whitening-facts .section7,
+  .teeth-whitening-facts .section8,
+  .teeth-whitening-facts .section9,
+  .teeth-whitening-facts .section10,
+  .teeth-whitening-facts .section11,
+  .about-us .section2,
+  .about-us .section3,
+  .about-us .section4 {
+    padding: 0px 30px !important;
+  }
+
+  .teeth-whitening-facts .section2 p.text-center,
+  .teeth-whitening-facts .section3 p.text-center,
+  .teeth-whitening-facts .section4 p.text-center,
+  .teeth-whitening-facts .section5 p.text-center,
+  .teeth-whitening-facts .section6 p.text-center,
+  .teeth-whitening-facts .section7 p.text-center,
+  .teeth-whitening-facts .section8 p.text-center,
+  .teeth-whitening-facts .section9 p.text-center,
+  .teeth-whitening-facts .section10 p.text-center,
+  .teeth-whitening-facts .section11 p.text-center,
+  .about-us .section2 p,
+  .about-us .section3 p,
+  .about-us .section4 p {
+    font-size: 16px;
+  }
+
+  .teeth-whitening-facts .section2 div.py-5 > div,
+  .teeth-whitening-facts .section3 div.py-5 > div,
+  .teeth-whitening-facts .section4 div.py-5 > div,
+  .teeth-whitening-facts .section5 div.py-5 > div,
+  .teeth-whitening-facts .section6 div.py-5 > div,
+  .teeth-whitening-facts .section7 div.py-5 > div,
+  .teeth-whitening-facts .section8 div.py-5 > div,
+  .teeth-whitening-facts .section9 div.py-5 > div,
+  .teeth-whitening-facts .section10 div.py-5 > div,
+  .teeth-whitening-facts .section11 div.py-5 > div,
+  .teeth-whitening-facts .section2 h3.fw-bold,
+  .teeth-whitening-facts .section3 h3.fw-bold,
+  .teeth-whitening-facts .section5 h3.fw-bold,
+  .teeth-whitening-facts .section6 h3.fw-bold,
+  .teeth-whitening-facts .section7 h3.fw-bold,
+  .teeth-whitening-facts .section8 h3.fw-bold,
+  .teeth-whitening-facts .section9 h3.fw-bold,
+  .teeth-whitening-facts .section11 h3.fw-bold,
+  .teeth-whitening-facts .section6 div.pt-4.px-4,
+  .teeth-whitening-facts .section8 div.pt-4.px-4,
+  .about-us .section2 p,
+  .about-us .section3 p,
+  .about-us .section4 p {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+
+  .teeth-whitening-facts .section3 img {
+    width: 90px;
+    height: auto;
+  }
+
+  .teeth-whitening-facts .section4 img,
+  .teeth-whitening-facts .section4 img {
+    width: 150px !important;
+    height: auto;
+  }
+
+  .teeth-whitening-facts .section5 h3.fw-bold {
+    padding: 0px 25px !important;
+  }
+
+  .teeth-whitening-facts .section6 img {
+    width: 120px !important;
+    height: auto;
+  }
+
+  .teeth-whitening-facts .section9 div.py-5 {
+    padding-top: 0px !important;
+  }
+
+  body .teeth-whitening-facts .section10 h3.fw-bold {
+    /* padding-left: 45px !important;
+        padding-right: 40px !important; */
+  }
+
+  .teeth-whitening-facts .section3 img,
+  .teeth-whitening-facts .section6 img,
+  .teeth-whitening-facts .section11 img {
+    margin-bottom: 1.5rem !important;
+  }
+
+  /* about us */
+  .about-us .section1 img {
+    width: 384px;
+    height: auto;
+  }
+
+  .about-us .section2 img,
+  .about-us .section3 img {
+    width: 354px;
+    height: auto;
+  }
+
+  .about-us .section2 h3,
+  .about-us .section4 h3 {
+    font-size: 18px !important;
+  }
+
+  .about-us .section3,
+  .about-us .section2,
+  .about-us .section4 {
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+  }
+
+  .sm-fs-34 {
+    font-size: 34px !important;
+  }
+
+  body .sm-fs-13 {
+    font-size: 13px !important;
+  }
+
+  .sm-fs-32 {
+    font-size: 32px !important;
+  }
+
+  .sm-fs-30 {
+    font-size: 30px !important;
+  }
+
+  body .sm-fs-28 {
+    font-size: 28px !important;
+  }
+  body .sm-fs-62 {
+    font-size: 62px !important;
+  }
+
+  .sm-fs-26 {
+    font-size: 26px !important;
+  }
+
+  .sm-fs-18 {
+    font-size: 18px !important;
+  }
+
+  .sm-fs-17 {
+    font-size: 17px !important;
+  }
+
+  .sm-fs-20 {
+    font-size: 20px !important;
+  }
+
+  .sm-fs-24 {
+    font-size: 24px !important;
+  }
+
+  body .sm-fs-16 {
+    font-size: 16px !important;
+  }
+
+  body .sm-fs-15 {
+    font-size: 15px !important;
+  }
+
+  body .sm-fs-14 {
+    font-size: 14px !important;
+  }
+
+  body .sm-px-0,
+  body .lg-px-30 {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+
+  body .sm-m-0 {
+    margin: 0px !important;
+  }
+
+  body .sm-py-50 {
+    padding-bottom: 50px !important;
+  }
+
+  body .sm-py-7 {
+    padding-top: 7px !important;
+    padding-bottom: 7px !important;
+  }
+
+  body .sm-px-30 {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+  }
+
+  body .sm-px-15 {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+
+  body .sm-pt-0 {
+    padding-top: 0px !important;
+  }
+  body .sm-pt-50 {
+    padding-top: 50px !important;
+  }
+  body .sm-pb-50 {
+    padding-bottom: 50px !important;
+  }
+  body .sm-pt-30 {
+    padding-top: 30px !important;
+  }
+  body .sm-pb-30 {
+    padding-bottom: 30px !important;
+  }
+
+  body .sm-pt-20 {
+    padding-top: 20px !important;
+  }
+
+  body .sm-pb-20 {
+    padding-bottom: 20px !important;
+  }
+
+  body .sm-mb-70 {
+    margin-bottom: 70px !important;
+  }
+
+  body .sm-pb-0 {
+    padding-bottom: 0px !important;
+  }
+
+  body .sm-mt-0 {
+    margin-top: 0px !important;
+  }
+
+  body .sm-mt-20 {
+    margin-top: 20px !important;
+  }
+
+  body .sm-mt-25 {
+    margin-top: 25px !important;
+  }
+
+  body .sm-pt-80 {
+    padding-top: 80px !important;
+  }
+
+  body .sm-pt-60 {
+    padding-top: 60px !important;
+  }
+
+  body .sm-pt-130 {
+    padding-top: 130px !important;
+  }
+
+  body .sm-mb-20 {
+    margin-bottom: 20px !important;
+  }
+
+  body .sm-mb-0 {
+    margin-bottom: 0px !important;
+  }
+
+  /* custom-whitening-tray */
+  .custom-whitening-tray .tray-product img {
+    width: 65px;
+  }
+
+  body .xs-screen.teeth-whitening-facts section {
+    padding-top: 30px !important;
+    padding-bottom: 50px !important;
+  }
+
+  .sm-d-none {
+    display: none;
+  }
+
+  body .sm-w-100 {
+    max-width: 100% !important;
+    width: 100% !important;
+  }
+
+  body .sm-d-block {
+    display: block !important;
+  }
+
+  .sm-justify-center {
+    justify-content: center;
+  }
+
+  .sm-justify-baseline {
+    align-items: baseline;
+  }
+
+  .sm-flex-column {
+    flex-direction: column;
+  }
+
+  .sm-flex-rew {
+    flex-direction: row;
+  }
+
+  .sm-flex {
+    display: flex;
+  }
+
+  .sm-items-center {
+    align-items: center;
+  }
+
+  body .sm-fs-22 {
+    font-size: 22px !important;
+  }
+
+  .sm-fs-14 {
+    font-size: 14px;
+  }
+
+  body .sm-fs-15 {
+    font-size: 15px !important;
+  }
+
+  body .sm-fs-20 {
+    font-size: 20px !important;
+  }
+
+  .or-with-line {
+    z-index: 999;
+  }
+
+  .or-with-line::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    /* width: 130px; */
+    /* height: 0.01rem; */
+    /* background: #343434; */
+    top: 50%;
+    transform: translateY(-50%);
+    border-top: 1px solid;
+    opacity: 0.5;
+    z-index: 1;
+  }
+
+  .or-with-line::after {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 30px;
+    background: #fff;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -1;
+  }
+
+  .or-with-line::before {
+    left: 0;
+    z-index: -1;
+  }
+
+  .custom-whitening-tray .section8 img {
+    padding-left: 4px;
+  }
+
+  .night-guards .bannerImageSetting {
+    background-position: center 250px !important;
+    background-repeat: no-repeat;
+    background-color: #f3f3f8;
+  }
+
+  .sensitive-teeth-guide section {
+    height: auto !important;
+  }
+
+  .sm-max-w-240 {
+    max-width: 240px;
+  }
+
+  .sm-text-center {
+    text-align: center;
+  }
+
+  .stepCounterInner {
+    font-size: 50px;
+    line-height: 60px;
+    min-width: 60px;
+    min-height: 60px;
+  }
+
+  .sm-lh-30 {
+    line-height: 30px;
+  }
+
+  body .dental-probiotics-adult_dental_probiotic_details__Bs1Ta {
+    display: flex !important;
+    flex-direction: column-reverse;
+  }
+
+  .dental-probiotics-adult_adult_hero_image__GrRbn {
+    position: relative !important;
+    width: 100%;
+    left: 0px !important;
+    text-align: center;
+  }
+
+  .dental-probiotics-adult_adult_hero_image__GrRbn img {
+    width: 600px;
+    background: #cfdde0;
+    max-width: 100% !important;
+    margin: auto !important;
+    aspect-ratio: auto 600/561;
+  }
+
+  body .sm-max-w-100 {
+    max-width: 100% !important;
+  }
+
+  body .mobile-menu {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  body .mobile-menu .px-5 {
+    padding-top: 7px !important;
+    padding-bottom: 7px !important;
+  }
+  body .sm-h-auto {
+    height: auto !important;
+    min-height: auto !important;
+    max-height: unset !important;
+  }
+  body .sm-left-0 {
+    left: 0px !important;
+  }
+  .prochieldPage .pr-banner-section img {
+    max-width: 100% !important;
+  }
+
+  /* end 767px media */
+}
+
+@media (max-width: 576px) {
+  .night-guards .container {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .night-guards .banner-content .w-fit.ms-auto {
+    margin: auto;
+  }
+
+  .ng-section5 .text-center.mt-5 img {
+    padding: 0px 2rem;
+  }
+
+  .ng-section1 .price-card .product-selection-box-info {
+    left: 0;
+    right: 0;
+  }
+
+  .popup-content-box {
+    width: 20rem !important;
+  }
+
+  body .sm-mt-0 {
+    margin-top: 0px !important;
+  }
+
+  body .sm-pt-2 {
+    padding-top: 8px !important;
+  }
+
+  .teeth-whitening-facts .section10 h3 {
+    padding: unset;
+  }
+
+  body .xsm-pt-0 {
+    padding-top: 0px !important;
+  }
+
+  body .xsm-px-0 {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+  }
+
+  body .xsm-pb-0 {
+    padding-bottom: 0px !important;
+  }
+}
+
+@media (max-width: 400px) {
+  .xs-container {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+
+  .xs-screen .xs-container {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+
+  body .xs-fs-20 {
+    font-size: 20px !important;
+  }
+
+  body .xs-screen .xs-fs-17 {
+    font-size: 17px !important;
+  }
+
+  body .xs-screen .xs-fs-16 {
+    font-size: 16px !important;
+  }
+
+  .xs-fs-14 {
+    font-size: 14px !important;
+  }
+
+  .xs-fs-15 {
+    font-size: 15px !important;
+  }
+
+  .about-us .section1 img,
+  .about-us .section2 img,
+  .about-us .section3 img {
+    width: 100%;
+    height: auto;
+  }
+
+  .guarantee .section4 a {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    font-size: 12px !important;
+  }
+
+  .xs-px-0 {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+
+  .sm-mt-20 {
+    margin-top: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  .bannerImageSetting {
+    height: 600px;
+  }
+
+  body .container {
+    width: 750px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media (min-width: 992px) {
+  .bannerImageSetting {
+    height: 720px;
+  }
+
+  body .container {
+    width: 970px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media (min-width: 1200px) {
+  body .container {
+    width: 1170px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .lg-fs-36 {
+    font-size: 36px;
+  }
+}
+
+@media (min-width: 1500px) {
+  body .container {
+    width: 1420px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .xl-fs-50 {
+    font-size: 50px;
+  }
+}

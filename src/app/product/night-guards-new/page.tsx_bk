@@ -1,0 +1,1203 @@
+'use client';
+import Banner from '@/ui/resuable-componets/banner';
+import PriceCard from '@/ui/resuable-componets/price-card';
+import HeadingandParagraph from '@/ui/resuable-componets/headingandparagraph';
+import Popup from '@/ui/resuable-componets/popup';
+import {
+  nightGuardsBannerImg,
+  googletrustedstore,
+  graphicComfortableSleep,
+  graphicNightGuardSystem,
+  graphicTraysAndCase,
+  graphiccatalystbasepasteteal,
+  graphicimpressions,
+  graphiclifetimereorders,
+  graphicprepaidpostageteal,
+  GraphicModel,
+  GraphicNightGuardOnly,
+  percentguaranteelogo,
+} from './assets';
+
+import { Container, Row, Col, Card } from 'react-bootstrap';
+import BgTextIconBtn from '@/ui/resuable-componets/bg-text-icon-btn';
+import { FaGlobeAsia } from 'react-icons/fa';
+import Image from 'next/image';
+import { useEffect, useState } from 'react';
+import '@/css/product.css';
+import 'aos/dist/aos.css';
+import AOS from 'aos';
+
+const Index = () => {
+  const [isOpen, setIsOpen] = useState(false);
+  useEffect(() => {
+    AOS.init({
+      // customize your AOS settings here
+    });
+  }, []);
+
+  return (
+    <div className="night-guards" id="night-guards">
+      {/* <Layout bgColor="productHeader"> */}
+      <Banner
+        bannerImage={nightGuardsBannerImg}
+        bannerImageSetting="bannerImageSetting"
+      >
+        <Container className="pt-3">
+          <div className="w-fit ms-auto text-center">
+            <h2 className="fimaly-multiple-mon sm-fs-16">Teeth Grinding</h2>
+            <h1 className="fs-40 montserrat text-seegreen-800 fw-800">
+              NIGHT GUARDS
+            </h1>
+            <div
+              style={{
+                background: '#555759',
+                width: '100px',
+                margin: '15px auto 25px auto',
+                height: '4px',
+              }}
+            ></div>
+            <p className="open-sans">
+              Save your teeth! The perfect solution for teeth
+              <br />
+              clenching &amp; grinding, conveniently delivered to
+              <br /> your door!
+            </p>
+            <div className="wpb_wrapper mt-6">
+              <a
+                href="#ng-section1"
+                className="btn btn-primary-teal btn-lg rounded-0 fimaly-montserrat hover hover-able"
+                style={{
+                  marginTop: '0px',
+                  marginBottom: '20px',
+                  minWidth: '284px',
+                }}
+              >
+                GET PRICING
+              </a>
+              <br />
+              <a
+                href="#ng-section3"
+                className="btn btn-primary-transparent-teal btn-lg rounded-0 fimaly-montserrat hover hover-able"
+                style={{ marginBottom: '20px', minWidth: '284px' }}
+              >
+                HOW IT WORKS
+              </a>
+            </div>
+          </div>
+        </Container>
+      </Banner>
+      <main>
+        <div
+          className="text-center price-section py-2"
+          style={{ background: '#68c8c7' }}
+          id="price-section"
+        >
+          <h2 className="text-white  py-3 fs-28 fimaly-multiple-opn fw-400 my-0 sm-fs-20">
+            COSTS 70% LESS + LIFETIME REORDERS
+          </h2>
+        </div>
+
+        <section
+          className="ng-section1"
+          id="ng-section1"
+          style={{ marginBottom: '80px' }}
+        >
+          <div className="container">
+            <HeadingandParagraph>
+              <div
+                className="text-center mx-auto scmt px-2"
+                style={{ maxWidth: '900px', margin: '70px auto' }}
+              >
+                <h4 className="text-see-green fw-300 fs-34 fimaly-montserrat">
+                  CHOOSE YOUR PACKAGE
+                </h4>
+                <p className="fs-22 fimaly-montserrat text-slate-500 fw-300 pt-3">
+                  Each of our packages includes the impression creation kit, lab
+                  service, and delivery of your custom-fitted night guards.
+                  <span className="text-see-green">
+                    {' '}
+                    You choose a package and save up to 30% with lifetime
+                    reorders.
+                  </span>
+                </p>
+              </div>
+            </HeadingandParagraph>
+
+            <div className="price-card product-night-guards product-selection-box pt-4">
+              <div className="row">
+                <PriceCard index={1}></PriceCard>
+                <PriceCard index={2}></PriceCard>
+                <PriceCard index={3}></PriceCard>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="ng-section2" className="ng-section2">
+          <div className="row wpb_row row-fluid our-customers-speak-for-us demage-frustration-cont no-row-padding full-width-row">
+            <div className="wpb_column columns medium-12 thb-dark-column small-12">
+              <div className="vc_column-inner">
+                <div className="wpb_wrapper">
+                  <div className="wpb_text_column wpb_content_element heading-content-mbt">
+                    <div className="wpb_wrapper">
+                      <div className="save-dental-bill fimaly-multiple-opn">
+                        Stop the damage &amp; save on costly dental bills.
+                      </div>
+                      <h2 className="text-center fs-28 fw-300 fimaly-multiple-mon">
+                        THE DAMAGE &amp; FRUSTRATION IS REAL
+                      </h2>
+                      <div className="txt-detl-mbt text-center open-sans fs-14">
+                        40 million americans will have bruxism (teeth grinding)
+                        in their lifetime. Whether it’s stress, anxiety, or
+                        <br />
+                        an abnormal bite, the effects can be devastating.
+                        Grinding your teeth at night can lead to sleeplessness,
+                        <br />
+                        sore jaw, and dull headaches. Over years, your teeth get
+                        worn down (attrition), become highly sensitive,
+                        <br />
+                        and may require extensive dental work.
+                      </div>
+                    </div>
+                  </div>
+                  <div className="row wpb_row vc_inner row-fluid max_width vc_custom_1596011698589">
+                    <div className="flex-child-content wpb_column columns medium-12 thb-dark-column small-12">
+                      <div className="vc_column-inner">
+                        <div
+                          className="wpb_wrapper aos-init aos-animate"
+                          data-aos="flip-up"
+                          data-aos-duration="2000"
+                        >
+                          <div className="wpb_single_image wpb_content_element vc_align_center flipInX inline-elements">
+                            <figure className="wpb_wrapper vc_figure">
+                              <a
+                                href="/reviews/"
+                                target="_self"
+                                className="vc_single_image-wrapper vc_box_border_grey"
+                              >
+                                <img
+                                  width="287"
+                                  height="286"
+                                  src="https://www.smilebrilliant.com/wp-content/uploads/2020/09/grinded-teeth-1.jpg"
+                                  className="vc_single_image-img attachment-medium"
+                                  alt=""
+                                  decoding="async"
+                                  loading="lazy"
+                                />
+                              </a>
+                            </figure>
+                          </div>
+
+                          <div className="wpb_single_image wpb_content_element vc_align_center flipInX inline-elements">
+                            <figure className="wpb_wrapper vc_figure">
+                              <a
+                                href="/reviews/"
+                                target="_self"
+                                className="vc_single_image-wrapper vc_box_border_grey"
+                              >
+                                <img
+                                  width="287"
+                                  height="286"
+                                  src="https://www.smilebrilliant.com/wp-content/uploads/2020/09/grinded-teeth-2.jpg"
+                                  className="vc_single_image-img attachment-medium"
+                                  alt=""
+                                  decoding="async"
+                                  loading="lazy"
+                                />
+                              </a>
+                            </figure>
+                          </div>
+
+                          <div className="wpb_single_image wpb_content_element vc_align_center flipInX inline-elements">
+                            <figure className="wpb_wrapper vc_figure">
+                              <a
+                                href="/reviews/"
+                                target="_self"
+                                className="vc_single_image-wrapper vc_box_border_grey"
+                              >
+                                <img
+                                  width="287"
+                                  height="286"
+                                  src="https://www.smilebrilliant.com/wp-content/uploads/2020/09/grinded-teeth-3.jpg"
+                                  className="vc_single_image-img attachment-medium"
+                                  alt=""
+                                  decoding="async"
+                                  loading="lazy"
+                                />
+                              </a>
+                            </figure>
+                          </div>
+
+                          <div className="wpb_single_image wpb_content_element vc_align_center flipInX inline-elements">
+                            <figure className="wpb_wrapper vc_figure">
+                              <a
+                                href="/reviews/"
+                                target="_self"
+                                className="vc_single_image-wrapper vc_box_border_grey"
+                              >
+                                <img
+                                  width="287"
+                                  height="286"
+                                  src="https://www.smilebrilliant.com/wp-content/uploads/2020/09/grinded-teeth-4.jpg"
+                                  className="vc_single_image-img attachment-medium"
+                                  alt=""
+                                  decoding="async"
+                                  loading="lazy"
+                                />
+                              </a>
+                            </figure>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="ng-section3" className="ng-section3 mt-5 mb-5">
+          <Container>
+            <div className="mb-5 md-mb-30">
+              <h2 className="fw-300 fs-34 fimaly-multiple-mon text-seegreen-800 text-uppercase text-center pb-5">
+                THE PROCESS
+              </h2>
+            </div>
+            <Row>
+              <div
+                className="col-md-4 aos-init aos-animate"
+                data-aos="fade-right"
+                data-aos-duration="2000"
+              >
+                <div className="text-center">
+                  <div className="min-h-5">
+                    <div>
+                      <figure className="m-0">
+                        <div style={{ height: '240px' }}>
+                          <img
+                            width="240"
+                            height=""
+                            src={graphicNightGuardSystem.src}
+                            alt={graphicNightGuardSystem.src}
+                            decoding="async"
+                            loading="lazy"
+                          />
+                        </div>
+                      </figure>
+                    </div>
+
+                    <div className="mb-2 text-slate-500">
+                      <div className="open-sans">
+                        <div className="the-process-circle the-process-circle-1 mb-3">
+                          1
+                        </div>
+                        <div className="fs-22 fw-500 fimaly-multiple-opn">
+                          Order the{' '}
+                          <span className="text-seegreen-800 montserrat">
+                            impression kit
+                            <br />{' '}
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="text-center fimaly-multiple-opn">
+                      <div className="fs-13 fw-500 text-slate-500">
+                        <div>
+                          Order the complete package and make your dentaI
+                          impressions in less than 15 minutes. Send us your
+                          impressions in prepaid envelope (included for US)
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className=" d-flex border-top min-h-120">
+                    <div className="border-end pt-3 pe-2">
+                      <p className="fs-42 fw-300 montserrat mb-0 lh-0 text-slate-500">
+                        15
+                      </p>
+                      <small className="fs-13 text-slate-600 fimaly-multiple-opn">
+                        minutes
+                      </small>
+                    </div>
+                    <div className="ps-2 pt-3 text-start">
+                      <p className="text-uppercase fs-13 fimaly-multiple-opn text-slate-700">
+                        TIME IT TAKES TO CREATE YOUR DENTAL IMPRESSIONS
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                className="col-md-4 aos-animate"
+                data-aos="fade-right"
+                data-aos-duration="2000"
+              >
+                <div className="text-center px-4">
+                  <div className="min-h-5">
+                    <div>
+                      <figure className="m-0">
+                        <div style={{ height: '240px' }}>
+                          <img
+                            width="150"
+                            height=""
+                            src={graphicTraysAndCase.src}
+                            alt={graphicTraysAndCase.src}
+                            decoding="async"
+                            loading="lazy"
+                          />
+                        </div>
+                      </figure>
+                    </div>
+
+                    <div className="mb-2 text-slate-500">
+                      <div>
+                        <div className="the-process-circle the-process-circle-1 mb-3">
+                          2
+                        </div>
+                        <div className="fs-22 fw-500 fimaly-multiple-opn">
+                          Our lab creates your{' '}
+                          <span className="text-seegreen-800 montserrat">
+                            guards
+                            <br />{' '}
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="text-center fimaly-multiple-opn">
+                      <div className="fs-13 fw-500 text-slate-500">
+                        <div>
+                          Our lab receives your dental impressions, crafts, an
+                          exact model of your teeth, and hand finishes a truly
+                          custom-fitted night guard.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className=" d-flex border-top min-h-120">
+                    <div className="border-end pt-3 pe-2 min-fit">
+                      <p className="fs-42 fw-300 montserrat mb-0 lh-0 text-slate-500">
+                        3‑5
+                      </p>
+                      <small className="fs-13 text-slate-600 fimaly-multiple-opn">
+                        work days
+                      </small>
+                    </div>
+                    <div className="ps-2 pt-3 text-start">
+                      <p className="text-uppercase fs-13 fimaly-multiple-opn text-slate-700">
+                        TIME NEEDED FOR OUR LAB TO CREATE YOUR CUSTOM- FITTED
+                        TRAY
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                className="col-md-4 aos-animate"
+                data-aos="fade-right"
+                data-aos-duration="2000"
+              >
+                <div className="text-center">
+                  <div className="min-h-5">
+                    <div>
+                      <figure className="m-0">
+                        <div style={{ height: '240px' }}>
+                          <img
+                            width="200"
+                            height=""
+                            src={graphicComfortableSleep.src}
+                            alt={graphicComfortableSleep.src}
+                            decoding="async"
+                            loading="lazy"
+                          />
+                        </div>
+                      </figure>
+                    </div>
+
+                    <div className="mb-2 text-slate-500">
+                      <div>
+                        <div className="the-process-circle the-process-circle-1 mb-3">
+                          3
+                        </div>
+                        <div className="fimaly-multiple-opn fs-22 fw-500">
+                          Stop the{' '}
+                          <span className="text-seegreen-800 montserrat">
+                            damage
+                            <br />{' '}
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div className="text-center fimaly-multiple-opn">
+                      <div className="fs-13 fw-500 text-slate-500">
+                        <div>
+                          Wear your night guards while you sleep. Save your
+                          teeth and your money. Your dental models are kept on
+                          file for convenient reordering.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className=" d-flex border-top min-h-120">
+                    <div className="border-end pt-3 pe-2 min-fit">
+                      <p className="fs-42 fw-300 montserrat mb-0 lh-0 text-slate-500">
+                        3-12
+                      </p>
+                      <small className="fs-13 text-slate-600 fimaly-multiple-opn">
+                        months
+                      </small>
+                    </div>
+                    <div className="ps-2 pt-3 text-start">
+                      <p className="text-uppercase fs-13 fimaly-multiple-opn text-slate-700">
+                        EACH GUARD WILL LAST AROUND 3 MONTHS (WITH HEAVY
+                        GRINDING) BEFORE THEY WEAR OUT
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </Row>
+            <div className="text-center mt-5">
+              <div>
+                <a
+                  href="#price-section"
+                  className="text-uppercase text-decoration-none min-w-240 py-8 px-4 d-inline-block text-center fs-18 text-white bg-seegreen-800 fw-300  border1 border-color-seegreen-900 hover-able hover hove-dark-grey montserrat letter-spacing-2 "
+                >
+                  see pricing
+                </a>
+              </div>
+              <div className="mt-4">
+                <a
+                  href="#"
+                  className="text-slate-700 text-decoration-none hover-able hover-text hover-seegren fs-16 fimaly-multiple-opn"
+                >
+                  Download Instructions
+                </a>
+              </div>
+            </div>
+          </Container>
+        </section>
+
+        <section id="ng-section4" className="ng-section4 mb-5">
+          <BgTextIconBtn
+            bgColor={'bg-seegreen-800'}
+            classes={'min-h-200 d-flex align-items-center'}
+          >
+            <div className="container h-100">
+              <div className="text-center m-0 align-items-center h-100 d-flex flex-column ">
+                <div className="d-flex align-items-center justify-content-center">
+                  <span>
+                    <FaGlobeAsia className="fs-34 text-white mx-3" />
+                  </span>
+                  <h2 className="text-uppercase text-white m-0 fimaly-multiple-mon fw-700 fs-35">
+                    YES, WE SHIP WORLDWIDE{' '}
+                  </h2>
+                  <span>
+                    <FaGlobeAsia className="fs-34 text-white mx-3" />
+                  </span>
+                </div>
+                <div className="mt-4">
+                  <a
+                    href="#ngmodal"
+                    className="text-decoration-none border min-w-180 min-h-40 d-inline-block text-white fs-13 fw-300 letter-spacing-2 montserrat hover-able hover-text hover-white border-white"
+                    onClick={() => setIsOpen(!isOpen)}
+                  >
+                    Learn More
+                  </a>
+                  <Popup isOpen={isOpen} setIsOpen={setIsOpen}>
+                    <div className="modal-mx-w-530 mx-auto bg-white  pt-4 pb-3 fimaly-multiple-opn modal-content">
+                      <div className="px-3 mb-3 pb-2">
+                        <h3 className="fs-16 fw-500">
+                          Do you ship outside the United States (international
+                          shipments)? What is the Cost?
+                        </h3>
+                      </div>
+                      <hr />
+                      <div className="px-3">
+                        <p className="fs-13">
+                          <strong>
+                            Yes! We are able to ship to most countries
+                            throughout the world.
+                          </strong>
+                          The shipping fee will be different for each country
+                          (total fees will show in your shopping cart at
+                          checkout.This fee covers{' '}
+                          <strong>2-way shipping:</strong> the cost to ship your
+                          tray creation package to you and{' '}
+                          <i>
+                            the cost to ship your completed custom-fitted trays
+                            (after our lab has created them) back to you.
+                          </i>{' '}
+                          For select countries,
+                          <strong> 3-way shipping:</strong>{' '}
+                          <i>
+                            shipping tray creation system, pre-paid postage to
+                            send your impressions to our lab, and shipping the
+                            completed trays to you
+                          </i>{' '}
+                          is covered in the total fee. This will be mentioned in
+                          the shipping caption at the time of checkout. If your
+                          country is only covered under 2-way shipping, you will
+                          be responsible for the cost to ship your dental
+                          impressions to us. The cost for this is typically
+                          around $10-15 USD (varies by country). We recommend
+                          obtaining a tracking number from your post office when
+                          you ship your impressions!
+                          <p className="fs-13 mt-4 pt-2">
+                            <i className="fw-bold">Note:</i>
+                            <i>
+                              {' '}
+                              We are not responsible for customs fees/import
+                              taxes.
+                            </i>
+                          </p>
+                        </p>
+                        <div className="px-4">
+                          <button className="text-uppercase bg-blue-800 w-100 border-0 py-2 text-white">
+                            go it!
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </Popup>
+                </div>
+              </div>
+            </div>
+            <div
+              className="modal fade show"
+              id="ngmodal"
+              // tabindex="-1"
+              aria-labelledby="exampleModalCenterTitle"
+              aria-modal="true"
+              role="dialog"
+            >
+              <div className="modal-dialog modal-dialog-centered">
+                <div className="modal-content">
+                  <div className="modal-header">
+                    <h5 className="modal-title" id="exampleModalCenterTitle">
+                      Modal title
+                    </h5>
+                    <button
+                      type="button"
+                      className="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div className="modal-body">
+                    <p>This is a vertically centered modal.</p>
+                  </div>
+                  <div className="modal-footer">
+                    <button
+                      type="button"
+                      className="btn btn-secondary"
+                      data-bs-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                    <button type="button" className="btn btn-primary">
+                      Save changes
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </BgTextIconBtn>
+        </section>
+
+        <section id="ng-section5" className="ng-section5 mb-5">
+          <Container>
+            <div className="text-center max-w-1000 mx-auto px-4">
+              <h3 className="fw-300 text-seegreen-800 fs-34 montserrat">
+                NIGHT GUARD PACKAGE INCLUDE
+              </h3>
+              <div className="mt-4">
+                <h4 className="fw-300 text-slate-500 fs-24 montserrat">
+                  Smile Brilliant custom-fitted teeth grinding night guards are
+                  hand-crafted by dental lab technicians. Your package includes
+                  custom-fitted guards, travel case, and everything you need to
+                  avoid the lengthy (and expensive) dentist visits.
+                </h4>
+              </div>
+            </div>
+            <div
+              className="text-center mt-5 aos-init aos-animate"
+              data-aos="fade-up"
+              data-aos-duration="2000"
+            >
+              <Image
+                src={graphicNightGuardSystem}
+                width={380}
+                // height={''}
+                alt='graphicnight'
+                className="mt-2"
+              />
+            </div>
+            <div className="mt-5 pt-4">
+              <Row className="bg-seegreen-500 p-4 border-bottom mb-3">
+                <Col md={6}>
+                  <div
+                    className="d-flex align-items-center bg-seegreen-500 pe-3 aos-init aos-animate"
+                    data-aos="fade-right"
+                    data-aos-duration="2000"
+                  >
+                    <div className="img-box">
+                      <Image
+                        src={GraphicModel}
+                        // Layout="fill"
+                        alt={GraphicModel.src}
+                        width={140}
+                      />
+                    </div>
+                    <div className="ps-5">
+                      <p className="fimaly-multiple fs-17 text-slate-500 open-sans text-slate-500">
+                        <strong>
+                          <span className="text-seegreen-800 fw-600">
+                            Professional Lab Service
+                          </span>
+                        </strong>
+                        <br />
+                        Professional dental lab will receive your impressions,
+                        create an exact model of your teeth, and fashion a truly
+                        custom-fitted night guard.
+                      </p>
+                    </div>
+                  </div>
+                </Col>
+
+                <Col md={6}>
+                  <div
+                    className="d-flex align-items-center bg-seegreen-500 ps-3 aos-init aos-animate"
+                    data-aos="fade-left"
+                    data-aos-duration="2000"
+                  >
+                    <div className="img-box">
+                      <Image
+                        src={GraphicNightGuardOnly}
+                        // Layout="fill"
+                        alt={'GraphicNightGuardOnly'}
+                        width={140}
+                      />
+                    </div>
+                    <div className="ps-5">
+                      <p className="fimaly-multiple fs-17 text-slate-500 open-sans text-slate-500">
+                        <strong>
+                          <span className="text-seegreen-800 fw-600">
+                            Custom-fitted Night Guards
+                          </span>
+                        </strong>
+                        <br />
+                        Exactly like your dentist would make. Soft yet durable.
+                        Fits your teeth perfectly and will not fall out.
+                      </p>
+                    </div>
+                  </div>
+                </Col>
+              </Row>
+              <Row
+                className="ps-4 pe-4 pt-4 pb-6 border-bottom mb-3 aos-init aos-animate"
+                data-aos="fade-right"
+                data-aos-duration="2000"
+              >
+                <Col md={6}>
+                  <div className="d-flex align-items-center ps-3">
+                    <div className="img-box">
+                      <Image
+                        src={graphicimpressions}
+                        // Layout="fill"
+                        alt={'graphicimpressions'}
+                        width={140}
+                      />
+                    </div>
+                    <div className="ps-5">
+                      <p className="fimaly-multiple fs-17 text-slate-500 open-sans text-slate-500">
+                        <strong>
+                          <span className="fw-600">1 Impression Tray</span>
+                        </strong>
+                        <br />
+                        Used in combination with impression material to create
+                        your dental impression of upper or lower teeth (your
+                        preference)
+                      </p>
+                    </div>
+                  </div>
+                </Col>
+                <Col md={6}>
+                  <div
+                    className="d-flex align-items-center ps-3 aos-init aos-animate"
+                    data-aos="fade-left"
+                    data-aos-duration="2000"
+                  >
+                    <div className="img-box">
+                      <Image
+                        src={graphiccatalystbasepasteteal}
+                        // Layout="fill"
+                        alt={'graphiccatalystbasepasteteal'}
+                      />
+                    </div>
+                    <div className="ps-5">
+                      <p className="fimaly-multiple fs-17 text-slate-500 open-sans text-slate-500">
+                        <strong>
+                          <span className="fw-600">
+                            2 Sets of Impression Material
+                          </span>
+                        </strong>
+                        <br />
+                        To make your own dental impressions (1 extra set of
+                        material in case you mess up)
+                      </p>
+                    </div>
+                  </div>
+                </Col>
+              </Row>
+              <Row className="p-4">
+                <Col md={6}>
+                  <div
+                    className="d-flex align-items-center ps-3 aos-init aos-animate"
+                    data-aos="fade-right"
+                    data-aos-duration="2000"
+                  >
+                    <div className="img-box">
+                      <Image
+                        src={graphicprepaidpostageteal}
+                        // Layout="fill"
+                        alt={'graphicprepaidpostageteal'}
+                      />
+                    </div>
+                    <div className="ps-5">
+                      <p className="fimaly-multiple fs-17 text-slate-500 open-sans text-slate-500">
+                        <strong>
+                          <span className="fw-600 fs-17 fimaly-multiple">
+                            <span>3-Way,</span>
+                            <span className="text-seegreen-800 pe-1">
+                              pre-paid
+                            </span>
+                            <span>postage</span>
+                          </span>
+                        </strong>
+                        <br />
+                        All postage between you and the lab is covered (2-way
+                        for international orders)
+                      </p>
+                    </div>
+                  </div>
+                </Col>
+
+                <Col md={6}>
+                  <div
+                    className="d-flex align-items-center ps-3 aos-init aos-animate"
+                    data-aos="fade-left"
+                    data-aos-duration="2000"
+                  >
+                    <div className="img-box">
+                      <Image
+                        src={graphiclifetimereorders}
+                        // Layout="fill"
+                        alt={'graphiclifetimereorders'}
+                      />
+                    </div>
+                    <div className="ps-5">
+                      <p className="fimaly-multiple fs-17 text-slate-500 open-sans text-slate-500">
+                        <strong>
+                          <span className="fw-600">
+                            <span>Lifetime </span>
+                            <span className="text-seegreen-800">Reorders</span>
+                          </span>
+                        </strong>
+                        <br />
+                        Your dental impressions are kept on file. If you lose or
+                        wear down your guards, we can make you new ones fast!
+                      </p>
+                    </div>
+                  </div>
+                </Col>
+              </Row>
+            </div>
+            <div className="text-center mt-3">
+              <a
+                href="#price-section"
+                className="px-4 text-uppercase text-decoration-none min-w-240 min-h-50 py-11 text-center fs-18 text-white bg-seegreen-800 fw-300   border1 border-color-seegreen-900 hover-able hover hove-dark-grey montserrat letter-spacing-2 "
+              >
+                GET THE PACKAGE
+              </a>
+            </div>
+          </Container>
+        </section>
+
+        <section
+          id="ng-section6"
+          className="ng-section6 mb-5 bg-seegreen-700 py-7"
+        >
+          <div className="max-w-1130 mx-auto px-4 pb-4">
+            <div className="text-center max-w-1000 mx-auto px-4 mb-4 sm-px-0">
+              <div className="mt-4">
+                <h4 className="fw-400 text-slate-300 fs-20 fimaly-multiple-opn mb-4">
+                  {' '}
+                  Get the facts{' '}
+                </h4>
+                <h3 className="fw-500 text-seegreen-800 fs-34 fimaly-multiple-mon">
+                  NIGHT GUARD FAQ
+                </h3>
+              </div>
+            </div>
+            <div className="accordion">
+              <div className="accordion accordion-flush" id="ngaccordion">
+                <div className="accordion-item bg-transparent">
+                  <h4 className="accordion-header" id="flush-headingOne">
+                    <button
+                      className="fs-22 hover-text hover-seegren text-slate-500 fw-400 montserrat accordion-button collapsed bg-transparent shadow-none hover-text hover-seegren"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#ngac1"
+                      aria-expanded="false"
+                      aria-controls="ngac1"
+                    >
+                      What are the negative effects of teeth grinding?
+                    </button>
+                  </h4>
+                  <div
+                    id="ngac1"
+                    className="accordion-collapse collapse "
+                    aria-labelledby="flush-headingOne"
+                    data-bs-parent="#ngaccordion"
+                  >
+                    <div className="accordion-body">
+                      Teeth grinding (or bruxism) can have long-term,
+                      devastating effects on the overall health of your teeth.
+                      The grinding and clenching motion wears down the teeth
+                      making them smaller and permanently sensitive. It also
+                      destroys enamel which makes teeth more prone to cavities.
+                      Aside from damage, teeth clenching/grinding can cause
+                      facial pain, headaches, earaches, pain/stiffness in the
+                      jaw, and disruption of sleep.
+                    </div>
+                  </div>
+                </div>
+
+                <div className="accordion-item bg-transparent">
+                  <h2
+                    className="accordion-header fs-22 text-slate-500 fw-400 montserrat"
+                    id="flush-headingTwo"
+                  >
+                    <button
+                      className=" fs-22 text-slate-500 fw-400 montserrat accordion-button collapsed bg-transparent shadow-none hover-text hover-seegren"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#ngac2"
+                      aria-expanded="false"
+                      aria-controls="ngac2"
+                    >
+                      How does a custom night guard help?
+                    </button>
+                  </h2>
+                  <div
+                    id="ngac2"
+                    className="accordion-collapse collapse"
+                    aria-labelledby="flush-headingTwo"
+                    data-bs-parent="#ngaccordion"
+                  >
+                    <div className="accordion-body">
+                      Unlike over-the-counter guards, A truly custom-fitted
+                      guard ensures a snug fit without falling out or rubbing
+                      gums during sleep. Custom-fitted night guards have been
+                      offered by dentists for decades as a treatment for both
+                      minor and severe teeth grinding/clenching. The trays are
+                      generally 2-3mm in thickness and are relatively soft yet
+                      durable. This allows a cushion on the bite surface thus
+                      eliminating tooth on tooth grinding as well as reducing
+                      jaw and tooth soreness due to clenching
+                    </div>
+                  </div>
+                </div>
+
+                <div className="accordion-item bg-transparent">
+                  <h2 className="accordion-header" id="flush-headingThree">
+                    <button
+                      className="fs-22 text-slate-500 fw-400 montserrat accordion-button collapsed bg-transparent shadow-none hover-text hover-seegren"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#ngac3"
+                      aria-expanded="false"
+                      aria-controls="ngac3"
+                    >
+                      How do Smile Brilliant night guards differ from a
+                      dentist’s product?
+                    </button>
+                  </h2>
+                  <div
+                    id="ngac3"
+                    className="accordion-collapse collapse"
+                    aria-labelledby="flush-headingThree"
+                    data-bs-parent="#ngaccordion"
+                  >
+                    <div className="accordion-body">
+                      No, this is not a subscription. The amount you pay is a
+                      one time fee and includes everything you need. You will
+                      never be charged any additional fees. If you need to get a
+                      replacement tray, you pay a small fee and our lab will
+                      make you a new guard from your dental models on file.
+                    </div>
+                  </div>
+                </div>
+
+                <div className="accordion-item bg-transparent">
+                  <h2 className="accordion-header" id="flush-heading4">
+                    <button
+                      className="fs-22 text-slate-500 fw-400 montserrat accordion-button collapsed bg-transparent shadow-none hover-text hover-seegren"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#ngac4"
+                      aria-expanded="false"
+                      aria-controls="ngac4"
+                    >
+                      How does your lifetime reorder program work?
+                    </button>
+                  </h2>
+                  <div
+                    id="ngac4"
+                    className="accordion-collapse collapse"
+                    aria-labelledby="flush-headingThree"
+                    data-bs-parent="#ngaccordion"
+                  >
+                    <div className="accordion-body">
+                      Smile Brilliant offers a convenient way to quickly reorder
+                      night guards and whitening trays after they wear out. Your
+                      original dental models are kept on file. When the time
+                      comes to get a new tray, simply login to your account (one
+                      was automatically created for you at the time of
+                      purchase), find your original night guard order, and click
+                      the “Reorder Guards/Trays” button. A set of guards or
+                      trays will be added to your cart. You can change the
+                      quantity if you wish to receive more than one extra night
+                      guard or set of whitening trays. We will use your dental
+                      model to quickly create a new set of guards/trays and ship
+                      them to your door for a very affordable price.
+                    </div>
+                  </div>
+                </div>
+
+                <div className="accordion-item bg-transparent">
+                  <h2 className="accordion-header" id="flush-heading4">
+                    <button
+                      className="fs-22 text-slate-500 fw-400 montserrat accordion-button collapsed bg-transparent shadow-none hover-text hover-seegren"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#ngac5"
+                      aria-expanded="false"
+                      aria-controls="ngac5"
+                    >
+                      Is this a subscription? Will I need to pay more in the
+                      future?
+                    </button>
+                  </h2>
+                  <div
+                    id="ngac5"
+                    className="accordion-collapse collapse"
+                    aria-labelledby="flush-headingThree"
+                    data-bs-parent="#ngaccordion"
+                  >
+                    <div className="accordion-body">
+                      No, this is not a subscription. The amount you pay is a
+                      one time fee and includes everything you need. You will
+                      never be charged any additional fees. If you need to get a
+                      replacement tray, you pay a small fee and our lab will
+                      make you a new guard from your dental models on file.
+                    </div>
+                  </div>
+                </div>
+
+                <div className="accordion-item bg-transparent">
+                  <h2 className="accordion-header" id="flush-heading4">
+                    <button
+                      className="fs-22 text-slate-500 fw-400 montserrat accordion-button collapsed bg-transparent shadow-none hover-text hover-seegren"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#ngac6"
+                      aria-expanded="false"
+                      aria-controls="ngac6"
+                    >
+                      Can I whiten with my night guards?
+                    </button>
+                  </h2>
+                  <div
+                    id="ngac6"
+                    className="accordion-collapse collapse"
+                    aria-labelledby="flush-headingThree"
+                    data-bs-parent="#ngaccordion"
+                  >
+                    <div className="accordion-body">
+                      The short answer is NO. Although night guards are
+                      custom-fitted to your teeth, they are cut different and
+                      are not made with the same reservoir to allow gel to stay
+                      against the teeth without oozing out. Night guards are
+                      meant to fit snug and prevent grinding. Additionally,
+                      night guards are worn on the upper OR lower teeth. For
+                      this reason, you will not have both an upper AND a lower
+                      tray to whiten.
+                    </div>
+                  </div>
+                </div>
+
+                <div className="accordion-item bg-transparent">
+                  <h2 className="accordion-header" id="flush-heading4">
+                    <button
+                      className="fs-22 text-slate-500 fw-400 montserrat accordion-button collapsed bg-transparent shadow-none hover-text hover-seegren"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#ngac7"
+                      aria-expanded="false"
+                      aria-controls="ngac7"
+                    >
+                      Will I receive a night guard for both upper{' '}
+                      <i className=" ps-2 fw-800">AND</i>
+                    </button>
+                  </h2>
+                  <div
+                    id="ngac7"
+                    className="accordion-collapse collapse"
+                    aria-labelledby="flush-headingThree"
+                    data-bs-parent="#ngaccordion"
+                  >
+                    <div className="accordion-body">
+                      Night guards are generally worn on your upper OR lower
+                      teeth. Our packages provide only upper or only lower (you
+                      choose based on your preference and comfort).
+                    </div>
+                  </div>
+                </div>
+
+                <div className="accordion-item bg-transparent">
+                  <h2 className="accordion-header" id="flush-heading4">
+                    <button
+                      className="fs-22 text-slate-500 fw-400 montserrat accordion-button collapsed bg-transparent shadow-none hover-text hover-seegren"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#ngac8"
+                      aria-expanded="false"
+                      aria-controls="ngac8"
+                    >
+                      How does the Night Guard system differ from the Whitening
+                      System?
+                    </button>
+                  </h2>
+                  <div
+                    id="ngac8"
+                    className="accordion-collapse collapse"
+                    aria-labelledby="flush-headingThree"
+                    data-bs-parent="#ngaccordion"
+                  >
+                    <div className="accordion-body">
+                      Both the Smile Brilliant Night Guard Packages and the
+                      Whitening packages come with everything you need to make
+                      your own impressions from the comfort of home. The
+                      difference is that the night guard system is designed to
+                      make only one impression (upper OR lower) where as the
+                      teeth whitening system will provide impression material
+                      for both upper AND lower.
+                      <br />
+                      Additionally, the trays you receive are quite different.
+                      Night guards are cut differently and are made from thicker
+                      material (to be more durable during grinding). Teeth
+                      whitening trays are thinner and designed to have a
+                      reservoir to hold the whitening gel in place.
+                    </div>
+                  </div>
+                </div>
+
+                <div className="accordion-item bg-transparent">
+                  <h2 className="accordion-header" id="flush-heading4">
+                    <button
+                      className="fs-22 text-slate-500 fw-400 montserrat accordion-button collapsed bg-transparent shadow-none hover-text hover-seegren"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#ngac9"
+                      aria-expanded="false"
+                      aria-controls="ngac9"
+                    >
+                      How long does it take before I get my custom-fitted
+                      whitening trays?
+                    </button>
+                  </h2>
+                  <div
+                    id="ngac9"
+                    className="accordion-collapse collapse"
+                    aria-labelledby="flush-headingThree"
+                    data-bs-parent="#ngaccordion"
+                  >
+                    <div className="accordion-body">
+                      Once you’ve ordered your tray creation kit, it will be
+                      shipped within 24 business hours. Once shipped, you should
+                      receive your kit within 3-4 business days (if within the
+                      U.S.; International shipping can take up to 14 business
+                      days to deliver). You will then need to create your dental
+                      impressions, complete your consent card, and send them
+                      back to us. We should receive your package within 3-4
+                      business days (within the U.S.; approx. 14 business days
+                      international). Our dental lab will then create your
+                      custom-fitted whitening trays! The tray creation process
+                      takes 3-6 business days to complete. Once your trays have
+                      been shipped, they should reach you within 3-4 business
+                      days within the U.S.{' '}
+                      <i className="">
+                        (approx. 14 business days international)
+                      </i>
+                      .
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="ng-section7" className="ng-section7 mb-5 py-7">
+          <Container>
+            <div className="text-center max-w-1000 mx-auto px-2 mb-5 sm-mb-20">
+              <div>
+                <div>
+                  <Image src={percentguaranteelogo}
+                  //  Layout="fill"
+                  alt='percentguaranteelogo'
+                    />
+                </div>
+                <div className="mt-6 mb-4">
+                  <Image src={googletrustedstore}
+                  alt='googletrustedstore'
+                  //  Layout="fill"
+                    />
+                </div>
+              </div>
+              <h3 className="fw-400 text-seegreen-800 fs-34 montserrat">
+                45 DAY TRIAL. EASY REORDER FOR LIFE
+              </h3>
+              <div className="mt-4">
+                <p className="fw-300 text-slate-500 fs-20 montserrat sm-fs-14 sm-px-15">
+                  Our night guards are made with the same materials and
+                  crafstmanship as your local dentist. You will save your teeth
+                  and reduce pain. Try it out for 45 days and if you are not
+                  completely happy, we will issue a full refund. A model of your
+                  teeth is kept on file so reordering more night guards is easy
+                  and inexpensive. We are 100% confident that you will never
+                  have a more pleasant experience than you will right here!
+                </p>
+              </div>
+              <h3 className="fw-400 text-slate-500 fs-31 montserrat mt-5 sm-mb-0">
+                NO STRINGS ATTACHED
+              </h3>
+            </div>
+          </Container>
+        </section>
+      </main>
+      {/* </Layout> */}
+    </div>
+  );
+};
+
+export default Index;

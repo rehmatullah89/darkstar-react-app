@@ -1,0 +1,911 @@
+@font-face {
+  font-family: 'DK_Butterfly_Ball';
+  src: url('../../../../public/assets/DK_Butterfly_Ball/DK_Butterfly_Ball.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.dental_probiotic_wrapper {
+  padding-top: 48px;
+  background-color: #f7e8ed;
+}
+
+.dental_probiotic_detail {
+  margin-top: 80px !important;
+}
+
+.probiotic_text_wrapper {
+  max-width: 340px;
+  margin-left: auto;
+  text-align: center;
+  margin-right: auto;
+}
+
+.probiotic_content {
+  margin-top: 4rem;
+  margin-bottom: 35px;
+}
+
+.probiotic_content h2.product_header_sub {
+  font-size: 35px;
+  font-weight: 300;
+  line-height: 30px;
+  color: #565759;
+  font-family: 'DK_Butterfly_Ball';
+}
+
+h1.section_header_teal {
+  color: #cb5082;
+  font-family: 'DK_Butterfly_Ball';
+  font-size: 59px;
+  line-height: 71px;
+  font-weight: 500;
+  margin-top: 16px;
+  margin-bottom: 12px;
+}
+
+p.open_sans {
+  color: #3a3a3a;
+  line-height: 20px;
+  font-size: 14px;
+  font-family: 'Open sans', sans-serif !important;
+  margin-bottom: 35px;
+}
+.probiotic_primary_btn:hover {
+  background-color: #595858;
+    border-color: #595858;
+}
+.probiotic_primary_btn {
+  text-decoration: none;
+  background-color: #68c8c7;
+  border-color: #54a2a1;
+  color: #fff;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  min-width: 284px;
+  font-size: 18px;
+  letter-spacing: 0em;
+  display: inline-block;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  user-select: none;
+  background-image: none;
+  height: auto;
+  padding: 10px 40px;
+  border: 2px solid #54a2a1;
+  font-weight: 300;
+  border-width: 1px;
+  border-radius: 0;
+  font-family: 'Montserrat';
+  text-shadow: none;
+}
+.probiotic_secondary_btn:hover {
+  background-color: #595858;
+    border-color: #595858;
+    color: #fff;
+}
+.probiotic_secondary_btn {
+  text-decoration: none;
+  background-color: transparent;
+  border-color: #595858;
+  color: #595858;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  min-width: 284px;
+  font-size: 18px;
+  letter-spacing: 0em;
+  display: inline-block;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  user-select: none;
+  background-image: none;
+  height: auto;
+  padding: 10px 40px;
+  border: 2px solid;
+  font-weight: 300;
+  border-width: 1px;
+  border-radius: 0;
+  font-family: 'Montserrat';
+  text-shadow: none;
+}
+
+.dental_probiotic_left_col {
+  text-align: center;
+}
+
+.dental_probiotic_left_col img {
+  margin-left: 2px;
+}
+
+.boost_immunity_wrapper {
+  background-color: #0eb4ba;
+  padding-top: 33px;
+  padding-bottom: 25px;
+  text-align: center;
+}
+
+.boost_content_detail h2 {
+  color: #fff;
+  font-size: 59px;
+  letter-spacing: 0.05em;
+  font-weight: bold;
+  font-family: 'DK_Butterfly_Ball';
+}
+
+.light_color_with_text {
+  padding-top: 42px;
+  padding-bottom: 42px;
+  background-color: #baeaf6;
+}
+
+ul.background_graphic li {
+  background-image: url('../../../../public/assets/kids-probiotics-red-tick.webp');
+  background-repeat: no-repeat;
+  background-position: left;
+  font-size: 30px;
+  list-style: none;
+  font-weight: 300;
+  padding-left: 92px;
+  line-height: 56px;
+  margin-top: 18px;
+  color: #0eb4ba;
+  font-family: 'DK_Butterfly_Ball';
+}
+
+ul.background_graphic li {
+  padding: 0;
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.column_four img {
+  margin-left: 5px;
+}
+
+.learn_microbiome_wrapper {
+  padding-bottom: 32px;
+  padding-top: 32px;
+  background-color: #cff0f1;
+  border-top: solid #eef5f5 1px;
+  border-bottom: solid #eef5f5 1px;
+  text-align: center;
+}
+.dental_probiotic_left_col img {
+  max-width: 100%;
+  height: auto;
+}
+.microbiome_text {
+  font-size: 38px;
+  line-height: 1.4;
+  color: #555759;
+  letter-spacing: 0.1em;
+  margin-bottom: 22px;
+  font-family: 'DK_Butterfly_Ball';
+}
+
+.dental_adult_btn {
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 1.33;
+  font-weight: 300;
+  border-color: #555759;
+  color: #555759;
+  letter-spacing: 0em;
+  min-width: 288px;
+  display: inline-block;
+  margin-bottom: 0;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  user-select: none;
+  background-image: none;
+  padding: 10px 40px;
+  border: 2px solid;
+  background-color: transparent;
+  border-width: 1px;
+  border-radius: 0;
+  font-family: 'Montserrat';
+  text-shadow: none;
+}
+
+.dental_adult_btn:hover {
+  background-color: #fff;
+  color: #555759;
+  border-color: #fff;
+}
+
+.section_header {
+  font-family: 'DK_Butterfly_Ball';
+  font-size: 64px;
+}
+
+.product_specifications {
+  padding-bottom: 4.3em;
+  padding-top: 4.3em;
+  text-align: center;
+}
+
+.section_heading_smile {
+  font-size: 40px;
+  font-family:
+    'Open Sans',
+    'BlinkMacSystemFont',
+    -apple-system,
+    'Roboto',
+    'Lucida Sans';
+  font-weight: 400;
+  line-height: 1.3;
+  letter-spacing: 0;
+  color: #1b4764;
+}
+
+.specification_content {
+  margin-bottom: 35px;
+}
+
+.bacteria_strip {
+  max-width: 1010px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bacteria_strip .backeria_good_bad {
+  margin-right: 7rem;
+}
+
+.bacteria_strip .backeria_good_bad,
+.bacteria_strip .backeria_bad {
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+
+.bacteria_strip .backeria_bad {
+  padding-left: 15px;
+}
+
+.text_ind {
+  font-size: 39px;
+  line-height: 1;
+  padding-left: 7px;
+  font-family: 'DK_Butterfly_Ball';
+  font-weight: 500;
+  color: #1b4764;
+}
+
+.cross_icon {
+  width: 45px;
+  color: #ff928e;
+}
+
+.cross_icon_purple {
+  width: 70px;
+  color: #c19ade;
+}
+
+.healthy_population_wrapper {
+  padding: 3rem 3rem 82px 3rem !important;
+  background: #e3faff;
+  text-align: center;
+}
+
+.line_break {
+  margin-top: -27px;
+  margin-bottom: 0px;
+}
+
+.buy_now_btn:hover {
+  background-color: #0db4ba;
+  border-color: #0db4ba;
+}
+
+.healthy_population_heading .text_blue {
+  color: #1b4764;
+  font-size: 64px;
+  font-family: 'DK_Butterfly_Ball';
+  line-height: 1;
+}
+
+.healthy_population_heading {
+  margin-bottom: 35px;
+}
+
+.healthy_population_heading .text_red {
+  color: #cb5082;
+  font-size: 64px;
+  font-family: 'DK_Butterfly_Ball';
+  line-height: 1;
+}
+
+.healthy_sub_heading {
+  font-size: 24px;
+  font-weight: 800;
+  font-family: 'Montserrat';
+  color: #1b4764;
+  margin-bottom: 0;
+}
+
+.healthy_sub_heading .text_red_small {
+  color: #cb5082;
+}
+
+.healthy_sub_heading {
+  margin-bottom: 35px;
+}
+
+.Healthy_pop_img {
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+}
+
+.section_description_heading_wrapper {
+  margin-bottom: 35px;
+}
+
+.section_description_heading {
+  max-width: 917px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.section_description_heading h4 {
+  font-size: 24px;
+  padding-top: 5px;
+  font-weight: 800;
+  font-family: 'Montserrat';
+  color: #1b4764;
+  margin-bottom: 0;
+  line-height: 1.3;
+  letter-spacing: 0;
+}
+
+.buy_now_btn {
+  margin-top: 15px;
+  min-width: 284px;
+  letter-spacing: 0em;
+  background-color: #0db4ba;
+  border-color: #0db4ba;
+  color: #fff;
+  font-size: 18px;
+  padding: 10px 0px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.smile_link {
+  margin-top: 35px;
+}
+
+.link_color:hover {
+  color: #565759;
+}
+
+.link_color {
+  color: #565759;
+  font-size: 20px;
+  text-decoration: none;
+  font-family:
+    'Open Sans',
+    'BlinkMacSystemFont',
+    -apple-system,
+    'Roboto',
+    'Lucida Sans';
+}
+
+.smile_link .text_red {
+  color: #cb5082;
+  font-size: 20px;
+}
+
+.child_microbiome .healthy_population_wrapper {
+  background-color: #fff;
+}
+
+.child_microbiome .text_blue {
+  font-size: 60px;
+  line-height: 1.1;
+}
+
+.child_microbiome .text_red {
+  font-size: 60px;
+  line-height: 1.1;
+  color: #0eb4b9;
+}
+
+.child_microbiome .caripro_text {
+  font-family: 'Montserrat';
+  font-weight: 600;
+}
+
+.child_microbiome .tm_symbal {
+  font-size: 16px;
+  font-family: 'Montserrat';
+  top: -23px;
+  position: relative;
+}
+
+.child_microbiome .healthy_sub_heading {
+  font-size: 28px;
+  font-family: 'Montserrat';
+  font-weight: 800 !important;
+  line-height: 1.4;
+}
+
+.healthy_population_heading {
+  margin-top: 20px;
+  margin-bottom: 3rem;
+}
+
+.kids_dancing_img {
+  margin-bottom: 35px;
+}
+
+.bebefits_logo_wrapper {
+  margin-bottom: 39px;
+}
+
+.benefits_with_logo {
+  display: flex;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.bebefits_logo_wrapper .text_red {
+  display: block;
+  font-family: 'DK_Butterfly_Ball';
+  margin-top: 6px;
+  font-size: 16px;
+  color: #cb5082;
+  letter-spacing: 2px;
+}
+
+.logo_veg {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.content_detail_child {
+  margin-bottom: 35px;
+}
+
+.child_content_detail h5.text_blue {
+  font-size: 21px;
+  letter-spacing: 0;
+  color: #1b4764;
+  line-height: 27px;
+  font-weight: 600;
+  font-family:
+    'Open Sans',
+    BlinkMacSystemFont,
+    -apple-system,
+    Roboto,
+    'Lucida Sans';
+}
+
+.mobile_image {
+  display: none;
+}
+.text_red span.mont {
+  font-family: 'Montserrat';
+
+}
+@media screen and (max-width:1499px){
+  .dental_probiotic_left_col img {
+    max-width: 115%;
+    height: auto;
+    position: relative;
+    left: -75px;
+  }
+}
+@media screen and (max-width:1299px){
+  .dental_probiotic_left_col img {
+    max-width: 100%;
+    left: 0px;
+  }
+}
+@media screen and (min-width: 64em) {
+  .dental_probiotic_details,
+  .dental_probiotic_left_col,
+  .dental_probiotic_right_col,
+  .boost_content_detail,
+  .light_text_detail,
+  .column_eight,
+  .column_four,
+  .learn_microbiome_detail,
+  .healthy_population_detail,
+  .healthy_wrapper_inner {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .column_eight {
+    width: 75%;
+  }
+
+  .column_four {
+    width: 25%;
+  }
+}
+
+@media only screen and (min-width: 640px) {
+  .product_specifications {
+    padding: 4.1em 35px 53px 35px;
+  }
+
+  .healthy_population {
+    padding: 0px 35px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .dental_probiotic_left_col {
+    width: 58.33333333%;
+  }
+
+  .dental_probiotic_right_col {
+    width: 33.33%;
+  }
+
+  .dental_probiotic_wrapper {
+    min-height: 545px;
+  }
+
+  ul.background_graphic {
+    padding-left: 30px;
+  }
+
+  ul.background_graphic li {
+    background-size: 50px;
+    padding-left: 70px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .dental_probiotic_detail {
+    max-width: 1170px;
+    margin: 0px auto;
+  }
+
+  .light_text_container {
+    max-width: 1170px;
+    margin: 0px auto;
+  }
+
+  .healthy_population {
+    max-width: 1170px;
+    margin: 0px auto;
+  }
+
+  .product_specifications {
+    max-width: 1170px;
+    margin: 0px auto;
+  }
+
+  .dental_probiotic_wrapper {
+    min-height: 750px;
+  }
+
+  .boost_content_detail h2 {
+    font-size: 59px;
+  }
+
+  ul.background_graphic {
+    padding-left: 50px;
+    padding-top: 10px;
+  }
+
+  ul.background_graphic li {
+    font-size: 22px;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .dental_probiotic_detail {
+    max-width: 1420px;
+    margin: 0px auto;
+    padding: 0 0px;
+  }
+
+  .healthy_population {
+    max-width: 1420px;
+    margin: 0px auto;
+  }
+
+  .product_specifications {
+    max-width: 1420px;
+    margin: 0px auto;
+  }
+
+  .dental_probiotic_wrapper {
+    min-height: 790px;
+  }
+
+  ul.background_graphic {
+    padding-left: 70px;
+    padding-top: 11px;
+  }
+
+  .light_text_container {
+    max-width: 1420px;
+    margin: 0px auto;
+  }
+
+  ul.background_graphic li {
+    font-size: 30px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .dental_probiotic_left_col img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .probiotic_content {
+    margin-top: 0px;
+  }
+
+  .dental_probiotic_detail {
+    margin-top: 0px !important;
+  }
+
+  h1.section_header_teal {
+    font-size: 34px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .dental_probioic_row {
+    align-items: center;
+  }
+
+  .boost_content_detail h2 {
+    font-size: 32px;
+  }
+
+  ul.background_graphic li {
+    line-height: 40px;
+    font-size: 18px;
+    background-size: 40px;
+    padding-left: 60px;
+    background-position: top left;
+  }
+
+  .column_four img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .microbiome_text {
+    font-size: 28px;
+  }
+
+  .section_heading_smile {
+    font-size: 30px;
+  }
+
+  .image_banner_wrapper img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .bacteria_strip .backeria_good_bad,
+  .bacteria_strip .backeria_bad {
+    padding-top: 35px;
+  }
+
+  .healthy_population {
+    max-width: 780px;
+    padding: 0px 15px;
+  }
+
+  .healthy_population_heading .text_blue,
+  .healthy_population_heading .text_red {
+    font-size: 34px;
+  }
+
+  .child_microbiome .healthy_sub_heading {
+    font-size: 18px;
+  }
+
+  .logo_veg {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .dental_probiotic_left_col img {
+    max-width: 100%;
+    height: auto;
+    padding: 0px 20px;
+  }
+
+  .dental_probioic_row {
+    flex-direction: column-reverse;
+  }
+
+  .probiotic_content {
+    margin-top: 0px;
+  }
+
+  .dental_probiotic_detail {
+    padding-bottom: 20px;
+    margin-top: 0px !important;
+  }
+
+  .probiotic_content h2.product_header_sub {
+    font-size: 28px;
+  }
+
+  h1.section_header_teal {
+    font-size: 36px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .boost_content_detail h2 {
+    font-size: 20px;
+    padding: 0px 20px;
+  }
+.dental_probiotic_wrapper {
+  padding-top: 85px;
+}
+h1.section_header_teal {
+  line-height: 58px;
+}
+.probiotic_secondary_btn {
+  margin-bottom: 0px;
+}
+  ul.background_graphic li {
+    background-position: top left;
+    font-size: 16px;
+    padding-left: 32px;
+    line-height: 27px;
+    margin-top: 8px;
+    color: #555759;
+    background-size: 24px;
+    text-align: left;
+    max-width: 338px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .light_text_row {
+    flex-direction: column-reverse;
+  }
+
+  .column_four {
+    text-align: center;
+  }
+
+  .column_four img {
+    max-width: 177px;
+    height: auto;
+  }
+  .section_heading_smile br {
+    display: none;
+  }
+  .microbiome_text {
+    font-size: 18px;
+    padding: 0px 15px;
+  }
+  .healthy_population_detail {
+    padding:0px 1rem;
+  }
+   .healthy_population_wrapper {
+    padding: 1rem 0rem 82px 0rem !important;
+  }
+  .microbiome_text br {
+    display: none;
+  }
+
+  .section_header {
+    font-size: 36px;
+  }
+
+  .section_heading_smile {
+    font-size: 26px;
+    padding: 0px 15px;
+  }
+
+  .image_banner_wrapper,
+  .bacteria_strip {
+    display: none;
+  }
+
+  .mobile_image {
+    display: block;
+  }
+
+  .mobile_image img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .healthy_population_wrapper {
+    padding: 1rem 0rem 82px 0rem !important;
+  }
+
+  .healthy_population_heading .text_blue {
+    font-size: 36px;
+  }
+
+  .healthy_population_heading .text_red {
+    font-size: 32px;
+  }
+
+  .healthy_population_heading {
+    margin-bottom: 35px;
+  }
+
+  .healthy_sub_heading {
+    font-size: 18px;
+  }
+
+  .kids_dancing_img img,
+  .Healthy_pop_img img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .section_description_heading h4 {
+    font-size: 18px;
+  }
+
+  .child_microbiome .healthy_population_heading .text_blue {
+    font-size: 24px;
+  }
+
+  .child_microbiome .healthy_population_heading .text_red {
+    font-size: 26px;
+  }
+
+  .child_microbiome .tm_symbal {
+    top: -5px;
+  }
+  .benefits_with_logo{
+    justify-self:center !important;
+  }
+  .child_microbiome .healthy_sub_heading {
+    font-size: 18px;
+  }
+
+
+  .logo_veg {
+    margin-left: 10px;
+    margin-right: 10px;
+    max-width: 42px;
+  }
+  .logo_veg img {
+    max-width: 100%;
+    height: auto;
+  }
+  .bebefits_logo_wrapper .text_red {
+    font-size: 9px;
+  }
+  .child_content_detail h5.text_blue {
+    font-size: 18px;
+  }
+}
+
+

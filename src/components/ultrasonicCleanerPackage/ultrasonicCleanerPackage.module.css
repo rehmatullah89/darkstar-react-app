@@ -1,0 +1,158 @@
+.productSelectionBox {
+  border: solid #c5c6c9 1px;
+  padding: 60px;
+  text-align: center;
+  margin-top: 44px;
+}
+
+.productSelectionImageWrap {
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 100%;
+  height: auto;
+}
+
+.productSelectionInnerBox {
+  max-width: 450px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.productImage {
+  width: 100%;
+  height: auto;
+}
+
+.productSelectionPriceWrap {
+  padding-top: 20px;
+  margin-top: 20px;
+  text-align: center;
+}
+.productSelectionDentistPriceNote {
+  font-size: 13px;
+  color: #565759;
+  font-family:
+    'Open Sans',
+    'BlinkMacSystemFont',
+    -apple-system,
+    'Roboto',
+    'Lucida Sans';
+  text-align: left;
+  margin-left: 50px;
+}
+.productSelectionDollarSymbol {
+  width: 16px;
+  color: #565759;
+  margin-top: -10px;
+}
+.productSelectionPriceText {
+  font-family: 'Montserrat';
+  font-size: 15px;
+  color: #565759;
+  font-weight: 500;
+  padding: 50px;
+}
+.trialContainer {
+  padding: 70px;
+}
+
+.trialContainer span {
+  color: #565759;
+  font-size: 14px;
+  line-height: 3px;
+}
+
+.productSelectiondDescription b {
+  font-family: 'Open sans', sans-serif;
+  font-weight: 600;
+  display: block;
+  padding-top: 10px;
+  font-size: 1.2em;
+  color: #565759;
+}
+
+.ValueText {
+  color: #3c98cc;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: 'Open sans', sans-serif;
+}
+.btnprimaryPurple {
+  background-color: #00b5bb;
+  border-color: #00b5bb;
+  margin-top: 8px;
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+  text-align: center;
+  display: inline-block;
+  margin-bottom: 0;
+  font-size: 14px;
+  line-height: 1.42857143;
+  white-space: nowrap;
+  vertical-align: middle;
+  color: #fff;
+  height: auto;
+  padding: 10px 40px;
+  border: 2px solid #00b5bb;
+  border-width: 1px;
+  border-radius: 0;
+  font-family: 'Montserrat';
+  letter-spacing: 0.2em;
+  text-shadow: none;
+}
+
+.productDescriptionBox {
+  width: 450px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+}
+
+.divider {
+  margin: 6px 50px;
+  border-bottom: 1px solid #c3c5c9;
+}
+
+.priceOne {
+  font-size: 26px;
+  font-weight: 400;
+  color: #88898c;
+  margin: 7px;
+  font-family: 'Montserrat';
+}
+
+.priceTwo {
+  font-size: 26px;
+  font-weight: 400;
+  color: #565759;
+  margin: 7px;
+  font-family: 'Montserrat';
+}
+
+.priceOffer {
+  alignself: center;
+}
+.descriptionHeading {
+  font-size: 18px;
+  font-family: "'Montserrat'";
+  font-weight: bold;
+  color: #565759;
+  text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+  .productSelectionBox {
+    padding: 10px;
+    margin-top: 44px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 990px) {
+  .productSelectionBox img {
+    max-width: 100%;
+  }
+  .productSelectionBox {
+    padding: 15px;
+  }
+}

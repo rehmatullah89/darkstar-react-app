@@ -1,0 +1,131 @@
+.shipping_protection {
+  position: relative;
+  overflow: hidden;
+  min-height: 67px;
+  padding-bottom: 1rem;
+}
+.shipping_protection .flex_row,
+.shipping_protection .protection_tp {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.protection_tp {
+  justify-content: space-between;
+  margin-bottom: 4px;
+}
+.imgProtection {
+  max-width: 60px;
+  margin-right: 10px;
+  background: #3c98cc;
+}
+.protection_content_text {
+  max-width: 232px;
+  width: 100%;
+  text-align: left;
+}
+.protection_content_text p {
+  font-size: 12px;
+  color: #979797;
+  margin: 0;
+  line-height: 16px;
+}
+.protection_tp h3 {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  margin-bottom: 0px;
+  text-transform: uppercase;
+  font-family: 'Montserrat';
+}
+span.upcart_addons_price {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16px;
+  margin-bottom: 8px;
+  font-family: 'Montserrat';
+  color: #565759;
+}
+.shipping_protection input::before {
+  display: none;
+}
+.shipping_protection .protection_radio:checked {
+  background-color: #449bcb;
+  border-color: #449bcb;
+}
+.shipping_protection .protection_radio {
+  padding: 10px 20px;
+}
+.shipping_protection .switch {
+  display: inline-block;
+}
+
+.shipping_protection .switch span {
+  position: relative;
+  width: 55px;
+  height: 26px;
+  float: left;
+}
+.shipping_free_text {
+  font-size: 11px;
+  font-family: 'Montserrat';
+  color: #3c98cc;
+  font-weight: 500;
+  text-align: left;
+  padding-top: 10px;
+}
+.shipping_protection .switch span input {
+  display: none;
+}
+
+.shipping_protection .switch span input:checked + .slider {
+  background-color: #449bcb;
+}
+
+.shipping_protection .switch span input:checked + .slider:before {
+  transform: translateX(26px);
+}
+
+.shipping_protection .switch span input:focus + .slider {
+  box-shadow: 0 0 1px #218d96;
+}
+
+.shipping_protection .switch label {
+  line-height: 34px;
+  margin-left: 12px;
+  cursor: pointer;
+}
+
+.shipping_protection .slider {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  border: 0;
+  outline: none;
+  background-color: #ccc;
+  transition: 0.4s;
+  border-radius: 34px;
+  cursor: pointer;
+}
+
+.shipping_protection .slider:before {
+  position: absolute;
+  content: '';
+  height: 18px;
+  width: 18px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  transition: 0.4s;
+  border-radius: 50%;
+}
+.shipping_free_text {
+  font-size: 11px;
+  font-family: 'Montserrat';
+  color: #3c98cc;
+  font-weight: 500;
+  text-align: left;
+}

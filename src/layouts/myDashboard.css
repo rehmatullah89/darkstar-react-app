@@ -1,0 +1,338 @@
+.desktop-page-container {
+  /* max-width: 1460px; */
+  margin-left: auto;
+  margin-right: auto;
+  background: #f3f8fb;
+}
+.accordion-button:not(.collapsed) {
+  /* background-color: #ffffff; */
+}
+.techwave_fn_leftpanel {
+  z-index: 12345;
+  position: fixed;
+  background-color: #f5f5f5;
+  background-color: #ffffff;
+  width: 100%;
+  max-width: 350px;
+  left: 0;
+  top: 8px;
+  bottom: 0;
+  border-right: 1px solid #ddd;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
+  -o-flex-direction: column;
+  flex-direction: column;
+  transition: all 0.2s ease;
+  padding-bottom: 10px;
+}
+.techwave_fn_content {
+  margin-left: 325px;
+  position: relative;
+  padding-left: 3rem;
+
+  transition: all 0.2s ease;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  -moz-flex-direction: column;
+  -ms-flex-direction: column;
+  -o-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  padding-top: 110px;
+}
+.techwave_fn_leftpanel .accordion {
+  --bs-accordion-bg: transparent;
+}
+.desktop-page-container .techwave_fn_leftpanel .accordion-body a {
+  background-color: transparent;
+}
+.techwave_fn_leftpanel .leftpanel_content {
+  flex: 1 0 auto;
+  padding: 48px 20px;
+  overflow-y: auto;
+  /* height: calc(100% - (100px)); */
+  padding-top: 30px;
+}
+.techwave_fn_leftpanel .leftpanel_content {
+  scrollbar-width: thin;
+  scrollbar-color: #999 #fff;
+}
+.desktop-page-container
+  .techwave_fn_leftpanel
+  .accordion-button:not(.collapsed) {
+  background-color: #e7e7e7;
+}
+.desktop-page-container .accordion-body a {
+  color: rgb(86, 87, 89);
+  font-size: 14px;
+  line-height: 1;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  padding: 13px 20px;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+
+.techwave_fn_leftpanel .logo-wrap-smilebrilliant {
+  padding: 16px 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding-bottom: 15px;
+}
+.techwave_fn_leftpanel .accordion-header button.accordion-button {
+  padding: 0;
+  padding-bottom: 12px;
+}
+header.dark-header {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+header.header-light {
+  padding-top: 9px;
+}
+.flex-row-mbt{ display: flex;}
+
+.accordion-item {
+  border-bottom: 1px solid rgb(222, 226, 230);
+}
+.techwave_fn_leftpanel .accordion-header button.accordion-button a{ text-decoration: none;}
+.techwave_fn_leftpanel  .accordion-button::after{--bs-accordion-btn-icon-width: 1rem;
+  top: 10px;
+  position: relative;
+
+}
+.desktop-content-wrapper-sbr{
+  background: #f3f8fb;
+  max-width: 80%;
+}
+.techwave_fn_leftpanel .accordion-header button.accordion-button{
+  box-shadow: none;
+}
+.footer-menu-wrapper-main {
+  background: #ffffff;
+}
+body{
+  background: #f3f8fb;
+}
+.pageStainConcealer{
+  background: #fff;
+  padding: 1.5rem;
+  box-shadow: 0px 2px 0px rgba(118, 138, 254, 0.03);
+  border: 1px solid #eee;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+.techwave_fn_leftpanel .accordion-body{
+  padding-left: 38px;
+}
+.techwave_fn_leftpanel .accordion-body a{
+  color: rgb(86, 87, 89);
+  font-size: 12px;
+  line-height: 1;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 10px;
+  margin-bottom: 4px;
+}
+.accordian-icon-large {
+  padding-right: 4px !important;
+}
+
+button{
+  border-radius: 5px;
+}
+.accordian-list.accordion .accordion-item:nth-child(2) .accordion-button::after{
+  opacity: 0;
+  visibility: hidden;
+}
+.subpageContainer{
+  padding: 1rem;
+  background: #fff;
+  box-shadow: 0px 2px 0px rgba(118, 138, 254, 0.03);
+  border: 1px solid #eee;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+.userDisplayname{
+  font-family: Montserrat;
+}
+.sectionheading{ font-size: 14px;}
+
+
+
+
+@media only screen and (min-width: 768px) {
+  .techwave_fn_content{
+    min-height: calc(100vh - (100px));
+  }
+}
+
+
+/* for mobile my-account navigation only */
+@media only screen and (max-width: 767px) {
+  .pageStainConcealer{
+    padding: 15px;
+  }
+  .for-only-desktop-show { display: none !important;}
+  html body .desktop-left-sidebar-navigation{
+    display: block;
+    position: static;
+    width: 100%;
+    background-color: #ffffff;
+    padding-bottom: 2rem;
+
+  }
+  html body  .logo-wrap-smilebrilliant {
+    display: none;
+  }
+  html body .desktop-left-sidebar-navigation  .leftpanel_content{ padding-top: 0;}
+  html body .desktop-left-sidebar-navigation .accordion-header .accordian-icon-large{
+    display: none !important;
+  }
+  html body .desktop-left-sidebar-navigation  .collapse:not(.show){ display: block;}
+  html body .desktop-left-sidebar-navigation  .accordion-body a{
+    background-image: url(https://www.smilebrilliant.com/wp-content/themes/revolution-child/assets/images/my-account/mobile-nav-right-icon.svg);
+    display: flex;
+    width: 100%;
+    font-family: Montserrat;
+    background-repeat: no-repeat;
+    background-position: center right;
+    align-items: center;
+    -webkit-tap-highlight-color: transparent;
+    background-size: 24px;
+    padding-right: 20px;
+    transition: all .4s;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    text-decoration: none;
+    color: #565759;
+    font-size: 14px;
+    line-height: 1;
+    text-transform: uppercase;
+    background-color: transparent !important;
+    padding: 15px 12px;
+    border-radius: 7px;
+  }
+  html body .desktop-left-sidebar-navigation  .accordion-button:after{
+    opacity: 0;
+    visibility: hidden;
+  }
+  html body .desktop-left-sidebar-navigation  h2.accordion-header{
+    pointer-events: none;
+  }
+  html body .desktop-left-sidebar-navigation .accordion-item{
+    border-bottom: 1px solid #dbdbdbee;
+  }
+  html body .desktop-left-sidebar-navigation .accordion-body a p{
+    color: #565759 !important;
+  }
+  html body .desktop-left-sidebar-navigation .accordion-body a img{
+    -webkit-filter: grayscale(0) invert(0) !important;
+    filter: grayscale(0) invert(0) !important;
+  }
+  html body .desktop-left-sidebar-navigation  .sectionHeading__row >div {
+    font-family: Montserrat ;
+    text-align: left ;
+    /* padding-bottom: 5px; */
+    font-size: 18px !important;
+    font-weight: 600  ;
+    line-height: 24px  ;
+    padding-right: 20px  ;
+    padding-top: 13px  !important;
+    text-transform: uppercase  !important;
+    letter-spacing: 0.05em  !important;
+    color: #3b97ca;
+  }
+
+  .sideBarNavigationHide{
+    display: none !important;
+  }
+
+  html body .desktop-left-sidebar-navigation  .accordion-header button .sectionHeading__row~div {
+    text-align: left !important;
+    font-family: Montserrat !important;
+    font-size: 14px !important;
+    padding-bottom: 10px !important;
+    font-weight: 500 !important;
+    color: #565759 !important;
+  }
+    .desktop-content-wrapper-sbr{
+      padding-top: 80px;
+      max-width: 100%;
+      margin-left: 0;
+      padding-left: 1rem;
+      padding-right: 1rem;           
+    }
+    .page-container-layout{
+        min-height: 600px;  
+    }
+    .accordian-list.accordion {
+      padding-left: 15px;
+      padding-right: 15px;
+  }
+
+  html body .desktop-left-sidebar-navigation .accordion-item{}
+  .desktop-left-sidebar-navigation .accordion-button{
+    padding-left: 0;
+    padding-top: 0;    padding-bottom: 0;
+  }
+  .desktop-left-sidebar-navigation .accordion-button .sectionHeading__row{
+    padding-top: 0px;
+
+  }
+
+  .userSectionWrapper {
+    word-break: break-word;
+}
+
+}
+
+
+html body .desktop-left-sidebar-navigation .accordion-body .rippleEffect {
+  background-position: center;
+  transition: background 0.8s;
+  border-radius: 7px;
+}
+html body .desktop-left-sidebar-navigation .accordion-body .rippleEffect:hover {
+  background: #47a7f5 radial-gradient(circle, transparent 1%, #47a7f5 1%) center/15000%;
+}
+html body .desktop-left-sidebar-navigation .accordion-body .rippleEffect:active {
+  background-color: #6eb9f7;
+  background-size: 100%;
+  transition: background 0s;
+}
+html body .desktop-left-sidebar-navigation .accordion-body .rippleEffect:active a p
+,html body .desktop-left-sidebar-navigation .accordion-body .rippleEffect:hover a p
+,html body .desktop-left-sidebar-navigation .accordion-body .rippleEffect:active a
+,html body .desktop-left-sidebar-navigation .accordion-body .rippleEffect:hover a
+
+{
+  background-image: url(https://www.smilebrilliant.com/wp-content/themes/revolution-child/assets/images/my-account/mobile-nav-right-icon-white.svg);
+  color: #fff !important;
+}
+html body .desktop-left-sidebar-navigation .accordion-body .rippleEffect:hover a img
+,html body .desktop-left-sidebar-navigation .accordion-body .rippleEffect:hover a img
+{
+  -webkit-filter: grayscale(100) invert(100) !important;
+  filter: grayscale(100) invert(100) !important;
+}
+

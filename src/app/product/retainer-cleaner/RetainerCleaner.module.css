@@ -1,0 +1,452 @@
+.retainCleanerWrapper {
+  padding-top: 80px;
+}
+
+.retainCleanerInnerWrapper {
+  padding-top: 50px;
+}
+
+.retainCleanerWrapper .retainCleanerInnerWrapper .container {
+  max-width: 1440px;
+  margin: 0px auto;
+}
+.retainCleanerColumn {
+  padding-top: 20px;
+  padding-right: 1.25rem;
+  padding-left: 1.25rem;
+}
+.retainerCleanerBannerDetails {
+  max-width: 340px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.retainerDetailInner {
+  margin-bottom: 35px;
+}
+.retainerCleanerBannerDetails .retainerDetailInner h2 {
+  margin-top: 76px;
+  font-size: 30px;
+  font-weight: 600;
+  color: #565759;
+  line-height: 30px;
+  font-family: 'Montserrat';
+}
+.cariproTop {
+  position: relative;
+  font-weight: 700;
+}
+.tmSymbol {
+  font-size: 8px;
+  position: absolute;
+  top: -4px;
+}
+.retainerCleanerBannerDetails .retainerDetailInner h1 {
+  font-size: 48px;
+  font-weight: 600;
+  font-family: 'Montserrat';
+  color: #00b5bb;
+  letter-spacing: 0;
+  line-height: 1.2;
+  margin-top: -2px;
+}
+.retainerCleanerBannerDetails .retainerDetailInner p {
+  color: #3a3a3a;
+  line-height: 28px;
+  font-size: 16px;
+  margin-bottom: 34px;
+  font-family: 'Open sans';
+}
+.btnPrimaryDarkBlue {
+  background-color: #00b5bb;
+  border-color: #00b5bb;
+  font-size: 18px;
+  color: #fff;
+  display: inline-block;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  user-select: none;
+  background-image: none;
+  height: auto;
+  padding: 11px 40px;
+  border: 2px solid;
+  font-weight: 300;
+  border-width: 1px;
+  border-radius: 0;
+  font-family: 'Montserrat';
+  letter-spacing: 0.2em;
+  text-shadow: none;
+}
+
+.howItWorkText {
+  font-family: 'Montserrat';
+  padding-top: 9px;
+  display: block;
+  padding-bottom: 10px;
+  cursor: pointer;
+  color: #3a3a3a;
+  font-weight: 400;
+}
+.howItWorkText:hover{
+  color: #68c8c7;
+}
+button.howItWorkText {
+  appearance: none;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  line-height: 1;
+  cursor: auto;
+}
+.reatinCleanerIconSection {
+  background-color: #00b5bb;
+  margin-bottom: 1px;
+  padding: 0;
+  padding-bottom: 40px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+}
+.reatinCleanerIconSection .retainCleanerIconSectionInner h2 {
+  font-weight: 700;
+  color: #fff;
+  font-size: 38px;
+  margin-bottom: 61px;
+  letter-spacing: 0.05em;
+  font-family: 'Montserrat';
+  padding-top: 27px;
+  text-align: center;
+}
+.retainerIconSectionWraper {
+  max-width: 925px;
+  margin: 0px auto;
+}
+.iconWrapper {
+  text-align: center;
+}
+.iconWrapper img.icon1 {
+  margin-left: -12px;
+}
+.iconWrapper img.icon2 {
+  margin-left: -4px;
+}
+.iconWrapper img.icon3 {
+  margin-left: 4px;
+}
+.iconWrapper img.icon4 {
+  margin-left: 12px;
+}
+.iconWrapper .iconText {
+  color: #b3e9eb;
+  font-family:
+    'Montserrat',
+    'BlinkMacSystemFont',
+    -apple-system,
+    'Roboto',
+    'Lucida Sans';
+  line-height: 1.3;
+  margin-top: 10px;
+  font-weight: 500;
+}
+.iconWrapper .iconText p {
+  margin-bottom: 0px;
+  font-size: 16px;
+  
+}
+p.iconOneDetail {
+  margin-left: -12px;
+}
+p.iconTwoDetail {
+  margin-left: -4px;
+}
+
+p.iconThreeDetail {
+  margin-left: 6px;
+}
+p.iconFourDetail {
+  margin-left: 11px;
+}
+.listIconSectionWrapper {
+  padding-top: 30px !important;
+  padding-bottom: 30px !important;
+  background-color: #d6eef0 !important;
+}
+.listIconSectionWrapper {
+  padding: 0;
+}
+.listIconSectionInner {
+  padding-top: 30px;
+}
+.listIconSectionContainer {
+  max-width: 85rem;
+  margin: 0px auto;
+}
+.listIconDetail {
+  margin-bottom: 35px;
+}
+ul.listItems {
+  margin-left: 20px;
+  padding-left: 45px;
+}
+ul.listItems li.listItem {
+  margin-left: -7px;
+}
+img.retainerGuranteeImg {
+  margin-left: -10px;
+}
+.choosePackageDetail h2 {
+  font-size: 39px;
+  text-align: center;
+  color: #0eb4ba;
+  margin-top: 62px;
+  font-weight: 400;
+  margin-bottom: 8px;
+  font-family:
+    'Montserrat',
+    'BlinkMacSystemFont',
+    -apple-system,
+    'Roboto',
+    'Lucida Sans';
+}
+
+.choosePackageDetail h5 {
+  font-family: 'Open sans', sans-serif;
+  font-size: 24px;
+  color: #565759;
+  margin-bottom: 36px;
+  font-weight: 300;
+  text-align: center;
+  margin-top: 12px;
+  margin-bottom: 0px;
+  font-weight: normal;
+}
+
+ul.listItems li {
+  background-image: url(../../../../public/assets/circle-dark-blue-tick.webp);
+  background-repeat: no-repeat;
+  background-position: left;
+  font-size: 28px;
+  list-style: none;
+  padding-left: 92px;
+  line-height: 56px;
+  margin-top: 8px;
+  color: #555759;
+  font-family: 'Montserrat';
+  font-weight: 500;
+}
+.retainerCleanerProduct {
+  margin-bottom: 75px;
+}
+.seprator {
+  border-top: 1px solid #c5c6c9;
+  margin-top: 75px;
+}
+.retainerCol {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+@media screen and (max-width: 1024px) {
+  .retainerCleanerBannerDetails .retainerDetailInner h2 {
+    margin-top: 12px;
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .retainCleanerInnerWrapper {
+    padding: 0px 35px;
+    padding-top: 50px;
+  }
+  .retainCleanerProductWrapper {
+    padding: 0 35px;
+  }
+  .listIconSectionContainer {
+    padding: 0px 35px;
+  }
+  .retainerIconSectionWraper {
+    padding: 0 35px;
+  }
+  .retainCleanerIconSectionInner {
+    padding-right: 1.25rem;
+    padding-left: 1.25rem;
+  }
+  .listIconSectionInner {
+    padding-right: 1.25rem;
+    padding-left: 1.25rem;
+  }
+}
+@media screen and (min-width: 40em) {
+  .retainCleanerWrapper {
+    padding-right: 0.9375rem;
+    padding-left: 0.9375rem;
+  }
+}
+
+@media screen and (min-width: 64em) {
+  .retainCleanerWrapper {
+    padding-right: 1.25rem;
+    padding-left: 1.25rem;
+  }
+  .retainerIconSection {
+    padding-right: 1.25rem;
+    padding-left: 1.25rem;
+  }
+  .retainerCleanerProduct {
+    padding-right: 1.25rem;
+    padding-left: 1.25rem;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .retainCleanerWrapper
+    .retainCleanerInnerWrapper
+    .container
+    .retainCleanerColumn
+    img {
+    width: 580px;
+    height: 555px;
+    vertical-align: top;
+  }
+  .reatinCleanerIconSection .retainCleanerIconSectionInner h2 {
+    font-size: 32px;
+  }
+  .retainCleanerProductWrapper {
+    width: 1170px;
+    margin: 0px auto;
+  }
+}
+@media screen and (min-width: 1500px) {
+  .retainCleanerWrapper
+    .retainCleanerInnerWrapper
+    .container
+    .retainCleanerColumn
+    img {
+    width: 680px;
+    height: 651px;
+    vertical-align: top;
+  }
+  .retainerIconSectionWraper {
+    width: inherit;
+    padding: 0 0px;
+  }
+  .listIconSectionContainer {
+    padding: 0 0px;
+  }
+  .retainCleanerProductWrapper {
+    width: 1420px;
+    margin: 0px auto;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .retainCleanerWrapper .retainCleanerInnerWrapper .retainCleanerColumn img {
+    max-width: 114%;
+    height: auto;
+  }
+  ul.listItems li {
+    font-size: 18px;
+    padding-left: 75px;
+    line-height: 30px;
+    min-height: 71px;
+    background-position: left top;
+  }
+
+  ul.listItems {
+    margin-left: 0px;
+    padding-left: 0px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .listMobileONe {
+    order: 2;
+  }
+  .listMobileTwo {
+    order: 3;
+  }
+  .retainCleanerWrapper .retainCleanerInnerWrapper .retainCleanerColumn img {
+    max-width: 100%;
+    height: auto;
+  }
+  ul.listItems li {
+    background-position: top left;
+    font-size: 22px;
+    padding-left: 46px;
+    line-height: 32px;
+    margin-top: 0px;
+    background-size: contain;
+    text-align: left;
+    max-width: 338px;
+    margin-right: auto;
+    margin-bottom: 10px;
+    background-size: 38px;
+    min-height: 48px;
+  }
+  .retainCleanerRowTop {
+    flex-direction: column-reverse;
+  }
+  .retainerCleanerBannerDetails .retainerDetailInner h2 {
+    margin-top: 0px;
+  }
+  .retainCleanerInnerWrapper {
+    padding-top: 0px;
+  }
+  .retainCleanerColumn{
+    padding-top: 0px;
+    padding-right: 2.25rem;
+    padding-left: 2.25rem;
+    padding-bottom: 29px;
+  }
+  .retainCleanerIconSectionInner {
+    padding: 0px 30px;
+  }
+  .listIconDetail {
+    margin-bottom: 0px;
+  }
+  .seprator {
+    margin-top: 25px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .retainerCleanerBannerDetails .retainerDetailInner h1 {
+    font-size: 42px;
+  }
+  .retainerCleanerBannerDetails .retainerDetailInner p {
+    font-size: 14px;
+  }
+  .reatinCleanerIconSection .retainCleanerIconSectionInner h2 {
+    font-size: 26px;
+    margin-bottom: 30px;
+  }
+}
+@media screen and (max-width: 767px) {
+  img.retainerGuranteeImg {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 40px;
+    margin-left: 0px;
+  }
+  ul.listItems {
+    margin-left: 0px;
+    padding-left: 25px;
+  }
+  ul.listItems li.listItem {
+    margin-left: 0px;
+  }
+  .columnIcon {
+    width: 50%;
+  }
+  .iconWrapper .iconText p {
+    font-size: 14px;
+    margin-bottom: 14px;
+  }
+  .choosePackageDetail h2 {
+    font-size: 28px;
+    line-height: 1;
+  }
+}
